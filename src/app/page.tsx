@@ -10,18 +10,15 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 
-type Charm = {
-    id: number;
-    name: string;
-    image: string;
-};
+// 👉 Importamos el JSON
+import charms from "@/data/charms.json";
 
-const charms: Charm[] = [
-    { id: 1, name: "Fragile Heart", image: "/charms/fragile-heart.png" },
-    { id: 2, name: "Fragile Greed", image: "/charms/fragile-greed.png" },
-    { id: 3, name: "Fragile Strength", image: "/charms/fragile-strength.png" },
-    // 👉 Aquí luego metemos TODOS los charms del JSON
-];
+type Charm = {
+    notches: number;
+    name: string;
+    description: string;
+    location: string;
+};
 
 export default function HomePage() {
     const [selectedCharm, setSelectedCharm] = useState<Charm | null>(null);
@@ -32,17 +29,18 @@ export default function HomePage() {
                 Hollow Knight Friendly Charm Guide
             </h2>
 
-            {/* Grid de charms */}
             <div className="grid grid-cols-5 gap-6">
-                {charms.map((charm) => (
-                    <Dialog key={charm.id}>
+                {charms.map((charm, index) => (
+                    <Dialog key={index}>
                         <DialogTrigger asChild>
                             <button
                                 onClick={() => setSelectedCharm(charm)}
                                 className="rounded-full border-2 border-gray-500 hover:border-white hover:scale-110 transition p-2 bg-black"
                             >
                                 <Image
-                                    src={charm.image}
+                                    src={`/charms/${charm.name
+                                        .toLowerCase()
+                                        .replace(/\s+/g, "-")}.png`}
                                     alt={charm.name}
                                     width={64}
                                     height={64}
@@ -50,16 +48,23 @@ export default function HomePage() {
                                 />
                             </button>
                         </DialogTrigger>
+
                         <DialogContent className="bg-gray-900 text-white max-w-lg">
                             <DialogHeader>
                                 <DialogTitle className="text-2xl">
-                                    {selectedCharm?.name}
+                                    {charm.name}
                                 </DialogTitle>
                             </DialogHeader>
-                            <div className="mt-4">
-                                <p>Aquí irá la descripción del charm.</p>
-                                <p className="mt-2 text-sm text-gray-400">
-                                    Y aquí su ubicación.
+
+                            <div className="mt-4 space-y-3">
+                                <p className="text-yellow-400">
+                                    Notches: {charm.notches}
+                                </p>
+                                <p className="italic text-gray-300">
+                                    {charm.description}
+                                </p>
+                                <p className="text-sm text-gray-400">
+                                    {charm.location}
                                 </p>
                             </div>
                         </DialogContent>
