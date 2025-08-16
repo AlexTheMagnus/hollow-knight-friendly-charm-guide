@@ -10,7 +10,6 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 
-// 👉 Importamos el JSON
 import charms from "@/data/charms.json";
 
 type Charm = {
