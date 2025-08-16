@@ -28,6 +28,13 @@
         "sprite": "soul-catcher"
     },
     {
+        "notches": 3,
+        "name": "Shaman Stone",
+        "description": "Said to contain the knowledge of past generations of the shaman.",
+        "location": "The Shaman Stone can be bought from Salubra in the Forgotten Crossroads for 220 Geo. Players can reach her shop by either using the Mantis Claw or Mothwing Cloak, or by traveling across the Blue Lake from the Resting Grounds.",
+        "sprite": "shaman-stone"
+    },
+    {
         "notches": 4,
         "name": "Soul Eater",
         "description": "Forgotten shaman artifact, used to draw SOUL from still-living creatures.",
@@ -49,13 +56,6 @@
         "sprite": "sprintmaster"
     },
     {
-        "notches": 2,
-        "name": "Heavy Blow",
-        "description": "Farmed from the nails of fallen warriors.",
-        "location": "After returning the Shopkeeper’s Key to Sly, players will be able to purchase Heavy Blow from his shop in Dirtmouth for 350 Geo.",
-        "sprite": "heavy-blow"
-    },
-    {
         "notches": 1,
         "name": "Grubsong",
         "description": "Contains the gratitude of freed grubs. Gain SOUL when taking damage.",
@@ -70,25 +70,53 @@
         "sprite": "grubberflys-elegy"
     },
     {
-        "notches": 3,
-        "name": "Shaman Stone",
-        "description": "Said to contain the knowledge of past generations of the shaman.",
-        "location": "The Shaman Stone can be bought from Salubra in the Forgotten Crossroads for 220 Geo. Players can reach her shop by either using the Mantis Claw or Mothwing Cloak, or by traveling across the Blue Lake from the Resting Grounds.",
-        "sprite": "shaman-stone"
-    },
-    {
-        "notches": 3,
-        "name": "Quick Focus",
-        "description": "A charm that allows the bearer to focus SOUL at a faster rate, healing faster during combat.",
-        "location": "Can be purchased from Salubra in Forgotten Crossroads for 800 Geo.",
-        "sprite": "quick-focus"
+        "notches": 2,
+        "name": "Fragile Heart / Unbreakable Heart",
+        "description": "**Fragile Heart**: Increases the bearer’s health. **Unbreakable Heart**: Upgraded version that does not break upon death.",
+        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
+        "sprite": "unbreakable-heart"
     },
     {
         "notches": 2,
-        "name": "Deep Focus",
-        "description": "Naturally formed within a crystal over a long period. Draws in SOUL from the surrounding air.",
-        "location": "Located in Crystal Peak. After acquiring the Crystal Heart ability, travel to the right from the large room containing the Husk Sentry and Crystal Crawlers.",
-        "sprite": "deep-focus"
+        "name": "Fragile Greed / Unbreakable Greed",
+        "description": "**Fragile Greed**: Causes the bearer to gain more Geo when defeating enemies. **Unbreakable Greed**: Upgraded version that does not break upon death.",
+        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
+        "sprite": "unbreakable-greed"
+    },
+    {
+        "notches": 2,
+        "name": "Fragile Strength / Unbreakable Strength",
+        "description": "**Fragile Strength**: Increases the damage dealt by the bearer’s nail. **Unbreakable Strength**: Upgraded version that does not break upon death.",
+        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
+        "sprite": "unbreakable-strength"
+    },
+    {
+        "notches": 2,
+        "name": "Spell Twister",
+        "description": "Reduces the SOUL cost of casting spells.",
+        "location": "Located in Soul Sanctum, City of Tears.",
+        "sprite": "spell-twister"
+    },
+    {
+        "notches": 2,
+        "name": "Steady Body",
+        "description": "Keeps its bearer from recoiling backwards when they strike an enemy with a nail.",
+        "location": "Can be purchased from Salubra in Forgotten Crossroads for 120 Geo.",
+        "sprite": "steady-body"
+    },
+    {
+        "notches": 2,
+        "name": "Heavy Blow",
+        "description": "Farmed from the nails of fallen warriors.",
+        "location": "After returning the Shopkeeper’s Key to Sly, players will be able to purchase Heavy Blow from his shop in Dirtmouth for 350 Geo.",
+        "sprite": "heavy-blow"
+    },
+    {
+        "notches": 2,
+        "name": "Quick Slash",
+        "description": "Born from imperfect, discarded nails that have fused together.",
+        "location": "Found in Kingdom’s Edge. Behind a breakable wall near the Colosseum of Fools.",
+        "sprite": "quick-slash"
     },
     {
         "notches": 1,
@@ -103,6 +131,20 @@
         "description": "A badge of pride bestowed by the Mantis Tribe to its finest warriors. Increases the range of the bearer’s nail.",
         "location": "Found in Mantis Village, Fungal Wastes. Located in the treasure room unlocked after defeating the Mantis Lords.",
         "sprite": "mark-of-pride"
+    },
+    {
+        "notches": 2,
+        "name": "Fury of the Fallen",
+        "description": "Embodies the fury and heroism of those who have fallen in battle.",
+        "location": "Found in King’s Pass. Accessible with Mothwing Cloak or Mantis Claw.",
+        "sprite": "fury-of-the-fallen"
+    },
+    {
+        "notches": 2,
+        "name": "Thorns of Agony",
+        "description": "Senses the pain of its bearer and lashes out at the world around them.",
+        "location": "Found in Greenpath. Located in a thicket of thorns below the path to Queen’s Station.",
+        "sprite": "thorns-of-agony"
     },
     {
         "notches": 1,
@@ -133,67 +175,32 @@
         "sprite": "glowing-womb"
     },
     {
-        "notches": 2,
-        "name": "Quick Slash",
-        "description": "Born from imperfect, discarded nails that have fused together.",
-        "location": "Found in Kingdom’s Edge. Behind a breakable wall near the Colosseum of Fools.",
-        "sprite": "quick-slash"
-    },
-    {
-        "notches": 2,
-        "name": "Spell Twister",
-        "description": "Reduces the SOUL cost of casting spells.",
-        "location": "Located in Soul Sanctum, City of Tears.",
-        "sprite": "spell-twister"
-    },
-    {
-        "notches": 2,
-        "name": "Steady Body",
-        "description": "Keeps its bearer from recoiling backwards when they strike an enemy with a nail.",
-        "location": "Can be purchased from Salubra in Forgotten Crossroads for 120 Geo.",
-        "sprite": "steady-body"
-    },
-    {
-        "notches": 2,
-        "name": "Thorns of Agony",
-        "description": "Senses the pain of its bearer and lashes out at the world around them.",
-        "location": "Found in Greenpath. Located in a thicket of thorns below the path to Queen’s Station.",
-        "sprite": "thorns-of-agony"
-    },
-    {
-        "notches": 2,
-        "name": "Fury of the Fallen",
-        "description": "Embodies the fury and heroism of those who have fallen in battle.",
-        "location": "Found in King’s Pass. Accessible with Mothwing Cloak or Mantis Claw.",
-        "sprite": "fury-of-the-fallen"
-    },
-    {
-        "notches": 2,
-        "name": "Fragile Heart / Unbreakable Heart",
-        "description": "**Fragile Heart**: Increases the bearer’s health. **Unbreakable Heart**: Upgraded version that does not break upon death.",
-        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "unbreakable-heart"
-    },
-    {
-        "notches": 2,
-        "name": "Fragile Greed / Unbreakable Greed",
-        "description": "**Fragile Greed**: Causes the bearer to gain more Geo when defeating enemies. **Unbreakable Greed**: Upgraded version that does not break upon death.",
-        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "unbreakable-greed"
-    },
-    {
-        "notches": 2,
-        "name": "Fragile Strength / Unbreakable Strength",
-        "description": "**Fragile Strength**: Increases the damage dealt by the bearer’s nail. **Unbreakable Strength**: Upgraded version that does not break upon death.",
-        "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "unbreakable-strength"
-    },
-    {
         "notches": 3,
-        "name": "Nailmaster’s Glory",
-        "description": "Contains the passion, skill and regrets of a Nailmaster. Increases the speed of Nail Arts.",
-        "location": "Obtained from Sly in Dirtmouth after learning all three Nail Arts.",
-        "sprite": "nailmasters-glory"
+        "name": "Quick Focus",
+        "description": "A charm that allows the bearer to focus SOUL at a faster rate, healing faster during combat.",
+        "location": "Can be purchased from Salubra in Forgotten Crossroads for 800 Geo.",
+        "sprite": "quick-focus"
+    },
+    {
+        "notches": 2,
+        "name": "Deep Focus",
+        "description": "Naturally formed within a crystal over a long period. Draws in SOUL from the surrounding air.",
+        "location": "Located in Crystal Peak. After acquiring the Crystal Heart ability, travel to the right from the large room containing the Husk Sentry and Crystal Crawlers.",
+        "sprite": "deep-focus"
+    },
+    {
+        "notches": 1,
+        "name": "SAMPLE",
+        "description": "SAMPLE",
+        "location": "SAMPLE",
+        "sprite": "none"
+    },
+    {
+        "notches": 1,
+        "name": "SAMPLE",
+        "description": "SAMPLE",
+        "location": "SAMPLE",
+        "sprite": "none"
     },
     {
         "notches": 1,
@@ -201,13 +208,6 @@
         "description": "Blessed by Joni, former matriarch. Converts vital fluids into blue lifeblood.",
         "location": "Found in Howling Cliffs. Inside Joni’s Repose.",
         "sprite": "jonis-blessing"
-    },
-    {
-        "notches": 2,
-        "name": "Shape of Unn",
-        "description": "Reveals the form of Unn within the bearer. While focusing SOUL, the bearer will take on a new shape.",
-        "location": "Found in Greenpath. Given by Unn inside Lake of Unn.",
-        "sprite": "shape-of-unn"
     },
     {
         "notches": 1,
@@ -229,6 +229,27 @@
         "description": "Contains a forbidden spell that transforms shadows into deadly weapons.",
         "location": "Found in Deepnest. Requires Shade Cloak to access.",
         "sprite": "sharp-shadow"
+    },
+    {
+        "notches": 2,
+        "name": "Shape of Unn",
+        "description": "Reveals the form of Unn within the bearer. While focusing SOUL, the bearer will take on a new shape.",
+        "location": "Found in Greenpath. Given by Unn inside Lake of Unn.",
+        "sprite": "shape-of-unn"
+    },
+    {
+        "notches": 3,
+        "name": "Nailmaster’s Glory",
+        "description": "Contains the passion, skill and regrets of a Nailmaster. Increases the speed of Nail Arts.",
+        "location": "Obtained from Sly in Dirtmouth after learning all three Nail Arts.",
+        "sprite": "nailmasters-glory"
+    },
+    {
+        "notches": 3,
+        "name": "SAMPLE",
+        "description": "SAMPLE",
+        "location": "SAMPLE",
+        "sprite": "SAMPLE"
     },
     {
         "notches": 2,
