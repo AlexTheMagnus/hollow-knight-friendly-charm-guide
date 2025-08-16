@@ -3,7 +3,7 @@
         "notches": 1,
         "name": "Wayward Compass",
         "description": "Whispers its location to the bearer whenever a map is open, allowing wanderers to pinpoint their current location.",
-        "location": "This Charm can be purchased from Iselda at the map shop in Dirtmouth for 220 Geo. The shop will open after the player encounters Cornifer for the first time, who will sell incomplete maps to the Knight that they can fill in as they journey around Hallownest. Iselda also sells other goods that are helpful for navigating the world, as players uncover hidden passages and interconnected routes.",
+        "location": "This Charm can be purchased from Iselda at the map shop in Dirtmouth for 220 Geo. The shop will open after the player encounters Cornifer for the first time, who will sell incomplete maps to the Knight that they can fill in as they journey around Hallownest.",
         "sprite": "wayward-compass"
     },
     {
@@ -189,18 +189,18 @@
         "sprite": "deep-focus"
     },
     {
-        "notches": 1,
-        "name": "SAMPLE",
-        "description": "SAMPLE",
-        "location": "SAMPLE",
-        "sprite": "none"
+        "notches": 3,
+        "name": "Lifeblood Heart",
+        "description": "Contains a living core that seeps precious lifeblood. When resting, the bearer will gain a coating of lifeblood that protects from a modest amount of damage.",
+        "location": "Salubra sells Lifeblood Heart in her shop for 250 Geo.",
+        "sprite": "lifeblood-heart"
     },
     {
-        "notches": 1,
-        "name": "SAMPLE",
-        "description": "SAMPLE",
-        "location": "SAMPLE",
-        "sprite": "none"
+        "notches": 3,
+        "name": "Lifeblood Core",
+        "description": "Contains a living core that bleeds precious lifeblood. When resting, the bearer will gain a coating of lifeblood that protects from a large amount of damage.",
+        "location": "Lifeblood Core is located in the Abyss. In this area, players will find a sealed door on the left wall of the main chamber. This door can only be opened when the player has 14 or more Lifeblood Masks in total, which can be achieved by using Lifeblood Heart, Joni’s Blessing, and killing Lifeseeds that come from Lifeblood Cocoons.",
+        "sprite": "lifeblood-core"
     },
     {
         "notches": 1,
@@ -245,11 +245,11 @@
         "sprite": "nailmasters-glory"
     },
     {
-        "notches": 3,
-        "name": "SAMPLE",
-        "description": "SAMPLE",
-        "location": "SAMPLE",
-        "sprite": "SAMPLE"
+        "notches": 2,
+        "name": "Weaversong",
+        "description": "Silken charm containing a song of farewell, left by the Weavers who departed Hallownest for their old home. Summons weaverlings to give the lonely bearer some companionship and protection.",
+        "location": "This Charm is located in Deepnest, south of the entrance to Queen’s Gardens. There is a secret area past a Stalking Devout, leading the player to the Weaver’s Den, which has been long abandoned by the spider clan. Players will require the Crystal Heart to navigate the Weaver’s Den, where there is a breakable wall that hides the Weaversong.",
+        "sprite": "weaversong"
     },
     {
         "notches": 2,
