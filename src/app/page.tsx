@@ -20,7 +20,6 @@ type Charm = {
 };
 
 export default function HomePage() {
-    const [selectedCharm, setSelectedCharm] = useState<Charm | null>(null);
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -58,7 +57,6 @@ export default function HomePage() {
                         <DialogTrigger asChild>
                             <div className="rounded-full charm-halo inline-block">
                                 <Image
-                                    onClick={() => setSelectedCharm(charm)}
                                     src={`/charms/${charm.sprite}.png`}
                                     alt={charm.name}
                                     width={96}
