@@ -172,21 +172,21 @@
         "name": "Fragile Heart / Unbreakable Heart",
         "description": "**Fragile Heart**: Increases the bearer’s health. **Unbreakable Heart**: Upgraded version that does not break upon death.",
         "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "fragile-heart"
+        "sprite": "unbreakable-heart"
     },
     {
         "notches": 2,
         "name": "Fragile Greed / Unbreakable Greed",
         "description": "**Fragile Greed**: Causes the bearer to gain more Geo when defeating enemies. **Unbreakable Greed**: Upgraded version that does not break upon death.",
         "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "fragile-greed"
+        "sprite": "unbreakable-greed"
     },
     {
         "notches": 2,
         "name": "Fragile Strength / Unbreakable Strength",
         "description": "**Fragile Strength**: Increases the damage dealt by the bearer’s nail. **Unbreakable Strength**: Upgraded version that does not break upon death.",
         "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth.",
-        "sprite": "fragile-strength"
+        "sprite": "unbreakable-strength"
     },
     {
         "notches": 3,
@@ -256,6 +256,6 @@
         "name": "Kingsoul / Void Heart",
         "description": "**Kingsoul**: Holy charm symbolizing union between higher beings. Gradually refills SOUL meter. **Void Heart**: Upgraded form of Kingsoul. Embodies the void. Required for the true ending.",
         "location": "Kingsoul is found by obtaining both halves (Queen’s Gardens and White Palace). Void Heart replaces it after a story event in the Abyss.",
-        "sprite": "kingsoul"
+        "sprite": "void-heart"
     }
 ]
