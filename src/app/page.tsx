@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
     Dialog,
     DialogContent,
@@ -21,9 +21,26 @@ type Charm = {
 
 export default function HomePage() {
     const [selectedCharm, setSelectedCharm] = useState<Charm | null>(null);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerHeight > window.innerWidth);
+        };
+
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     return (
         <div className="min-h-screen flex flex-col justify-center items-center">
+            {isMobile && (
+                <div className="text-center text-white bg-gray-800/80 rounded-lg px-4 py-2 mb-4">
+                    {"For best experience, rotate your phone horizontally"}
+                    <span className="text-2xl align-middle">📱🔄</span>
+                </div>
+            )}
             <Image
                 src="/title.png"
                 alt="Hollow Knight Title"
