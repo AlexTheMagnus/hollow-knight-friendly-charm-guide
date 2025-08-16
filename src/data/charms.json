@@ -249,7 +249,7 @@
         "name": "Grimmchild / Carefree Melody",
         "description": "**Grimmchild**: Summons a fireball-shooting familiar. Evolves as the Grimm Troupe quest progresses. **Carefree Melody**: Replaces Grimmchild if the Ritual is banished.",
         "location": "Obtained during The Grimm Troupe quest in Dirtmouth. Upgraded by collecting flames. Carefree Melody is obtained if banishing the troupe.",
-        "sprite": "grimmchild"
+        "sprite": "grimmchild-stage4"
     },
     {
         "notches": 1,
