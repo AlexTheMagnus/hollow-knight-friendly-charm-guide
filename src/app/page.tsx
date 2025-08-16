@@ -38,9 +38,7 @@ export default function HomePage() {
                                 className="rounded-full border-2 border-gray-500 hover:border-white hover:scale-110 transition p-2 bg-black"
                             >
                                 <Image
-                                    src={`/charms/${charm.name
-                                        .toLowerCase()
-                                        .replace(/\s+/g, "-")}.png`}
+                                    src={`/charms/${charm.sprite}.png`}
                                     alt={charm.name}
                                     width={64}
                                     height={64}
