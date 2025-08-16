@@ -47,7 +47,7 @@ export default function HomePage() {
                 width={500}
                 height={190}
                 priority
-                className="mb-4"
+                className="mb-4 mt-10"
             />
             <h2 className="text-2xl font-bold mb-8 text-center text-white font-trajan">
                 Friendly Charm Guide
