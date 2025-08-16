@@ -24,7 +24,7 @@ export default function HomePage() {
 
     return (
         <div className="flex flex-col items-center">
-            <h2 className="text-3xl font-bold mb-8 text-center">
+            <h2 className="text-3xl font-bold mb-8 text-center text-white">
                 Hollow Knight Friendly Charm Guide
             </h2>
 
