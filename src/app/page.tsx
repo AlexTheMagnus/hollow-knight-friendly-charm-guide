@@ -24,10 +24,17 @@ export default function HomePage() {
 
     return (
         <div className="min-h-screen flex flex-col justify-center items-center">
-            <h2 className="text-3xl font-bold mb-8 text-center text-white">
-                Hollow Knight Friendly Charm Guide
+            <Image
+                src="/title.png"
+                alt="Hollow Knight Title"
+                width={500}
+                height={190}
+                priority
+                className="mb-4"
+            />
+            <h2 className="text-2xl font-bold mb-8 text-center text-white font-trajan">
+                Friendly Charm Guide
             </h2>
-
             <div className="grid grid-cols-10 gap-4">
                 {charms.map((charm, index) => (
                     <Dialog key={index}>

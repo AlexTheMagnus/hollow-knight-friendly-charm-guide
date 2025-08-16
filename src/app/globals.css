@@ -112,6 +112,17 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    src: url('/fonts/TrajanPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-trajan {
+    font-family: 'Trajan Pro Regular', serif;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
