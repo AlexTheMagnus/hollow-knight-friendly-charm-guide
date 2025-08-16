@@ -23,12 +23,12 @@ export default function HomePage() {
     const [selectedCharm, setSelectedCharm] = useState<Charm | null>(null);
 
     return (
-        <div className="flex flex-col items-center">
+        <div className="min-h-screen flex flex-col justify-center items-center">
             <h2 className="text-3xl font-bold mb-8 text-center text-white">
                 Hollow Knight Friendly Charm Guide
             </h2>
 
-            <div className="grid grid-cols-5 gap-6">
+            <div className="grid grid-cols-10 gap-4">
                 {charms.map((charm, index) => (
                     <Dialog key={index}>
                         <DialogTrigger asChild>
