@@ -35,22 +35,20 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold mb-8 text-center text-white font-trajan">
                 Friendly Charm Guide
             </h2>
-            <div className="grid grid-cols-10 gap-4">
+            <div className="grid grid-cols-10 gap-4 p-4">
                 {charms.map((charm, index) => (
                     <Dialog key={index}>
                         <DialogTrigger asChild>
-                            <button
-                                onClick={() => setSelectedCharm(charm)}
-                                className="rounded-full border-2 border-gray-500 hover:border-white hover:scale-110 transition p-2 bg-black"
-                            >
+                            <div className="rounded-full charm-halo inline-block">
                                 <Image
+                                    onClick={() => setSelectedCharm(charm)}
                                     src={`/charms/${charm.sprite}.png`}
                                     alt={charm.name}
-                                    width={64}
-                                    height={64}
-                                    className="rounded-full"
+                                    width={96}
+                                    height={96}
+                                    className="hover:scale-110 transition rounded-full"
                                 />
-                            </button>
+                            </div>
                         </DialogTrigger>
 
                         <DialogContent className="bg-gray-900 text-white max-w-lg">

@@ -131,3 +131,10 @@
         @apply bg-background text-foreground;
     }
 }
+
+.charm-halo {
+    transition: box-shadow 0.2s;
+}
+.charm-halo:hover {
+    box-shadow: 0 0 16px 8px rgba(255,255,255,0.7);
+}
