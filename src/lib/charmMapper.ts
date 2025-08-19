@@ -1,4 +1,4 @@
-type Charm = {
+export type Charm = {
     description: string;
     location: string;
     name: string;

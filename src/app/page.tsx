@@ -2,17 +2,10 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
-import {
-    Dialog,
-    DialogContent,
-    DialogHeader,
-    DialogTitle,
-    DialogTrigger,
-} from "@/components/ui/dialog";
 import charmsData from "@/data/charms.json";
 import { charmsMapper } from "@/lib/charmMapper";
 import { useTranslation } from "@/lib/TranslationProvider";
+import { CharmDialog } from "@/components/CharmDialog";
 
 const charms = charmsMapper(charmsData);
 
@@ -50,46 +43,9 @@ export default function HomePage() {
                 {texts.guide_title}
             </h2>
             <div className="grid grid-cols-10 gap-4 p-4">
-                {charms.map(
-                    (
-                        { description, location, name, notches, sprite },
-                        index
-                    ) => (
-                        <Dialog key={index}>
-                            <DialogTrigger asChild>
-                                <div className="rounded-full charm-halo inline-block">
-                                    <Image
-                                        src={`/charms/${sprite}.png`}
-                                        alt={name}
-                                        width={96}
-                                        height={96}
-                                        className="hover:scale-110 transition rounded-full"
-                                    />
-                                </div>
-                            </DialogTrigger>
-
-                            <DialogContent className="bg-gray-900 text-white max-w-lg">
-                                <DialogHeader>
-                                    <DialogTitle className="text-2xl">
-                                        {name}
-                                    </DialogTitle>
-                                </DialogHeader>
-
-                                <div className="mt-4 space-y-3">
-                                    <p className="text-yellow-400">
-                                        {texts.notches_label}: {notches}
-                                    </p>
-                                    <p className="italic text-gray-300">
-                                        {description}
-                                    </p>
-                                    <p className="text-sm text-gray-400">
-                                        {location}
-                                    </p>
-                                </div>
-                            </DialogContent>
-                        </Dialog>
-                    )
-                )}
+                {charms.map((charm, index) => (
+                    <CharmDialog key={index} charm={charm} />
+                ))}
             </div>
         </div>
     );
