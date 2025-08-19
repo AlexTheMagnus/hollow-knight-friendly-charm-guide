@@ -3,5 +3,207 @@
     "dialog_alt": "Immagine dell'amuleto",
     "guide_title": "Guida amichevole agli amuleti",
     "notches_label": "Tacche",
-    "rotate_phone_message": "Per una migliore esperienza, ruota il telefono orizzontalmente"
+    "rotate_phone_message": "Per una migliore esperienza, ruota il telefono orizzontalmente",
+    "charms": {
+        "wayward_compass": {
+            "name": "Bussola Errante",
+            "description": "Sussurra la posizione al portatore ogni volta che una mappa è aperta, permettendo ai viaggiatori di individuare la posizione attuale.",
+            "location": "Questo amuleto può essere acquistato da Iselda nel negozio di mappe a Dirtmouth per 220 Geo. Il negozio si aprirà dopo che il giocatore avrà incontrato Cornifer per la prima volta, che venderà mappe incomplete al Cavaliere da completare durante il viaggio in Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Sciame Raccoglitore",
+            "description": "Uno sciame seguirà il portatore e raccoglierà qualsiasi Geo sparso.",
+            "location": "L'amuleto può essere acquistato nel negozio di Sly a Dirtmouth per 300 Geo e richiede una tacca amuleto per essere equipaggiato. Sly tornerà a Dirtmouth una volta che il giocatore lo avrà salvato nel villaggio abbandonato, che si trova sotto la posizione della Madre Gruz e direttamente a sinistra di Salubra nei Crocevia Dimenticati."
+        },
+        "stalwart_shell": {
+            "name": "Guscio Fedele",
+            "description": "Costruisce resilienza. Durante il recupero dai danni, il portatore rimarrà invulnerabile più a lungo.",
+            "location": "Il Guscio Fedele è disponibile per l'acquisto nel negozio di Sly per 200 Geo dopo il suo ritorno a Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Cacciatore di Anime",
+            "description": "Usato dagli sciamani per estrarre più ANIMA dal mondo circostante.",
+            "location": "Una volta che i giocatori avranno accesso al Tumulo Ancestrale dopo aver sconfitto il Falso Cavaliere, dovranno attraversare l'area saltando sulle piattaforme e sconfiggendo i nemici. Alla fine, dovranno sconfiggere un Baldur Anziano, e a sinistra dell'arena troveranno il Cacciatore di Anime."
+        },
+        "shaman_stone": {
+            "name": "Pietra dello Sciamano",
+            "description": "Si dice che contenga la conoscenza delle generazioni passate di sciamani.",
+            "location": "La Pietra dello Sciamano può essere acquistata da Salubra nei Crocevia Dimenticati per 220 Geo. Si può raggiungere il suo negozio usando l'Artiglio Mantis o il Mantello Ala di Falena, oppure attraversando il Lago Blu dalle Terre del Riposo."
+        },
+        "soul_eater": {
+            "name": "Divoratore di Anime",
+            "description": "Artefatto sciamanico dimenticato, usato per estrarre ANIMA da creature ancora vive.",
+            "location": "I giocatori devono usare l'incantesimo Tuffo Desolato / Oscurità Discendente per raggiungere l'amuleto. Nelle Terre del Riposo, i giocatori possono trovare una tomba direttamente sotto la posizione della Veggente e la Stazione dello Stag, e la sua superficie tremerà quando ci si cammina sopra. Usando Tuffo Desolato / Oscurità Discendente sulla tomba si aprirà un passaggio segreto sotterraneo, e i giocatori dovranno viaggiare a destra fino a trovare un sarcofago dove è nascosto il Divoratore di Anime."
+        },
+        "dashmaster": {
+            "name": "Maestro della Scivolata",
+            "description": "Raffigura un insetto eccentrico conosciuto solo come 'Il Maestro della Scivolata'.",
+            "location": "L'amuleto si trova alla base di una statua nelle Distese Fungine a sinistra della panchina che si trova fuori dal Villaggio Mantis, vicino all'ingresso delle Vie Reali. Anche Bretta si trova nella stessa zona."
+        },
+        "sprintmaster": {
+            "name": "Maestro della Corsa",
+            "description": "Raffigura uno strano insetto conosciuto solo come 'Il Maestro della Corsa'.",
+            "location": "Dopo che i giocatori trovano la Chiave del Negoziante in Picco Cristallino, può essere restituita a Sly e il suo inventario aumenterà. Il Maestro della Corsa può essere acquistato da Sly per 400 Geo dopo che la chiave gli è stata consegnata."
+        },
+        "grubsong": {
+            "name": "Canto delle Larve",
+            "description": "Contiene la gratitudine delle larve liberate. Ottieni ANIMA quando subisci danni.",
+            "location": "Il Padre Larva, situato nei Crocevia Dimenticati, ricompenserà i giocatori con l'amuleto Canto delle Larve dopo che avranno salvato 10 larve."
+        },
+        "grubberflys_elegy": {
+            "name": "Elegia della Grubberfly",
+            "description": "Contiene la gratitudine delle larve che passeranno alla prossima fase della loro vita. Conferisce all'arma una forza sacra. Quando il portatore è in piena salute, lancerà raggi di energia bianca dal suo artiglio.",
+            "location": "Dopo aver liberato tutte le larve nascoste in Hallownest, i giocatori possono ottenere l'amuleto Elegia della Grubberfly tornando dal Padre Larva nei Crocevia Dimenticati."
+        },
+        "unbreakable_heart": {
+            "name": "Cuore Fragile / Cuore Indistruttibile",
+            "description": "**Cuore Fragile**: Aumenta la salute del portatore. **Cuore Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Avidità Fragile / Avidità Indistruttibile",
+            "description": "**Avidità Fragile**: Fa guadagnare più Geo al portatore quando sconfigge i nemici. **Avidità Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Forza Fragile / Forza Indistruttibile",
+            "description": "**Forza Fragile**: Aumenta il danno inflitto dall'artiglio del portatore. **Forza Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Torci-Incantesimi",
+            "description": "Riduce il costo di ANIMA per lanciare incantesimi.",
+            "location": "Situato nel Santuario dell'Anima, Città delle Lacrime."
+        },
+        "steady_body": {
+            "name": "Corpo Stabile",
+            "description": "Impedisce al portatore di arretrare quando colpisce un nemico con l'artiglio.",
+            "location": "Può essere acquistato da Salubra nei Crocevia Dimenticati per 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Colpo Pesante",
+            "description": "Ricavato dagli artigli dei guerrieri caduti.",
+            "location": "Dopo aver restituito la Chiave del Negoziante a Sly, i giocatori potranno acquistare Colpo Pesante nel suo negozio a Dirtmouth per 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Colpo Rapido",
+            "description": "Nato da artigli imperfetti e scartati che si sono fusi insieme.",
+            "location": "Trovato ai Confini del Regno. Dietro un muro rompibile vicino al Colosseo dei Folli."
+        },
+        "longnail": {
+            "name": "Artiglio Lungo",
+            "description": "Aumenta la portata dell'artiglio del portatore, permettendogli di colpire i nemici da più lontano.",
+            "location": "Può essere acquistato da Salubra nei Crocevia Dimenticati per 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Marchio dell'Orgoglio",
+            "description": "Un distintivo di orgoglio conferito dalla Tribù Mantis ai suoi migliori guerrieri. Aumenta la portata dell'artiglio del portatore.",
+            "location": "Trovato nel Villaggio Mantis, Distese Fungine. Situato nella sala del tesoro sbloccata dopo aver sconfitto i Signori Mantis."
+        },
+        "fury_of_the_fallen": {
+            "name": "Furia dei Caduti",
+            "description": "Incarna la furia e l'eroismo di coloro che sono caduti in battaglia.",
+            "location": "Trovato nel Passo del Re. Accessibile con il Mantello Ala di Falena o l'Artiglio Mantis."
+        },
+        "thorns_of_agony": {
+            "name": "Spine dell'Agonia",
+            "description": "Percepisce il dolore del portatore e colpisce il mondo circostante.",
+            "location": "Trovato in Sentiero Verde. Situato in un groviglio di spine sotto il sentiero per la Stazione della Regina."
+        },
+        "baldur_shell": {
+            "name": "Guscio Baldur",
+            "description": "Protegge il portatore con un guscio duro mentre concentra ANIMA.",
+            "location": "Trovato in Sentiero Verde. Donato da Baldur Anziano dopo aver usato l'incantesimo Spirito Vendicativo per sconfiggerlo."
+        },
+        "flukenest": {
+            "name": "Nido di Fluke",
+            "description": "Amuleto vivente nato nelle viscere di un Flukemarm.",
+            "location": "Trovato nelle Vie Reali. Sconfiggi il boss Flukemarm per ottenerlo."
+        },
+        "defenders_crest": {
+            "name": "Stemma del Difensore",
+            "description": "Amuleto unico conferito dal difensore del Re. Emette un odore eroico.",
+            "location": "Sconfiggi il Difensore dello Sterco nelle Vie Reali per ottenerlo."
+        },
+        "glowing_womb": {
+            "name": "Utero Luminoso",
+            "description": "Drena l'ANIMA del portatore e la usa per dare vita a piccoli.",
+            "location": "Situato nei Crocevia Dimenticati. Richiede Tuffo Desolato / Oscurità Discendente per accedervi."
+        },
+        "quick_focus": {
+            "name": "Concentrazione Rapida",
+            "description": "Un amuleto che permette al portatore di concentrare ANIMA più velocemente, guarendo più rapidamente durante il combattimento.",
+            "location": "Può essere acquistato da Salubra nei Crocevia Dimenticati per 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Concentrazione Profonda",
+            "description": "Formata naturalmente all'interno di un cristallo nel corso di molto tempo. Attira ANIMA dall'aria circostante.",
+            "location": "Situata in Picco Cristallino. Dopo aver acquisito l'abilità Cuore di Cristallo, viaggia a destra dalla grande sala con Sentinella Guscio e Strisciatori di Cristallo."
+        },
+        "lifeblood_heart": {
+            "name": "Cuore Vitale",
+            "description": "Contiene un nucleo vivente che filtra prezioso sangue vitale. Quando si riposa, il portatore ottiene una protezione che lo difende da una quantità moderata di danni.",
+            "location": "Salubra vende Cuore Vitale nel suo negozio per 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Nucleo Vitale",
+            "description": "Contiene un nucleo vivente che sanguina prezioso sangue vitale. Quando si riposa, il portatore ottiene una protezione che lo difende da una grande quantità di danni.",
+            "location": "Il Nucleo Vitale si trova nell'Abisso. In quest'area, i giocatori troveranno una porta sigillata sulla parete sinistra della camera principale. Questa porta può essere aperta solo quando il giocatore ha 14 o più Maschere Vitali in totale, ottenibili usando Cuore Vitale, Benedizione di Joni e uccidendo Semi Vitali che provengono dai Bozzoli Vitali."
+        },
+        "jonis_blessing": {
+            "name": "Benedizione di Joni",
+            "description": "Benedetta da Joni, ex matriarca. Converte i fluidi vitali in sangue vitale blu.",
+            "location": "Trovata nelle Scogliere Urlanti. All'interno del Riposo di Joni."
+        },
+        "hiveblood": {
+            "name": "Sangue dell'Alveare",
+            "description": "Filtra sangue vitale che, quando si subiscono danni, riempie lentamente la salute del portatore.",
+            "location": "Trovata nell'Alveare. In una stanza dietro il boss Cavaliere dell'Alveare."
+        },
+        "spore_shroom": {
+            "name": "Fungo Spora",
+            "description": "Composto da materia fungina vivente. Emette una nuvola di spore quando si concentra ANIMA.",
+            "location": "Trovato nelle Distese Fungine. Situato in una stanza segreta sopra l'area con i due Ogre Shrumal."
+        },
+        "sharp_shadow": {
+            "name": "Ombra Affilata",
+            "description": "Contiene un incantesimo proibito che trasforma le ombre in armi mortali.",
+            "location": "Trovata in Nido Profondo. Richiede Mantello Ombra per accedervi."
+        },
+        "shape_of_unn": {
+            "name": "Forma di Unn",
+            "description": "Rivela la forma di Unn all'interno del portatore. Durante la concentrazione di ANIMA, il portatore assumerà una nuova forma.",
+            "location": "Trovata in Sentiero Verde. Donata da Unn all'interno del Lago di Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Gloria del Maestro dell'Artiglio",
+            "description": "Contiene la passione, l'abilità e i rimpianti di un Maestro dell'Artiglio. Aumenta la velocità delle Arti dell'Artiglio.",
+            "location": "Ottenuta da Sly a Dirtmouth dopo aver imparato tutte e tre le Arti dell'Artiglio."
+        },
+        "weaversong": {
+            "name": "Canto dei Tessitori",
+            "description": "Amuleto di seta che contiene una canzone d'addio, lasciata dai Tessitori che hanno lasciato Hallownest per la loro vecchia casa. Evoca piccoli tessitori per dare compagnia e protezione al portatore solitario.",
+            "location": "Questo amuleto si trova in Nido Profondo, a sud dell'ingresso ai Giardini della Regina. C'è un'area segreta oltre un Devoto Inseguitore, che conduce al Rifugio dei Tessitori, da tempo abbandonato dal clan dei ragni. I giocatori avranno bisogno del Cuore di Cristallo per attraversare il Rifugio, dove c'è un muro rompibile che nasconde il Canto dei Tessitori."
+        },
+        "dream_wielder": {
+            "name": "Portatore di Sogni",
+            "description": "Trasforma i sogni in potere. Permette al portatore di raccogliere più ANIMA colpendo i nemici con l'Artiglio dei Sogni.",
+            "location": "Ricompensa dalla Veggente nelle Terre del Riposo dopo aver raccolto 500 Essenze."
+        },
+        "dreamshield": {
+            "name": "Scudo dei Sogni",
+            "description": "Amuleto difensivo un tempo usato da una tribù capace di modellare i sogni. Evoca uno scudo che segue il portatore e cerca di proteggerlo.",
+            "location": "Trovato nelle Terre del Riposo. In una tomba sotto la stanza della Veggente."
+        },
+        "grimmchild": {
+            "name": "Bambino Grimm / Melodia Spensierata",
+            "description": "**Bambino Grimm**: Evoca un familiare che spara palle di fuoco. Si evolve man mano che la missione della Compagnia Grimm progredisce. **Melodia Spensierata**: Sostituisce Bambino Grimm se il Rituale viene bandito.",
+            "location": "Ottenuto durante la missione della Compagnia Grimm a Dirtmouth. Migliorato raccogliendo fiamme. Melodia Spensierata si ottiene se si bandisce la compagnia."
+        },
+        "void_heart": {
+            "name": "Anima del Re / Cuore del Vuoto",
+            "description": "**Anima del Re**: Amuleto sacro che simboleggia l'unione tra esseri superiori. Riempi gradualmente il misuratore di ANIMA. **Cuore del Vuoto**: Forma migliorata dell'Anima del Re. Incorpora il vuoto. Necessario per il vero finale.",
+            "location": "L'Anima del Re si trova ottenendo entrambe le metà (Giardini della Regina e Palazzo Bianco). Il Cuore del Vuoto la sostituisce dopo un evento nella storia nell'Abisso."
+        }
+    }
 }

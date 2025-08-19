@@ -3,5 +3,207 @@
     "dialog_alt": "Imagem do amuleto",
     "guide_title": "Guia amigável de amuletos",
     "notches_label": "Entalhes",
-    "rotate_phone_message": "Para melhor experiência, gire o telefone horizontalmente"
+    "rotate_phone_message": "Para melhor experiência, gire o telefone horizontalmente",
+    "charms": {
+        "wayward_compass": {
+            "name": "Bússola Errante",
+            "description": "Sussurra sua localização ao portador sempre que um mapa está aberto, permitindo que viajantes localizem sua posição atual.",
+            "location": "Este amuleto pode ser comprado com Iselda na loja de mapas em Dirtmouth por 220 Geo. A loja abre após o jogador encontrar Cornifer pela primeira vez, que venderá mapas incompletos para o Cavaleiro preencher enquanto explora Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Enxame Coletor",
+            "description": "Um enxame seguirá o portador e coletará qualquer Geo solto.",
+            "location": "O amuleto pode ser comprado na loja de Sly em Dirtmouth por 300 Geo e requer um entalhe para equipar. Sly retorna a Dirtmouth após ser resgatado na vila abandonada, localizada abaixo da Mãe Gruz e à esquerda de Salubra nos Cruzamentos Esquecidos."
+        },
+        "stalwart_shell": {
+            "name": "Casca Resistente",
+            "description": "Aumenta a resiliência. Ao se recuperar de dano, o portador permanece invulnerável por mais tempo.",
+            "location": "A Casca Resistente está disponível para compra na loja de Sly por 200 Geo após ele retornar a Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Caçador de Alma",
+            "description": "Usado por xamãs para extrair mais ALMA do mundo ao redor.",
+            "location": "Após derrotar o Cavaleiro Falso e acessar o Monte Ancestral, o jogador deve avançar pulando plataformas e derrotando inimigos. Ao final, deve derrotar um Baldur Ancião, e à esquerda da arena estará o Caçador de Alma."
+        },
+        "shaman_stone": {
+            "name": "Pedra do Xamã",
+            "description": "Dizem que contém o conhecimento de gerações passadas de xamãs.",
+            "location": "A Pedra do Xamã pode ser comprada com Salubra nos Cruzamentos Esquecidos por 220 Geo. É possível chegar à loja usando a Garra Mantis ou o Manto Asa de Mariposa, ou atravessando o Lago Azul a partir dos Campos de Descanso."
+        },
+        "soul_eater": {
+            "name": "Devorador de Alma",
+            "description": "Artefato xamã esquecido, usado para extrair ALMA de criaturas vivas.",
+            "location": "É necessário usar o feitiço Mergulho Desolado / Escuridão Descendente para alcançar o amuleto. Nos Campos de Descanso, há um túmulo abaixo da localização da Vidente e da Estação do Veado, que treme ao ser pisado. Usando o feitiço no túmulo, abre-se uma passagem secreta subterrânea; siga para a direita até encontrar um sarcófago onde está o Devorador de Alma."
+        },
+        "dashmaster": {
+            "name": "Mestre do Dash",
+            "description": "Tem a aparência de um inseto excêntrico conhecido apenas como 'O Mestre do Dash'.",
+            "location": "O amuleto está na base de uma estátua nas Desperdícios Fúngicos, à esquerda do banco fora da Vila Mantis, perto da entrada dos Esgotos Reais. Bretta também está na mesma área."
+        },
+        "sprintmaster": {
+            "name": "Mestre do Sprint",
+            "description": "Tem a aparência de um inseto estranho conhecido apenas como 'O Mestre do Sprint'.",
+            "location": "Após encontrar a Chave do Comerciante no Pico de Cristal, ela pode ser devolvida a Sly e o estoque da loja aumentará. O Mestre do Sprint pode ser comprado por 400 Geo após entregar a chave."
+        },
+        "grubsong": {
+            "name": "Canção das Larvas",
+            "description": "Contém a gratidão das larvas libertadas. Ganhe ALMA ao receber dano.",
+            "location": "O Pai Larva, localizado nos Cruzamentos Esquecidos, recompensa o jogador com o amuleto Canção das Larvas após salvar 10 larvas."
+        },
+        "grubberflys_elegy": {
+            "name": "Elegia da Grubberfly",
+            "description": "Contém a gratidão das larvas que passarão para a próxima fase de suas vidas. Imbuí a arma com força sagrada. Quando o portador está com vida cheia, dispara raios de energia branca do prego.",
+            "location": "Após libertar todas as larvas escondidas em Hallownest, o jogador pode obter a Elegia da Grubberfly retornando ao Pai Larva nos Cruzamentos Esquecidos."
+        },
+        "unbreakable_heart": {
+            "name": "Coração Frágil / Coração Inquebrável",
+            "description": "**Coração Frágil**: Aumenta a vida do portador. **Coração Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Ganância Frágil / Ganância Inquebrável",
+            "description": "**Ganância Frágil**: Faz o portador ganhar mais Geo ao derrotar inimigos. **Ganância Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Força Frágil / Força Inquebrável",
+            "description": "**Força Frágil**: Aumenta o dano do prego do portador. **Força Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Torcedor de Feitiços",
+            "description": "Reduz o custo de ALMA ao lançar feitiços.",
+            "location": "Localizado no Santuário da Alma, Cidade das Lágrimas."
+        },
+        "steady_body": {
+            "name": "Corpo Estável",
+            "description": "Impede que o portador recue ao atacar um inimigo com o prego.",
+            "location": "Pode ser comprado com Salubra nos Cruzamentos Esquecidos por 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Golpe Pesado",
+            "description": "Forjado a partir dos pregos de guerreiros caídos.",
+            "location": "Após devolver a Chave do Comerciante a Sly, Golpe Pesado pode ser comprado na loja dele em Dirtmouth por 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Corte Rápido",
+            "description": "Nascido de pregos imperfeitos e descartados que se fundiram.",
+            "location": "Encontrado na Borda do Reino. Atrás de uma parede quebrável perto do Coliseu dos Tolos."
+        },
+        "longnail": {
+            "name": "Prego Longo",
+            "description": "Aumenta o alcance do prego do portador, permitindo atacar inimigos de mais longe.",
+            "location": "Pode ser comprado com Salubra nos Cruzamentos Esquecidos por 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Marca do Orgulho",
+            "description": "Distintivo de orgulho concedido pela Tribo Mantis aos seus melhores guerreiros. Aumenta o alcance do prego do portador.",
+            "location": "Encontrado na Vila Mantis, Desperdícios Fúngicos. Na sala do tesouro desbloqueada após derrotar os Senhores Mantis."
+        },
+        "fury_of_the_fallen": {
+            "name": "Fúria dos Caídos",
+            "description": "Incorpora a fúria e o heroísmo daqueles que caíram em batalha.",
+            "location": "Encontrado no Passo do Rei. Acessível com o Manto Asa de Mariposa ou Garra Mantis."
+        },
+        "thorns_of_agony": {
+            "name": "Espinhos da Agonia",
+            "description": "Sente a dor do portador e ataca o mundo ao redor.",
+            "location": "Encontrado em Caminho Verde. Em um emaranhado de espinhos abaixo do caminho para a Estação da Rainha."
+        },
+        "baldur_shell": {
+            "name": "Casca Baldur",
+            "description": "Protege o portador com uma casca dura enquanto foca ALMA.",
+            "location": "Encontrado em Caminho Verde. Dado pelo Baldur Ancião após usar o feitiço Espírito Vingativo para derrotá-lo."
+        },
+        "flukenest": {
+            "name": "Ninho Fluke",
+            "description": "Amuleto vivo nascido nas entranhas de um Flukemarm.",
+            "location": "Encontrado nos Esgotos Reais. Derrote o chefe Flukemarm para obter."
+        },
+        "defenders_crest": {
+            "name": "Emblema do Defensor",
+            "description": "Amuleto único concedido pelo defensor do Rei. Emite um odor heroico.",
+            "location": "Derrote o Defensor do Esterco nos Esgotos Reais para obter."
+        },
+        "glowing_womb": {
+            "name": "Útero Brilhante",
+            "description": "Drena a ALMA do portador e a usa para gerar filhotes.",
+            "location": "Localizado nos Cruzamentos Esquecidos. Requer Mergulho Desolado / Escuridão Descendente para acessar."
+        },
+        "quick_focus": {
+            "name": "Foco Rápido",
+            "description": "Permite ao portador focar ALMA mais rápido, curando-se mais rápido durante o combate.",
+            "location": "Pode ser comprado com Salubra nos Cruzamentos Esquecidos por 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Foco Profundo",
+            "description": "Formado naturalmente dentro de um cristal ao longo do tempo. Atrai ALMA do ar ao redor.",
+            "location": "Localizado no Pico de Cristal. Após adquirir o Coração de Cristal, vá para a direita da sala grande com Sentinela Casca e Rastejadores de Cristal."
+        },
+        "lifeblood_heart": {
+            "name": "Coração Vital",
+            "description": "Contém um núcleo vivo que libera sangue vital precioso. Ao descansar, o portador ganha uma camada de sangue vital que protege de uma quantidade moderada de dano.",
+            "location": "Salubra vende Coração Vital em sua loja por 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Núcleo Vital",
+            "description": "Contém um núcleo vivo que sangra sangue vital precioso. Ao descansar, o portador ganha uma camada de sangue vital que protege de grande quantidade de dano.",
+            "location": "O Núcleo Vital está localizado no Abismo. Nesta área, há uma porta selada na parede esquerda da câmara principal. Só pode ser aberta quando o jogador tem 14 ou mais Máscaras Vitais, usando Coração Vital, Bênção de Joni e matando Sementes Vitais de Casulos Vitais."
+        },
+        "jonis_blessing": {
+            "name": "Bênção de Joni",
+            "description": "Abençoado por Joni, antiga matriarca. Converte fluidos vitais em sangue vital azul.",
+            "location": "Encontrado nos Penhascos Uivantes. Dentro do Repouso de Joni."
+        },
+        "hiveblood": {
+            "name": "Sangue da Colmeia",
+            "description": "Libera sangue vital que, ao receber dano, regenera lentamente a vida do portador.",
+            "location": "Encontrado na Colmeia. Em uma sala atrás do chefe Cavaleiro da Colmeia."
+        },
+        "spore_shroom": {
+            "name": "Cogumelo Esporo",
+            "description": "Composto de matéria fúngica viva. Emite uma nuvem de esporos ao focar ALMA.",
+            "location": "Encontrado nos Desperdícios Fúngicos. Em uma sala secreta acima da área com dois Ogros Shrumal."
+        },
+        "sharp_shadow": {
+            "name": "Sombra Afiada",
+            "description": "Contém um feitiço proibido que transforma sombras em armas mortais.",
+            "location": "Encontrado em Ninho Profundo. Requer Manto das Sombras para acessar."
+        },
+        "shape_of_unn": {
+            "name": "Forma de Unn",
+            "description": "Revela a forma de Unn dentro do portador. Ao focar ALMA, o portador assume uma nova forma.",
+            "location": "Encontrado em Caminho Verde. Dado por Unn dentro do Lago de Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Glória do Mestre do Prego",
+            "description": "Contém a paixão, habilidade e arrependimentos de um Mestre do Prego. Aumenta a velocidade das Artes do Prego.",
+            "location": "Obtido com Sly em Dirtmouth após aprender todas as três Artes do Prego."
+        },
+        "weaversong": {
+            "name": "Canção dos Tecelões",
+            "description": "Amuleto de seda contendo uma canção de despedida, deixada pelos Tecelões que partiram de Hallownest para seu antigo lar. Invoca pequenos tecelões para dar companhia e proteção ao portador solitário.",
+            "location": "Este amuleto está localizado em Ninho Profundo, ao sul da entrada para os Jardins da Rainha. Há uma área secreta após um Devoto Perseguidor, levando ao Covil dos Tecelões, abandonado pelo clã das aranhas. É necessário Coração de Cristal para navegar pelo Covil, onde há uma parede quebrável que esconde a Canção dos Tecelões."
+        },
+        "dream_wielder": {
+            "name": "Portador dos Sonhos",
+            "description": "Transforma sonhos em poder. Permite ao portador coletar mais ALMA ao atacar inimigos com o Prego dos Sonhos.",
+            "location": "Recompensa da Vidente nos Campos de Descanso após coletar 500 Essências."
+        },
+        "dreamshield": {
+            "name": "Escudo dos Sonhos",
+            "description": "Amuleto defensivo usado por uma tribo capaz de moldar sonhos. Conjura um escudo que segue o portador e tenta protegê-lo.",
+            "location": "Encontrado nos Campos de Descanso. Em um túmulo abaixo da sala da Vidente."
+        },
+        "grimmchild": {
+            "name": "Filhote Grimm / Melodia Despreocupada",
+            "description": "**Filhote Grimm**: Invoca um familiar que dispara bolas de fogo. Evolui conforme a missão da Tropa Grimm avança. **Melodia Despreocupada**: Substitui o Filhote Grimm se o Ritual for banido.",
+            "location": "Obtido durante a missão da Tropa Grimm em Dirtmouth. Aprimorado coletando chamas. Melodia Despreocupada é obtida se banir a tropa."
+        },
+        "void_heart": {
+            "name": "Alma do Rei / Coração do Vazio",
+            "description": "**Alma do Rei**: Amuleto sagrado que simboliza a união entre seres superiores. Recarrega gradualmente o medidor de ALMA. **Coração do Vazio**: Forma aprimorada da Alma do Rei. Encapsula o vazio. Necessário para o final verdadeiro.",
+            "location": "A Alma do Rei é obtida ao reunir ambas as metades (Jardins da Rainha e Palácio Branco). O Coração do Vazio a substitui após um evento na história no Abismo."
+        }
+    }
 }

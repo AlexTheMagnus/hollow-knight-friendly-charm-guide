@@ -3,5 +3,207 @@
     "dialog_alt": "Amulettbild",
     "guide_title": "Freundlicher Amulett-Leitfaden",
     "notches_label": "Kerben",
-    "rotate_phone_message": "Für das beste Erlebnis, drehen Sie Ihr Handy horizontal"
+    "rotate_phone_message": "Für das beste Erlebnis, drehen Sie Ihr Handy horizontal",
+    "charms": {
+        "wayward_compass": {
+            "name": "Irrkompass",
+            "description": "Flüstert dem Träger seinen Standort, wenn eine Karte geöffnet ist, sodass Wanderer ihren aktuellen Standort bestimmen können.",
+            "location": "Dieses Amulett kann bei Iselda im Kartenladen in Dirtmouth für 220 Geo gekauft werden. Der Laden öffnet, nachdem der Spieler Cornifer zum ersten Mal getroffen hat, der dem Ritter unvollständige Karten verkauft, die er auf seiner Reise durch Hallownest ausfüllen kann."
+        },
+        "gathering_swarm": {
+            "name": "Sammelschwarm",
+            "description": "Ein Schwarm folgt dem Träger und sammelt lose Geo ein.",
+            "location": "Das Amulett kann im Laden von Sly in Dirtmouth für 300 Geo gekauft werden und benötigt einen Amulettplatz zum Ausrüsten. Sly kehrt nach Dirtmouth zurück, sobald der Spieler ihn im verlassenen Dorf gerettet hat, das sich unterhalb des Gruz-Mutter-Standorts und direkt links von Salubra in den Vergessenen Kreuzungen befindet."
+        },
+        "stalwart_shell": {
+            "name": "Standhafte Schale",
+            "description": "Stärkt die Widerstandsfähigkeit. Beim Erholen von Schaden bleibt der Träger länger unverwundbar.",
+            "location": "Die Standhafte Schale kann nach Slys Rückkehr nach Dirtmouth für 200 Geo in seinem Laden gekauft werden."
+        },
+        "soul_catcher": {
+            "name": "Seelenfänger",
+            "description": "Wird von Schamanen verwendet, um mehr SEELE aus der Umgebung zu ziehen.",
+            "location": "Nachdem die Spieler Zugang zum Ahnenhügel erhalten haben, indem sie den Falschen Ritter besiegt haben, müssen sie durch das Gebiet springen und Gegner besiegen. Am Ende muss ein Älterer Baldur besiegt werden, und links von der Arena befindet sich der Seelenfänger."
+        },
+        "shaman_stone": {
+            "name": "Schamanenstein",
+            "description": "Soll das Wissen vergangener Schamanengenerationen enthalten.",
+            "location": "Der Schamanenstein kann bei Salubra in den Vergessenen Kreuzungen für 220 Geo gekauft werden. Ihr Laden ist entweder mit der Mantis-Klaue oder dem Mottenflügel-Umhang erreichbar oder indem man über den Blauen See von den Ruhestätten reist."
+        },
+        "soul_eater": {
+            "name": "Seelenfresser",
+            "description": "Vergessenes Schamanenartefakt, das verwendet wird, um SEELE aus noch lebenden Kreaturen zu ziehen.",
+            "location": "Spieler müssen den Zauber Trostlose Sturz / Absteigende Dunkelheit verwenden, um das Amulett zu erreichen. In den Ruhestätten finden Spieler ein Grab direkt unter dem Standort der Seherin und der Hirschstation, dessen Oberfläche beim Betreten bebt. Mit Trostlose Sturz / Absteigende Dunkelheit öffnet sich ein geheimer Durchgang unter der Erde, und die Spieler müssen nach rechts gehen, bis sie einen Sarkophag finden, in dem der Seelenfresser versteckt ist."
+        },
+        "dashmaster": {
+            "name": "Sprintmeister",
+            "description": "Trägt das Abbild eines exzentrischen Käfers, der nur als 'Der Sprintmeister' bekannt ist.",
+            "location": "Das Amulett befindet sich am Fuß einer Statue in den Pilzabfällen links von der Bank außerhalb des Mantis-Dorfs, nahe dem Eingang zu den Königlichen Wasserwegen. Bretta ist ebenfalls in der Nähe."
+        },
+        "sprintmaster": {
+            "name": "Laufmeister",
+            "description": "Trägt das Abbild eines seltsamen Käfers, der nur als 'Der Laufmeister' bekannt ist.",
+            "location": "Nachdem die Spieler den Schlüssel des Ladenbesitzers im Kristallgipfel gefunden haben, kann er Sly zurückgegeben werden und sein Ladenangebot wird erweitert. Der Laufmeister kann nach Übergabe des Schlüssels für 400 Geo bei Sly gekauft werden."
+        },
+        "grubsong": {
+            "name": "Larvensang",
+            "description": "Enthält die Dankbarkeit befreiter Larven. Erhalte SEELE, wenn du Schaden nimmst.",
+            "location": "Der Larvenvater in den Vergessenen Kreuzungen belohnt die Spieler mit dem Larvensang-Amulett, nachdem sie 10 Larven gerettet haben."
+        },
+        "grubberflys_elegy": {
+            "name": "Grubberflys Elegie",
+            "description": "Enthält die Dankbarkeit von Larven, die in die nächste Lebensphase übergehen. Verleiht der Waffe heilige Kraft. Wenn der Träger volle Gesundheit hat, feuert er Strahlen weißglühender Energie aus seinem Nagel.",
+            "location": "Nachdem alle Larven in Hallownest befreit wurden, können Spieler die Grubberflys Elegie erhalten, indem sie zum Larvenvater in den Vergessenen Kreuzungen zurückkehren."
+        },
+        "unbreakable_heart": {
+            "name": "Zerbrechliches Herz / Unzerbrechliches Herz",
+            "description": "**Zerbrechliches Herz**: Erhöht die Gesundheit des Trägers. **Unzerbrechliches Herz**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
+        },
+        "unbreakable_greed": {
+            "name": "Zerbrechliche Gier / Unzerbrechliche Gier",
+            "description": "**Zerbrechliche Gier**: Der Träger erhält mehr Geo beim Besiegen von Gegnern. **Unzerbrechliche Gier**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
+        },
+        "unbreakable_strength": {
+            "name": "Zerbrechliche Stärke / Unzerbrechliche Stärke",
+            "description": "**Zerbrechliche Stärke**: Erhöht den vom Nagel des Trägers verursachten Schaden. **Unzerbrechliche Stärke**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
+        },
+        "spell_twister": {
+            "name": "Zauberverdreher",
+            "description": "Reduziert die SEELE-Kosten beim Zaubern.",
+            "location": "Befindet sich im Seelensanktum, Stadt der Tränen."
+        },
+        "steady_body": {
+            "name": "Stabiler Körper",
+            "description": "Verhindert, dass der Träger beim Angriff mit dem Nagel zurückgestoßen wird.",
+            "location": "Kann bei Salubra in den Vergessenen Kreuzungen für 120 Geo gekauft werden."
+        },
+        "heavy_blow": {
+            "name": "Schwerer Schlag",
+            "description": "Aus den Nägeln gefallener Krieger gefertigt.",
+            "location": "Nach Rückgabe des Ladenbesitzerschlüssels an Sly kann Schwerer Schlag für 350 Geo in seinem Laden in Dirtmouth gekauft werden."
+        },
+        "quick_slash": {
+            "name": "Schneller Schlag",
+            "description": "Entstanden aus unvollkommenen, verworfenen Nägeln, die miteinander verschmolzen sind.",
+            "location": "Gefunden am Rand des Königreichs. Hinter einer zerbrechlichen Wand nahe der Arena der Narren."
+        },
+        "longnail": {
+            "name": "Langnagel",
+            "description": "Erhöht die Reichweite des Nagels des Trägers, sodass er Feinde aus größerer Entfernung treffen kann.",
+            "location": "Kann bei Salubra in den Vergessenen Kreuzungen für 300 Geo gekauft werden."
+        },
+        "mark_of_pride": {
+            "name": "Zeichen des Stolzes",
+            "description": "Ein Abzeichen des Stolzes, das von der Mantis-Stammesgemeinschaft ihren besten Kriegern verliehen wird. Erhöht die Reichweite des Nagels des Trägers.",
+            "location": "Gefunden im Mantis-Dorf, Pilzabfälle. Befindet sich im Schatzraum, der nach dem Sieg über die Mantis-Lords freigeschaltet wird."
+        },
+        "fury_of_the_fallen": {
+            "name": "Zorn der Gefallenen",
+            "description": "Verkörpert die Wut und den Heldenmut der im Kampf Gefallenen.",
+            "location": "Gefunden im Königspass. Zugänglich mit Mottenflügel-Umhang oder Mantis-Klaue."
+        },
+        "thorns_of_agony": {
+            "name": "Dornen der Qual",
+            "description": "Spürt den Schmerz des Trägers und schlägt auf die Umgebung zurück.",
+            "location": "Gefunden im Grüner Pfad. Befindet sich in einem Dickicht aus Dornen unterhalb des Weges zur Königinnenstation."
+        },
+        "baldur_shell": {
+            "name": "Baldur-Schale",
+            "description": "Schützt den Träger mit einer harten Schale beim Fokussieren von SEELE.",
+            "location": "Gefunden im Grüner Pfad. Vom Ältesten Baldur nach Einsatz des Rachsgeist-Zaubers erhalten."
+        },
+        "flukenest": {
+            "name": "Flukennest",
+            "description": "Lebendes Amulett, geboren im Inneren eines Flukemarm.",
+            "location": "Gefunden in den Königlichen Wasserwegen. Besiege den Boss Flukemarm, um es zu erhalten."
+        },
+        "defenders_crest": {
+            "name": "Wappen des Verteidigers",
+            "description": "Einzigartiges Amulett, das vom Verteidiger des Königs verliehen wird. Verströmt einen heroischen Duft.",
+            "location": "Besiege den Mistverteidiger in den Königlichen Wasserwegen, um es zu erhalten."
+        },
+        "glowing_womb": {
+            "name": "Leuchtender Uterus",
+            "description": "Entzieht dem Träger SEELE und nutzt sie, um Nachkommen zu gebären.",
+            "location": "Befindet sich in den Vergessenen Kreuzungen. Erfordert Trostlose Sturz / Absteigende Dunkelheit zum Zugang."
+        },
+        "quick_focus": {
+            "name": "Schneller Fokus",
+            "description": "Ein Amulett, das dem Träger ermöglicht, SEELE schneller zu fokussieren und sich im Kampf schneller zu heilen.",
+            "location": "Kann bei Salubra in den Vergessenen Kreuzungen für 800 Geo gekauft werden."
+        },
+        "deep_focus": {
+            "name": "Tiefer Fokus",
+            "description": "Natürlich über lange Zeit in einem Kristall gebildet. Zieht SEELE aus der Umgebungsluft.",
+            "location": "Befindet sich im Kristallgipfel. Nach Erwerb der Kristallherz-Fähigkeit nach rechts von dem großen Raum mit Husk-Wächter und Kristallkrabblern reisen."
+        },
+        "lifeblood_heart": {
+            "name": "Lebensblut-Herz",
+            "description": "Enthält einen lebenden Kern, der wertvolles Lebensblut absondert. Beim Ausruhen erhält der Träger eine Schicht Lebensblut, die vor mäßigem Schaden schützt.",
+            "location": "Salubra verkauft das Lebensblut-Herz in ihrem Laden für 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Lebensblut-Kern",
+            "description": "Enthält einen lebenden Kern, der wertvolles Lebensblut absondert. Beim Ausruhen erhält der Träger eine Schicht Lebensblut, die vor großem Schaden schützt.",
+            "location": "Der Lebensblut-Kern befindet sich im Abgrund. In diesem Bereich finden Spieler eine versiegelte Tür an der linken Wand der Hauptkammer. Diese Tür kann nur geöffnet werden, wenn der Spieler insgesamt 14 oder mehr Lebensblut-Masken hat, was durch Lebensblut-Herz, Jonis Segen und das Töten von Lebenssamen aus Lebensblut-Kokons erreicht werden kann."
+        },
+        "jonis_blessing": {
+            "name": "Jonis Segen",
+            "description": "Gesegnet von Joni, ehemaliger Matriarchin. Wandelt lebenswichtige Flüssigkeiten in blaues Lebensblut um.",
+            "location": "Gefunden in den Heulenden Klippen. Im Jonis Ruhe."
+        },
+        "hiveblood": {
+            "name": "Bienenblut",
+            "description": "Sickert Lebensblut, das bei Schaden langsam die Gesundheit des Trägers wiederherstellt.",
+            "location": "Gefunden im Bienenstock. In einem Raum hinter dem Boss Bienenritter."
+        },
+        "spore_shroom": {
+            "name": "Sporenpilz",
+            "description": "Besteht aus lebender Pilzmasse. Erzeugt eine Sporenwolke beim Fokussieren von SEELE.",
+            "location": "Gefunden in den Pilzabfällen. Befindet sich in einem geheimen Raum über dem Bereich mit den zwei Shrumal-Ogern."
+        },
+        "sharp_shadow": {
+            "name": "Scharfer Schatten",
+            "description": "Enthält einen verbotenen Zauber, der Schatten in tödliche Waffen verwandelt.",
+            "location": "Gefunden im Tiefnest. Erfordert Schattenumhang zum Zugang."
+        },
+        "shape_of_unn": {
+            "name": "Gestalt von Unn",
+            "description": "Enthüllt die Form von Unn im Träger. Beim Fokussieren von SEELE nimmt der Träger eine neue Gestalt an.",
+            "location": "Gefunden im Grüner Pfad. Von Unn im Unn-See überreicht."
+        },
+        "nailmasters_glory": {
+            "name": "Ruhm des Nagelmeisters",
+            "description": "Enthält die Leidenschaft, das Können und die Reue eines Nagelmeisters. Erhöht die Geschwindigkeit der Nagelkunst.",
+            "location": "Von Sly in Dirtmouth erhalten, nachdem alle drei Nagelkünste erlernt wurden."
+        },
+        "weaversong": {
+            "name": "Weberlied",
+            "description": "Seidenamulett mit einem Abschiedslied, hinterlassen von den Webern, die Hallownest für ihre alte Heimat verlassen haben. Beschwört kleine Weberlinge, die dem einsamen Träger Gesellschaft und Schutz bieten.",
+            "location": "Dieses Amulett befindet sich im Tiefnest, südlich des Eingangs zu den Gärten der Königin. Es gibt einen geheimen Bereich hinter einem lauernden Frommen, der zum Webernest führt, das vom Spinnenclan längst verlassen wurde. Spieler benötigen das Kristallherz, um das Webernest zu durchqueren, wo eine zerbrechliche Wand das Weberlied verbirgt."
+        },
+        "dream_wielder": {
+            "name": "Traumträger",
+            "description": "Verwandelt Träume in Kraft. Ermöglicht dem Träger, beim Treffen von Feinden mit dem Traumnagel mehr SEELE zu sammeln.",
+            "location": "Belohnung von der Seherin in den Ruhestätten nach dem Sammeln von 500 Essenzen."
+        },
+        "dreamshield": {
+            "name": "Traumschild",
+            "description": "Defensives Amulett, einst von einem Stamm getragen, der Träume formen konnte. Beschwört einen Schild, der dem Träger folgt und ihn zu schützen versucht.",
+            "location": "Gefunden in den Ruhestätten. In einem Grab unter dem Raum der Seherin."
+        },
+        "grimmchild": {
+            "name": "Grimmkind / Unbekümmerte Melodie",
+            "description": "**Grimmkind**: Beschwört einen Feuerball-schießenden Begleiter. Entwickelt sich im Verlauf der Grimm-Truppe-Quest. **Unbekümmerte Melodie**: Ersetzt Grimmkind, wenn das Ritual verbannt wird.",
+            "location": "Erhalten während der Grimm-Truppe-Quest in Dirtmouth. Durch das Sammeln von Flammen verbessert. Unbekümmerte Melodie wird erhalten, wenn die Truppe verbannt wird."
+        },
+        "void_heart": {
+            "name": "Königsseele / Leerherz",
+            "description": "**Königsseele**: Heiliges Amulett, das die Vereinigung höherer Wesen symbolisiert. Füllt die SEELE-Anzeige allmählich auf. **Leerherz**: Verbesserte Form der Königsseele. Verkörpert die Leere. Erforderlich für das wahre Ende.",
+            "location": "Die Königsseele wird durch das Sammeln beider Hälften (Königinngarten und Weißer Palast) gefunden. Das Leerherz ersetzt sie nach einem Ereignis im Abgrund."
+        }
+    }
 }

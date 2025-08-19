@@ -2,6 +2,208 @@
     "app_title": "Título Hollow Knight",
     "dialog_alt": "Imagen del amuleto",
     "guide_title": "Guía sencilla de amuletos",
-    "notches_label": "Ranuras",
-    "rotate_phone_message": "Para una mejor experiencia, gira tu teléfono horizontalmente"
+    "notches_label": "Muescas",
+    "rotate_phone_message": "Para una mejor experiencia, gira tu teléfono horizontalmente",
+    "charms": {
+        "wayward_compass": {
+            "name": "Brújula Caprichosa",
+            "description": "Susurra su ubicación al portador cada vez que se abre un mapa, permitiendo a los viajeros saber dónde están.",
+            "location": "Este amuleto se puede comprar a Iselda en la tienda de mapas de Dirtmouth por 220 Geo. La tienda se abrirá después de que el jugador encuentre a Cornifer por primera vez, quien venderá mapas incompletos al Caballero para que los complete mientras explora Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Enjambre Recolector",
+            "description": "Un enjambre seguirá al portador y recogerá cualquier Geo suelto.",
+            "location": "El amuleto se puede comprar en la tienda de Sly en Dirtmouth por 300 Geo y requiere una muesca de amuleto para equiparse. Sly regresará a Dirtmouth una vez que el jugador lo haya rescatado en el pueblo abandonado, que se encuentra debajo de la ubicación de la Madre Gruz y directamente a la izquierda de Salubra en los Cruces Olvidados."
+        },
+        "stalwart_shell": {
+            "name": "Coraza Robusta",
+            "description": "Aumenta la resistencia. Al recuperarse del daño, el portador permanecerá invulnerable por más tiempo.",
+            "location": "La Coraza Robusta está disponible para comprar en la tienda de Sly por 200 Geo después de que regrese a Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Atrapaalmas",
+            "description": "Usado por chamanes para extraer más ALMA del mundo que los rodea.",
+            "location": "Una vez que los jugadores accedan al Montículo Ancestral tras derrotar al Falso Caballero, deberán avanzar saltando plataformas y derrotando enemigos. Al final, deberán vencer a un Anciano Baldur, y a la izquierda de la arena estará el Atrapaalmas."
+        },
+        "shaman_stone": {
+            "name": "Piedra de Chamán",
+            "description": "Se dice que contiene el conocimiento de generaciones pasadas de chamanes.",
+            "location": "La Piedra de Chamán se puede comprar a Salubra en los Cruces Olvidados por 220 Geo. Se puede llegar a su tienda usando la Garra Mantis o la Capa de Ala de Polilla, o viajando por el Lago Azul desde los Terrenos de Descanso."
+        },
+        "soul_eater": {
+            "name": "Devoraalmas",
+            "description": "Artefacto chamán olvidado, usado para extraer ALMA de criaturas vivas.",
+            "location": "Los jugadores deben usar el hechizo Zambullida Desolada / Oscuridad Descendente para llegar al amuleto. En los Terrenos de Descanso, se puede encontrar una tumba directamente debajo de la ubicación de la Vidente y la Estación del Ciervo; la superficie de la tumba vibrará al pisarla. Usar Zambullida Desolada / Oscuridad Descendente abrirá un pasaje secreto subterráneo; los jugadores deberán avanzar a la derecha hasta encontrar un sarcófago donde está escondido el Devoraalmas."
+        },
+        "dashmaster": {
+            "name": "Maestro de las Embestidas",
+            "description": "Tiene la apariencia de un insecto excéntrico conocido solo como 'El Maestro de las Embestidas'.",
+            "location": "El amuleto se encuentra en la base de una estatua en los Desperdicios Fúngicos, a la izquierda del banco que está fuera de la Aldea Mantis, cerca de la entrada a las Alcantarillas Reales. Bretta también se encuentra en la misma zona."
+        },
+        "sprintmaster": {
+            "name": "Maestro de Sprints",
+            "description": "Tiene la apariencia de un insecto extraño conocido solo como 'El Maestro de Sprints'.",
+            "location": "Después de encontrar la Llave del Tendero en Pico Cristal, se puede devolver a Sly y su inventario aumentará. El Maestro de Sprints se puede comprar a Sly por 400 Geo después de entregarle la llave."
+        },
+        "grubsong": {
+            "name": "Canción de Larvas",
+            "description": "Contiene la gratitud de las larvas liberadas. Obtén ALMA al recibir daño.",
+            "location": "El Padre Larva, ubicado en los Cruces Olvidados, recompensará a los jugadores con el amuleto Canción de Larvas después de haber salvado a 10 larvas."
+        },
+        "grubberflys_elegy": {
+            "name": "Elegía de la Larvamosca",
+            "description": "Contiene la gratitud de las larvas que pasarán a la siguiente etapa de sus vidas. Imbuye el arma con fuerza sagrada. Cuando el portador está con toda la salud, dispara rayos de energía blanca desde su aguijón.",
+            "location": "Tras liberar todas las larvas ocultas en Hallownest, los jugadores pueden obtener la Elegía de la Larvamosca regresando con el Padre Larva en los Cruces Olvidados."
+        },
+        "unbreakable_heart": {
+            "name": "Corazón Frágil / Corazón Irrompible",
+            "description": "**Corazón Frágil**: Aumenta la salud del portador. **Corazón Irrompible**: Versión mejorada que no se rompe al morir.",
+            "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Codicia Frágil / Codicia Irrompible",
+            "description": "**Codicia Frágil**: Hace que el portador obtenga más Geo al derrotar enemigos. **Codicia Irrompible**: Versión mejorada que no se rompe al morir.",
+            "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Fuerza Frágil / Fuerza Irrompible",
+            "description": "**Fuerza Frágil**: Aumenta el daño del aguijón del portador. **Fuerza Irrompible**: Versión mejorada que no se rompe al morir.",
+            "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Tuercehechizos",
+            "description": "Reduce el coste de ALMA al lanzar hechizos.",
+            "location": "Ubicado en el Santuario del Alma, Ciudad de las Lágrimas."
+        },
+        "steady_body": {
+            "name": "Cuerpo Firme",
+            "description": "Evita que el portador retroceda al golpear a un enemigo con el aguijón.",
+            "location": "Se puede comprar a Salubra en los Cruces Olvidados por 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Duro golpe",
+            "description": "Forjado a partir de los aguijones de guerreros caídos.",
+            "location": "Tras devolver la Llave del Tendero a Sly, los jugadores podrán comprar Duro golpe en su tienda de Dirtmouth por 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Corte rápido",
+            "description": "Nacido de aguijones imperfectos y descartados que se han fusionado.",
+            "location": "Encontrado en el Borde del Reino. Detrás de una pared rompible cerca del Coliseo de los Necios."
+        },
+        "longnail": {
+            "name": "Largoaguijón",
+            "description": "Aumenta el alcance del aguijón del portador, permitiéndole atacar a enemigos desde más lejos.",
+            "location": "Se puede comprar a Salubra en los Cruces Olvidados por 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Marca de Orgullo",
+            "description": "Insignia de orgullo otorgada por la Tribu Mantis a sus mejores guerreros. Aumenta el alcance del aguijón del portador.",
+            "location": "Encontrado en la Aldea Mantis, Desperdicios Fúngicos. Ubicado en la sala del tesoro que se desbloquea tras derrotar a los Señores Mantis."
+        },
+        "fury_of_the_fallen": {
+            "name": "Furia de los caídos",
+            "description": "Encarna la furia y el heroísmo de quienes han caído en batalla.",
+            "location": "Encontrado en el Paso del Rey. Accesible con la Capa de Ala de Polilla o la Garra Mantis."
+        },
+        "thorns_of_agony": {
+            "name": "Espinas de Agonía",
+            "description": "Percibe el dolor del portador y ataca al mundo que lo rodea.",
+            "location": "Encontrado en Senda Verde. Ubicado en una maraña de espinas debajo del camino a la Estación de la Reina."
+        },
+        "baldur_shell": {
+            "name": "Coraza de Baldur",
+            "description": "Protege al portador con una concha dura mientras concentra ALMA.",
+            "location": "Encontrado en Senda Verde. Entregado por el Anciano Baldur tras usar el hechizo Espíritu Vengativo para derrotarlo."
+        },
+        "flukenest": {
+            "name": "Tremanido",
+            "description": "Amuleto viviente nacido en las entrañas de una Flukemarm.",
+            "location": "Encontrado en las Alcantarillas Reales. Derrota al jefe Flukemarm para obtenerlo."
+        },
+        "defenders_crest": {
+            "name": "Blasón del defensor",
+            "description": "Amuleto único otorgado por el defensor del Rey. Emite un olor heroico.",
+            "location": "Derrota al Defensor de Estiércol en las Alcantarillas Reales para obtenerlo."
+        },
+        "glowing_womb": {
+            "name": "Útero Brillante",
+            "description": "Drena la ALMA del portador y la usa para dar vida a crías.",
+            "location": "Ubicado en los Cruces Olvidados. Requiere Zambullida Desolada / Oscuridad Descendente para acceder."
+        },
+        "quick_focus": {
+            "name": "Concentración Rápida",
+            "description": "Amuleto que permite al portador concentrar ALMA más rápido, curándose más rápido durante el combate.",
+            "location": "Se puede comprar a Salubra en los Cruces Olvidados por 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Concentración Profunda",
+            "description": "Formado naturalmente dentro de un cristal durante mucho tiempo. Absorbe ALMA del aire circundante.",
+            "location": "Ubicado en Pico Cristal. Tras adquirir la habilidad Corazón de Cristal, viaja a la derecha desde la gran sala con Centinela Cáscara y Rastreadores de Cristal."
+        },
+        "lifeblood_heart": {
+            "name": "Corazón de Saviavida",
+            "description": "Contiene un núcleo vivo que filtra saviavida preciosa. Al descansar, el portador obtiene una capa de saviavida que lo protege de una cantidad moderada de daño.",
+            "location": "Salubra vende Corazón de Saviavida en su tienda por 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Núcleo de Saviavida",
+            "description": "Contiene un núcleo vivo que sangra saviavida preciosa. Al descansar, el portador obtiene una capa de saviavida que lo protege de una gran cantidad de daño.",
+            "location": "El Núcleo de Saviavida está ubicado en el Abismo. En esta zona, los jugadores encontrarán una puerta sellada en la pared izquierda de la cámara principal. Esta puerta solo se puede abrir cuando el jugador tiene 14 o más Máscaras Vitales en total, lo que se puede lograr usando Corazón de Saviavida, Bendición de Joni y matando Semillas Vitales que salen de Capullos Vitales."
+        },
+        "jonis_blessing": {
+            "name": "Bendición de Joni",
+            "description": "Bendecido por Joni, antigua matriarca. Convierte fluidos vitales en saviavida azul.",
+            "location": "Encontrado en Acantilados Aulladores. Dentro del Refugio de Joni."
+        },
+        "hiveblood": {
+            "name": "Sangrecolmena",
+            "description": "Filtra saviavida que, al recibir daño, rellena lentamente la salud del portador.",
+            "location": "Encontrado en la Colmena. En una sala detrás del jefe Caballero de la Colmena."
+        },
+        "spore_shroom": {
+            "name": "Hongo con Esporas",
+            "description": "Compuesto de materia fúngica viva. Emite una nube de esporas al concentrar ALMA.",
+            "location": "Encontrado en Desperdicios Fúngicos. Ubicado en una sala secreta sobre el área con dos Ogros Shrumal."
+        },
+        "sharp_shadow": {
+            "name": "Sombra Afilada",
+            "description": "Contiene un hechizo prohibido que transforma sombras en armas mortales.",
+            "location": "Encontrado en Nido Profundo. Requiere Capa de Sombra para acceder."
+        },
+        "shape_of_unn": {
+            "name": "Forma de Unn",
+            "description": "Revela la forma de Unn dentro del portador. Al concentrar ALMA, el portador adopta una nueva forma.",
+            "location": "Encontrado en Senda Verde. Entregado por Unn dentro del Lago de Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Gloria del Maestro de Aguijones",
+            "description": "Contiene la pasión, habilidad y arrepentimientos de un Maestro de Aguijón. Aumenta la velocidad de las Artes de Aguijón.",
+            "location": "Obtenido de Sly en Dirtmouth tras aprender las tres Artes de Aguijón."
+        },
+        "weaversong": {
+            "name": "Canción de Tejedora",
+            "description": "Amuleto de seda que contiene una canción de despedida, dejada por los Tejedores que abandonaron Hallownest para regresar a su antiguo hogar. Invoca tejedores pequeños para dar compañía y protección al portador solitario.",
+            "location": "Este amuleto está ubicado en Nido Profundo, al sur de la entrada a los Jardines de la Reina. Hay una zona secreta tras un Devoto Acechador, que lleva al Refugio de los Tejedores, abandonado por el clan de arañas. Se requiere Corazón de Cristal para navegar por el Refugio, donde hay una pared rompible que esconde la Canción de Tejedora."
+        },
+        "dream_wielder": {
+            "name": "Portador Onírico",
+            "description": "Transforma sueños en poder. Permite al portador recolectar más ALMA al golpear enemigos con el Aguijón Onírico.",
+            "location": "Recompensa de la Vidente en los Terrenos de Descanso tras recolectar 500 Esencias."
+        },
+        "dreamshield": {
+            "name": "Escudo Onírico",
+            "description": "Amuleto defensivo usado por una tribu capaz de moldear sueños. Invoca un escudo que sigue al portador e intenta protegerlo.",
+            "location": "Encontrado en los Terrenos de Descanso. En una tumba debajo de la sala de la Vidente."
+        },
+        "grimmchild": {
+            "name": "Niño de Grimm / Melodía Despreocupada",
+            "description": "**Niño de Grimm**: Invoca un familiar que dispara bolas de fuego. Evoluciona a medida que avanza la misión de la Tropa Grimm. **Melodía Despreocupada**: Reemplaza a Niño de Grimm si el Ritual es desterrado.",
+            "location": "Obtenido durante la misión de la Tropa Grimm en Dirtmouth. Se mejora recolectando llamas. Melodía Despreocupada se obtiene si se destierra la tropa."
+        },
+        "void_heart": {
+            "name": "Alma del Monarca / Corazón del Vacío",
+            "description": "**Alma del Monarca**: Amuleto sagrado que simboliza la unión entre seres superiores. Rellena gradualmente el medidor de ALMA. **Corazón del Vacío**: Forma mejorada de Alma del Monarca. Encierra el vacío. Requerido para el final verdadero.",
+            "location": "Alma del Monarca se obtiene reuniendo ambas mitades (Jardines de la Reina y Palacio Blanco). Corazón del Vacío la reemplaza tras un evento en el Abismo."
+        }
+    }
 }

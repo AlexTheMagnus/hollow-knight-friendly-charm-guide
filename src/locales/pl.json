@@ -3,5 +3,207 @@
     "dialog_alt": "Obraz amuletu",
     "guide_title": "Przyjazny przewodnik po amuletach",
     "notches_label": "Wcięcia",
-    "rotate_phone_message": "Aby uzyskać najlepsze wrażenia, obróć telefon poziomo"
+    "rotate_phone_message": "Aby uzyskać najlepsze wrażenia, obróć telefon poziomo",
+    "charms": {
+        "wayward_compass": {
+            "name": "Zbłąkany Kompas",
+            "description": "Szepcze noszącemu swoją lokalizację, gdy mapa jest otwarta, pozwalając wędrowcom określić swoje położenie.",
+            "location": "Ten amulet można kupić u Iseldy w sklepie z mapami w Dirtmouth za 220 Geo. Sklep otwiera się po pierwszym spotkaniu z Corniferem, który sprzedaje Rycerzowi niekompletne mapy do uzupełnienia podczas podróży po Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Zbierający Rój",
+            "description": "Rój podąża za noszącym i zbiera każdy luźny Geo.",
+            "location": "Amulet można kupić w sklepie Sly'a w Dirtmouth za 300 Geo i wymaga jednej wcięcia na amulet do założenia. Sly wraca do Dirtmouth po uratowaniu go w opuszczonej wiosce, która znajduje się poniżej lokacji Matki Gruz i bezpośrednio na lewo od Salubry w Zapomnianych Skrzyżowaniach."
+        },
+        "stalwart_shell": {
+            "name": "Wytrzymała Skorupa",
+            "description": "Buduje odporność. Podczas regeneracji po obrażeniach noszący pozostaje dłużej niewrażliwy.",
+            "location": "Wytrzymałą Skorupę można kupić w sklepie Sly'a za 200 Geo po jego powrocie do Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Łapacz Dusz",
+            "description": "Używany przez szamanów do pobierania większej ilości DUSZY z otaczającego świata.",
+            "location": "Po pokonaniu Fałszywego Rycerza gracze uzyskują dostęp do Pradawnego Kopca, gdzie muszą przeskakiwać po platformach i pokonywać wrogów. Na końcu należy pokonać Starszego Baldura, a po lewej stronie areny znajduje się Łapacz Dusz."
+        },
+        "shaman_stone": {
+            "name": "Kamień Szamana",
+            "description": "Podobno zawiera wiedzę poprzednich pokoleń szamanów.",
+            "location": "Kamień Szamana można kupić u Salubry w Zapomnianych Skrzyżowaniach za 220 Geo. Do jej sklepu można dotrzeć używając Pazura Mantysa lub Płaszcza Motylego Skrzydła, albo przechodząc przez Jezioro Błękitne z Miejsca Spoczynku."
+        },
+        "soul_eater": {
+            "name": "Pożeracz Dusz",
+            "description": "Zapomniany artefakt szamana, używany do pobierania DUSZY z żywych stworzeń.",
+            "location": "Aby zdobyć amulet, gracze muszą użyć zaklęcia Ponury Skok / Opadająca Ciemność. W Miejscu Spoczynku można znaleźć grób bezpośrednio pod lokalizacją Wieszczki i Stacji Jelenia, którego powierzchnia drży po nadepnięciu. Użycie zaklęcia na grobie otwiera tajne przejście pod ziemią; należy iść w prawo, aż znajdzie się sarkofag z Pożeraczem Dusz."
+        },
+        "dashmaster": {
+            "name": "Mistrz Sprintu",
+            "description": "Przypomina ekscentrycznego owada znanego tylko jako 'Mistrz Sprintu'.",
+            "location": "Amulet znajduje się u podstawy posągu w Grzybowych Odpadach, na lewo od ławki przed Wioską Mantysa, blisko wejścia do Królewskich Kanałów. Bretta również znajduje się w tej okolicy."
+        },
+        "sprintmaster": {
+            "name": "Mistrz Biegu",
+            "description": "Przypomina dziwnego owada znanego tylko jako 'Mistrz Biegu'.",
+            "location": "Po znalezieniu Klucza Sklepikarza w Kryształowym Szczycie można go oddać Sly'owi, a jego asortyment się zwiększy. Mistrza Biegu można kupić u Sly'a za 400 Geo po przekazaniu mu klucza."
+        },
+        "grubsong": {
+            "name": "Pieśń Larw",
+            "description": "Zawiera wdzięczność uwolnionych larw. Otrzymuj DUSZĘ po otrzymaniu obrażeń.",
+            "location": "Ojciec Larw, znajdujący się w Zapomnianych Skrzyżowaniach, nagrodzi graczy amuletem Pieśń Larw po uratowaniu 10 larw."
+        },
+        "grubberflys_elegy": {
+            "name": "Elegia Grubberfly",
+            "description": "Zawiera wdzięczność larw, które przejdą do kolejnego etapu życia. Nasyca broń świętą mocą. Gdy noszący ma pełne zdrowie, wystrzeliwuje promienie białej energii ze swojego pazura.",
+            "location": "Po uwolnieniu wszystkich larw ukrytych w Hallownest gracze mogą zdobyć amulet Elegia Grubberfly wracając do Ojca Larw w Zapomnianych Skrzyżowaniach."
+        },
+        "unbreakable_heart": {
+            "name": "Kruche Serce / Niezniszczalne Serce",
+            "description": "**Kruche Serce**: Zwiększa zdrowie noszącego. **Niezniszczalne Serce**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Krucha Chciwość / Niezniszczalna Chciwość",
+            "description": "**Krucha Chciwość**: Pozwala zdobywać więcej Geo po pokonaniu wrogów. **Niezniszczalna Chciwość**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Krucha Siła / Niezniszczalna Siła",
+            "description": "**Krucha Siła**: Zwiększa obrażenia zadawane przez pazur noszącego. **Niezniszczalna Siła**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Zaklinacz Zaklęć",
+            "description": "Zmniejsza koszt DUSZY przy rzucaniu zaklęć.",
+            "location": "Znajduje się w Sanktuarium Dusz, Mieście Łez."
+        },
+        "steady_body": {
+            "name": "Stabilne Ciało",
+            "description": "Zapobiega odrzuceniu do tyłu po uderzeniu wroga pazurem.",
+            "location": "Można kupić u Salubry w Zapomnianych Skrzyżowaniach za 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Mocne Uderzenie",
+            "description": "Wykonane z pazurów poległych wojowników.",
+            "location": "Po oddaniu Klucza Sklepikarza Sly'owi można kupić Mocne Uderzenie w jego sklepie w Dirtmouth za 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Szybkie Cięcie",
+            "description": "Powstało z niedoskonałych, odrzuconych pazurów, które się połączyły.",
+            "location": "Znalezione na Skraju Królestwa. Za łamliwą ścianą blisko Koloseum Głupców."
+        },
+        "longnail": {
+            "name": "Długi Pazur",
+            "description": "Zwiększa zasięg pazura noszącego, pozwalając atakować wrogów z większej odległości.",
+            "location": "Można kupić u Salubry w Zapomnianych Skrzyżowaniach za 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Znak Dumy",
+            "description": "Odznaka dumy nadawana przez plemię Mantysa swoim najlepszym wojownikom. Zwiększa zasięg pazura noszącego.",
+            "location": "Znalezione w Wiosce Mantysa, Grzybowych Odpadach. W sali skarbów otwieranej po pokonaniu Panów Mantysa."
+        },
+        "fury_of_the_fallen": {
+            "name": "Furia Poległych",
+            "description": "Ucieleśnia furię i heroizm tych, którzy polegli w walce.",
+            "location": "Znalezione w Przełęczy Króla. Dostępne z Płaszczem Motylego Skrzydła lub Pazurem Mantysa."
+        },
+        "thorns_of_agony": {
+            "name": "Ciernie Agonii",
+            "description": "Wyczuwają ból noszącego i atakują otaczający świat.",
+            "location": "Znalezione na Zielonej Ścieżce. W gąszczu cierni poniżej ścieżki do Stacji Królowej."
+        },
+        "baldur_shell": {
+            "name": "Skorupa Baldura",
+            "description": "Chroni noszącego twardą skorupą podczas skupiania DUSZY.",
+            "location": "Znalezione na Zielonej Ścieżce. Otrzymane od Starszego Baldura po użyciu zaklęcia Mściwego Ducha do jego pokonania."
+        },
+        "flukenest": {
+            "name": "Gniazdo Fluke",
+            "description": "Żywy amulet narodzony w trzewiach Flukemarm.",
+            "location": "Znalezione w Królewskich Kanałach. Zdobądź po pokonaniu bossa Flukemarm."
+        },
+        "defenders_crest": {
+            "name": "Herb Obrońcy",
+            "description": "Unikalny amulet nadawany przez obrońcę Króla. Wydziela heroiczny zapach.",
+            "location": "Pokonaj Obrońcę Gnoju w Królewskich Kanałach, aby go zdobyć."
+        },
+        "glowing_womb": {
+            "name": "Świecące Łono",
+            "description": "Pobiera DUSZĘ noszącego i wykorzystuje ją do narodzin larw.",
+            "location": "Znajduje się w Zapomnianych Skrzyżowaniach. Wymaga Ponurego Skoku / Opadającej Ciemności do dostępu."
+        },
+        "quick_focus": {
+            "name": "Szybkie Skupienie",
+            "description": "Amulet pozwalający szybciej skupiać DUSZĘ, szybciej leczyć się podczas walki.",
+            "location": "Można kupić u Salubry w Zapomnianych Skrzyżowaniach za 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Głębokie Skupienie",
+            "description": "Naturalnie uformowane w krysztale przez długi czas. Pobiera DUSZĘ z otaczającego powietrza.",
+            "location": "Znajduje się na Kryształowym Szczycie. Po zdobyciu umiejętności Kryształowe Serce, idź w prawo od dużej sali z Huskiem Strażnikiem i Kryształowymi Pełzaczami."
+        },
+        "lifeblood_heart": {
+            "name": "Serce Życiokrwi",
+            "description": "Zawiera żywy rdzeń, który wydziela cenną życiokrew. Podczas odpoczynku noszący otrzymuje warstwę życiokrwi chroniącą przed umiarkowaną ilością obrażeń.",
+            "location": "Salubra sprzedaje Serce Życiokrwi w swoim sklepie za 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Rdzeń Życiokrwi",
+            "description": "Zawiera żywy rdzeń, który krwawi cenną życiokrew. Podczas odpoczynku noszący otrzymuje warstwę życiokrwi chroniącą przed dużą ilością obrażeń.",
+            "location": "Rdzeń Życiokrwi znajduje się w Otchłani. W tym obszarze gracze znajdą zapieczętowane drzwi na lewej ścianie głównej komnaty. Drzwi można otworzyć tylko mając 14 lub więcej masek życiokrwi, co można osiągnąć używając Serca Życiokrwi, Błogosławieństwa Joni i zabijając Życiokiełki z Kokonów Życiokrwi."
+        },
+        "jonis_blessing": {
+            "name": "Błogosławieństwo Joni",
+            "description": "Błogosławione przez Joni, dawną matronę. Zamienia płyny życiowe w niebieską życiokrew.",
+            "location": "Znalezione na Wyjących Klifach. Wewnątrz Spoczynku Joni."
+        },
+        "hiveblood": {
+            "name": "Krew Ula",
+            "description": "Wydziela życiokrew, która po otrzymaniu obrażeń powoli regeneruje zdrowie noszącego.",
+            "location": "Znalezione w Ulu. W pokoju za walką z bossem Rycerzem Ula."
+        },
+        "spore_shroom": {
+            "name": "Grzyb Zarodnikowy",
+            "description": "Złożony z żywej materii grzybowej. Wydziela chmurę zarodników podczas skupiania DUSZY.",
+            "location": "Znalezione w Grzybowych Odpadach. W tajnym pokoju nad obszarem z dwoma Ogrami Shrumal."
+        },
+        "sharp_shadow": {
+            "name": "Ostry Cień",
+            "description": "Zawiera zakazane zaklęcie, które zamienia cienie w śmiertelne bronie.",
+            "location": "Znalezione w Gnieździe. Wymaga Płaszcza Cienia do dostępu."
+        },
+        "shape_of_unn": {
+            "name": "Kształt Unn",
+            "description": "Ukazuje formę Unn w noszącym. Podczas skupiania DUSZY noszący przyjmuje nową formę.",
+            "location": "Znalezione na Zielonej Ścieżce. Otrzymane od Unn w Jeziorze Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Chwała Mistrza Pazura",
+            "description": "Zawiera pasję, umiejętności i żale Mistrza Pazura. Zwiększa szybkość Sztuk Pazura.",
+            "location": "Zdobyte od Sly'a w Dirtmouth po nauczeniu się wszystkich trzech Sztuk Pazura."
+        },
+        "weaversong": {
+            "name": "Pieśń Tkaczy",
+            "description": "Jedwabny amulet zawierający pieśń pożegnalną, pozostawioną przez Tkaczy, którzy opuścili Hallownest do swojego starego domu. Przywołuje tkaczy, by zapewnić samotnemu noszącemu towarzystwo i ochronę.",
+            "location": "Ten amulet znajduje się w Gnieździe, na południe od wejścia do Ogrodów Królowej. Za Stalking Devout znajduje się tajny obszar prowadzący do Kryjówki Tkaczy, dawno opuszczonej przez klan pająków. Gracze potrzebują Kryształowego Serca, by przejść przez Kryjówkę Tkaczy, gdzie za łamliwą ścianą ukryta jest Pieśń Tkaczy."
+        },
+        "dream_wielder": {
+            "name": "Władca Snów",
+            "description": "Przekształca sny w moc. Pozwala zbierać więcej DUSZY podczas atakowania wrogów Pazurem Snów.",
+            "location": "Nagroda od Wieszczki w Miejscu Spoczynku po zebraniu 500 Esencji."
+        },
+        "dreamshield": {
+            "name": "Tarcza Snów",
+            "description": "Obronny amulet używany przez plemię, które potrafiło kształtować sny. Przywołuje tarczę, która podąża za noszącym i próbuje go chronić.",
+            "location": "Znalezione w Miejscu Spoczynku. W grobowcu pod pokojem Wieszczki."
+        },
+        "grimmchild": {
+            "name": "Dziecko Grimma / Beztroska Melodia",
+            "description": "**Dziecko Grimma**: Przywołuje towarzysza strzelającego kulami ognia. Ewoluuje wraz z postępem zadania Trupy Grimma. **Beztroska Melodia**: Zastępuje Dziecko Grimma, jeśli rytuał zostanie wygnany.",
+            "location": "Zdobyte podczas zadania Trupy Grimma w Dirtmouth. Ulepszane przez zbieranie płomieni. Beztroska Melodia zdobywana po wygnaniu trupy."
+        },
+        "void_heart": {
+            "name": "Dusza Króla / Serce Pustki",
+            "description": "**Dusza Króla**: Święty amulet symbolizujący zjednoczenie wyższych istot. Stopniowo napełnia licznik DUSZY. **Serce Pustki**: Ulepszona forma Duszy Króla. Uosabia pustkę. Wymagane do prawdziwego zakończenia.",
+            "location": "Dusza Króla jest zdobywana po uzyskaniu obu połówek (Ogrody Królowej i Biały Pałac). Serce Pustki zastępuje ją po wydarzeniu fabularnym w Otchłani."
+        }
+    }
 }

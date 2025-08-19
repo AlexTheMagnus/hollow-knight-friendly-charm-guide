@@ -3,5 +3,207 @@
     "dialog_alt": "Charm image",
     "guide_title": "Friendly Charm Guide",
     "notches_label": "Notches",
-    "rotate_phone_message": "For best experience, rotate your phone horizontally"
+    "rotate_phone_message": "For best experience, rotate your phone horizontally",
+    "charms": {
+        "wayward_compass": {
+            "name": "Wayward Compass",
+            "description": "Whispers its location to the bearer whenever a map is open, allowing wanderers to pinpoint their current location.",
+            "location": "This Charm can be purchased from Iselda at the map shop in Dirtmouth for 220 Geo. The shop will open after the player encounters Cornifer for the first time, who will sell incomplete maps to the Knight that they can fill in as they journey around Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Gathering Swarm",
+            "description": "A swarm will follow the bearer and gather up any loose Geo.",
+            "location": "The Charm can be purchased from Sly’s shop in Dirtmouth for 300 Geo, and requires one Charm Notch to equip. Sly will return to Dirtmouth once the player has rescued him in the abandoned village, which can be found below the Gruz Mother’s location and directly left of Salubra in the Forgotten Crossroads."
+        },
+        "stalwart_shell": {
+            "name": "Stalwart Shell",
+            "description": "Builds resilience. When recovering from damage, the bearer will remain invulnerable for longer.",
+            "location": "The Stalwart Shell is available to purchase from Sly’s shop for 200 Geo after he returns to Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Soul Catcher",
+            "description": "Used by shamans to draw more SOUL from the world around them.",
+            "location": "Once players gain access to the Ancestral Mound after defeating the False Knight, they will need to navigate through the area by jumping to platforms and defeating enemies along the way. At the end, players must defeat an Elder Baldur, and to the left of the arena will be the Soul Catcher."
+        },
+        "shaman_stone": {
+            "name": "Shaman Stone",
+            "description": "Said to contain the knowledge of past generations of the shaman.",
+            "location": "The Shaman Stone can be bought from Salubra in the Forgotten Crossroads for 220 Geo. Players can reach her shop by either using the Mantis Claw or Mothwing Cloak, or by traveling across the Blue Lake from the Resting Grounds."
+        },
+        "soul_eater": {
+            "name": "Soul Eater",
+            "description": "Forgotten shaman artifact, used to draw SOUL from still-living creatures.",
+            "location": "Players must use the Desolate Dive / Descending Dark spell to reach the Charm. In the Resting Grounds, players can find a grave directly below the Seer’s location and the Stag Station, and the surface of it will rumble when stepped on. Using Desolate Dive / Descending Dark on the grave will open a secret passage underground, and players will need to travel to the right until finding a sarcophagus where Soul Eater is tucked away."
+        },
+        "dashmaster": {
+            "name": "Dashmaster",
+            "description": "Bears the likeness of an eccentric bug known only as 'The Dashmaster'.",
+            "location": "The Charm can be found at the base of a statue in the Fungal Wastes to the left of the bench that can be found outside the Mantis Village, near the entrance of the Royal Waterways. Bretta can also be found in the same area."
+        },
+        "sprintmaster": {
+            "name": "Sprintmaster",
+            "description": "Bears the likeness of a strange bug known only as 'The Sprintmaster'.",
+            "location": "After players find the Shopkeeper’s Key in Crystal Peak, it can be returned to Sly and his shop stock will increase. Sprintmaster can be purchased from Sly for 400 Geo after the key has been given to him."
+        },
+        "grubsong": {
+            "name": "Grubsong",
+            "description": "Contains the gratitude of freed grubs. Gain SOUL when taking damage.",
+            "location": "The Grubfather, located in the Forgotten Crossroads, will reward the players with the Grubsong Charm after they have saved 10 Grubs."
+        },
+        "grubberflys_elegy": {
+            "name": "Grubberfly's Elegy",
+            "description": "Contains the gratitude of grubs who will move to the next stage of their lives. Imbues weapon with a holy strength. When the bearer is at full health, they will fire beams of white hot energy from their nail.",
+            "location": "After freeing all Grubs that are hidden across Hallownest, players can obtain the Grubberfly's Elegy charm by returning to the Grubfather in the Forgotten Crossroads."
+        },
+        "unbreakable_heart": {
+            "name": "Fragile Heart / Unbreakable Heart",
+            "description": "**Fragile Heart**: Increases the bearer’s health. **Unbreakable Heart**: Upgraded version that does not break upon death.",
+            "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Fragile Greed / Unbreakable Greed",
+            "description": "**Fragile Greed**: Causes the bearer to gain more Geo when defeating enemies. **Unbreakable Greed**: Upgraded version that does not break upon death.",
+            "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Fragile Strength / Unbreakable Strength",
+            "description": "**Fragile Strength**: Increases the damage dealt by the bearer’s nail. **Unbreakable Strength**: Upgraded version that does not break upon death.",
+            "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Spell Twister",
+            "description": "Reduces the SOUL cost of casting spells.",
+            "location": "Located in Soul Sanctum, City of Tears."
+        },
+        "steady_body": {
+            "name": "Steady Body",
+            "description": "Keeps its bearer from recoiling backwards when they strike an enemy with a nail.",
+            "location": "Can be purchased from Salubra in Forgotten Crossroads for 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Heavy Blow",
+            "description": "Farmed from the nails of fallen warriors.",
+            "location": "After returning the Shopkeeper’s Key to Sly, players will be able to purchase Heavy Blow from his shop in Dirtmouth for 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Quick Slash",
+            "description": "Born from imperfect, discarded nails that have fused together.",
+            "location": "Found in Kingdom’s Edge. Behind a breakable wall near the Colosseum of Fools."
+        },
+        "longnail": {
+            "name": "Longnail",
+            "description": "Increases the range of the bearer's nail, allowing them to strike foes from further away.",
+            "location": "Can be purchased from Salubra in Forgotten Crossroads for 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Mark of Pride",
+            "description": "A badge of pride bestowed by the Mantis Tribe to its finest warriors. Increases the range of the bearer’s nail.",
+            "location": "Found in Mantis Village, Fungal Wastes. Located in the treasure room unlocked after defeating the Mantis Lords."
+        },
+        "fury_of_the_fallen": {
+            "name": "Fury of the Fallen",
+            "description": "Embodies the fury and heroism of those who have fallen in battle.",
+            "location": "Found in King’s Pass. Accessible with Mothwing Cloak or Mantis Claw."
+        },
+        "thorns_of_agony": {
+            "name": "Thorns of Agony",
+            "description": "Senses the pain of its bearer and lashes out at the world around them.",
+            "location": "Found in Greenpath. Located in a thicket of thorns below the path to Queen’s Station."
+        },
+        "baldur_shell": {
+            "name": "Baldur Shell",
+            "description": "Protects its bearer with a hard shell while focusing SOUL.",
+            "location": "Found in Greenpath. Given by Elder Baldur after using the Vengeful Spirit spell to defeat it."
+        },
+        "flukenest": {
+            "name": "Flukenest",
+            "description": "Living charm born in the gut of a Flukemarm.",
+            "location": "Found in the Royal Waterways. Defeat the Flukemarm boss to obtain it."
+        },
+        "defenders_crest": {
+            "name": "Defender’s Crest",
+            "description": "Unique charm bestowed by the King’s defender. Emits a heroic odor.",
+            "location": "Defeat Dung Defender in Royal Waterways to obtain."
+        },
+        "glowing_womb": {
+            "name": "Glowing Womb",
+            "description": "Drains the SOUL of its bearer and uses it to birth hatchlings.",
+            "location": "Located in Forgotten Crossroads. Requires Desolate Dive / Descending Dark to access."
+        },
+        "quick_focus": {
+            "name": "Quick Focus",
+            "description": "A charm that allows the bearer to focus SOUL at a faster rate, healing faster during combat.",
+            "location": "Can be purchased from Salubra in Forgotten Crossroads for 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Deep Focus",
+            "description": "Naturally formed within a crystal over a long period. Draws in SOUL from the surrounding air.",
+            "location": "Located in Crystal Peak. After acquiring the Crystal Heart ability, travel to the right from the large room containing the Husk Sentry and Crystal Crawlers."
+        },
+        "lifeblood_heart": {
+            "name": "Lifeblood Heart",
+            "description": "Contains a living core that seeps precious lifeblood. When resting, the bearer will gain a coating of lifeblood that protects from a modest amount of damage.",
+            "location": "Salubra sells Lifeblood Heart in her shop for 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Lifeblood Core",
+            "description": "Contains a living core that bleeds precious lifeblood. When resting, the bearer will gain a coating of lifeblood that protects from a large amount of damage.",
+            "location": "Lifeblood Core is located in the Abyss. In this area, players will find a sealed door on the left wall of the main chamber. This door can only be opened when the player has 14 or more Lifeblood Masks in total, which can be achieved by using Lifeblood Heart, Joni’s Blessing, and killing Lifeseeds that come from Lifeblood Cocoons."
+        },
+        "jonis_blessing": {
+            "name": "Joni’s Blessing",
+            "description": "Blessed by Joni, former matriarch. Converts vital fluids into blue lifeblood.",
+            "location": "Found in Howling Cliffs. Inside Joni’s Repose."
+        },
+        "hiveblood": {
+            "name": "Hiveblood",
+            "description": "Seeps lifeblood that will, when damaged, slowly refill the bearer’s health.",
+            "location": "Found in The Hive. In a room behind the Hive Knight boss fight."
+        },
+        "spore_shroom": {
+            "name": "Spore Shroom",
+            "description": "Composed of living fungal matter. Emits a spore cloud when focusing SOUL.",
+            "location": "Found in Fungal Wastes. Located in a secret room above the area with the two Shrumal Ogres."
+        },
+        "sharp_shadow": {
+            "name": "Sharp Shadow",
+            "description": "Contains a forbidden spell that transforms shadows into deadly weapons.",
+            "location": "Found in Deepnest. Requires Shade Cloak to access."
+        },
+        "shape_of_unn": {
+            "name": "Shape of Unn",
+            "description": "Reveals the form of Unn within the bearer. While focusing SOUL, the bearer will take on a new shape.",
+            "location": "Found in Greenpath. Given by Unn inside Lake of Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Nailmaster’s Glory",
+            "description": "Contains the passion, skill and regrets of a Nailmaster. Increases the speed of Nail Arts.",
+            "location": "Obtained from Sly in Dirtmouth after learning all three Nail Arts."
+        },
+        "weaversong": {
+            "name": "Weaversong",
+            "description": "Silken charm containing a song of farewell, left by the Weavers who departed Hallownest for their old home. Summons weaverlings to give the lonely bearer some companionship and protection.",
+            "location": "This Charm is located in Deepnest, south of the entrance to Queen’s Gardens. There is a secret area past a Stalking Devout, leading the player to the Weaver’s Den, which has been long abandoned by the spider clan. Players will require the Crystal Heart to navigate the Weaver’s Den, where there is a breakable wall that hides the Weaversong."
+        },
+        "dream_wielder": {
+            "name": "Dream Wielder",
+            "description": "Transforms dreams into power. Allows the bearer to collect more SOUL when striking foes with the Dream Nail.",
+            "location": "Reward from the Seer in Resting Grounds after collecting 500 Essence."
+        },
+        "dreamshield": {
+            "name": "Dreamshield",
+            "description": "Defensive charm once wielded by a tribe that could shape dreams. Conjures a shield that follows the bearer and attempts to protect them.",
+            "location": "Found in Resting Grounds. In a tomb below the Seer’s room."
+        },
+        "grimmchild": {
+            "name": "Grimmchild / Carefree Melody",
+            "description": "**Grimmchild**: Summons a fireball-shooting familiar. Evolves as the Grimm Troupe quest progresses. **Carefree Melody**: Replaces Grimmchild if the Ritual is banished.",
+            "location": "Obtained during The Grimm Troupe quest in Dirtmouth. Upgraded by collecting flames. Carefree Melody is obtained if banishing the troupe."
+        },
+        "void_heart": {
+            "name": "Kingsoul / Void Heart",
+            "description": "**Kingsoul**: Holy charm symbolizing union between higher beings. Gradually refills SOUL meter. **Void Heart**: Upgraded form of Kingsoul. Embodies the void. Required for the true ending.",
+            "location": "Kingsoul is found by obtaining both halves (Queen’s Gardens and White Palace). Void Heart replaces it after a story event in the Abyss."
+        }
+    }
 }

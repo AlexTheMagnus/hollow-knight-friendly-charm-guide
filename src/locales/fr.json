@@ -3,5 +3,207 @@
     "dialog_alt": "Image de l'amulette",
     "guide_title": "Guide convivial des amulettes",
     "notches_label": "Encoches",
-    "rotate_phone_message": "Pour une meilleure expérience, tournez votre téléphone horizontalement"
+    "rotate_phone_message": "Pour une meilleure expérience, tournez votre téléphone horizontalement",
+    "charms": {
+        "wayward_compass": {
+            "name": "Boussole Vagabonde",
+            "description": "Chuchote sa position au porteur chaque fois qu'une carte est ouverte, permettant aux voyageurs de localiser leur emplacement actuel.",
+            "location": "Cette amulette peut être achetée auprès d'Iselda à la boutique de cartes de Dirtmouth pour 220 Geo. La boutique ouvrira après que le joueur ait rencontré Cornifer pour la première fois, qui vendra des cartes incomplètes au Chevalier à compléter au fil de son exploration de Hallownest."
+        },
+        "gathering_swarm": {
+            "name": "Essaim Collecteur",
+            "description": "Un essaim suivra le porteur et ramassera tout Geo laissé derrière.",
+            "location": "L'amulette peut être achetée dans la boutique de Sly à Dirtmouth pour 300 Geo et nécessite une encoche d'amulette pour être équipée. Sly reviendra à Dirtmouth une fois que le joueur l'aura sauvé dans le village abandonné, situé sous la Mère Gruz et à gauche de Salubra dans les Croisements Oubliés."
+        },
+        "stalwart_shell": {
+            "name": "Coquille Vaillante",
+            "description": "Renforce la résilience. Lors de la récupération après des dégâts, le porteur reste invulnérable plus longtemps.",
+            "location": "La Coquille Vaillante est disponible à l'achat dans la boutique de Sly pour 200 Geo après son retour à Dirtmouth."
+        },
+        "soul_catcher": {
+            "name": "Attrape-Âme",
+            "description": "Utilisé par les chamans pour extraire plus d'ÂME du monde environnant.",
+            "location": "Après avoir vaincu le Faux Chevalier, les joueurs accèdent au Tumulus Ancestral et doivent traverser la zone en sautant sur des plateformes et en battant des ennemis. À la fin, ils doivent vaincre un Ancien Baldur, et à gauche de l'arène se trouve l'Attrape-Âme."
+        },
+        "shaman_stone": {
+            "name": "Pierre de Chaman",
+            "description": "On dit qu'elle contient le savoir des générations passées de chamans.",
+            "location": "La Pierre de Chaman peut être achetée chez Salubra dans les Croisements Oubliés pour 220 Geo. On peut accéder à sa boutique avec la Griffe Mante ou la Cape d'Aile de Phalène, ou en traversant le Lac Bleu depuis les Terres du Repos."
+        },
+        "soul_eater": {
+            "name": "Dévoreur d'Âmes",
+            "description": "Artefact chaman oublié, utilisé pour extraire l'ÂME de créatures encore vivantes.",
+            "location": "Les joueurs doivent utiliser le sort Plongeon Désolé / Obscurité Descendante pour atteindre l'amulette. Dans les Terres du Repos, une tombe se trouve sous la Voyante et la Station du Cerf ; sa surface tremble lorsqu'on marche dessus. Utiliser Plongeon Désolé / Obscurité Descendante ouvre un passage secret souterrain, et il faut aller à droite jusqu'à trouver un sarcophage où se cache le Dévoreur d'Âmes."
+        },
+        "dashmaster": {
+            "name": "Maître du Dash",
+            "description": "Représente un insecte excentrique connu uniquement sous le nom de 'Maître du Dash'.",
+            "location": "L'amulette se trouve à la base d'une statue dans les Déchets Fongiques, à gauche du banc près du Village Mante, près de l'entrée des Égouts Royaux. Bretta se trouve aussi dans cette zone."
+        },
+        "sprintmaster": {
+            "name": "Maître du Sprint",
+            "description": "Représente un insecte étrange connu uniquement sous le nom de 'Maître du Sprint'.",
+            "location": "Après avoir trouvé la Clé du Marchand dans le Pic de Cristal, elle peut être rendue à Sly et son stock augmentera. Le Maître du Sprint peut être acheté chez Sly pour 400 Geo après avoir donné la clé."
+        },
+        "grubsong": {
+            "name": "Chanson des Larves",
+            "description": "Contient la gratitude des larves libérées. Gagnez de l'ÂME en subissant des dégâts.",
+            "location": "Le Père Larve, situé dans les Croisements Oubliés, récompense les joueurs avec la Chanson des Larves après avoir sauvé 10 larves."
+        },
+        "grubberflys_elegy": {
+            "name": "Élégie de la Grubberfly",
+            "description": "Contient la gratitude des larves qui passeront à la prochaine étape de leur vie. Imprègne l'arme d'une force sacrée. Lorsque le porteur est en pleine santé, il tire des rayons d'énergie blanche de son clou.",
+            "location": "Après avoir libéré toutes les larves cachées dans Hallownest, les joueurs peuvent obtenir l'Élégie de la Grubberfly en retournant voir le Père Larve dans les Croisements Oubliés."
+        },
+        "unbreakable_heart": {
+            "name": "Cœur Fragile / Cœur Incassable",
+            "description": "**Cœur Fragile** : Augmente la santé du porteur. **Cœur Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
+        },
+        "unbreakable_greed": {
+            "name": "Avidité Fragile / Avidité Incassable",
+            "description": "**Avidité Fragile** : Permet au porteur de gagner plus de Geo en battant des ennemis. **Avidité Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
+        },
+        "unbreakable_strength": {
+            "name": "Force Fragile / Force Incassable",
+            "description": "**Force Fragile** : Augmente les dégâts infligés par le clou du porteur. **Force Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
+        },
+        "spell_twister": {
+            "name": "Tordeur de Sorts",
+            "description": "Réduit le coût d'ÂME pour lancer des sorts.",
+            "location": "Situé dans le Sanctuaire de l'Âme, Cité des Larmes."
+        },
+        "steady_body": {
+            "name": "Corps Stable",
+            "description": "Empêche le porteur de reculer lorsqu'il frappe un ennemi avec un clou.",
+            "location": "Peut être acheté chez Salubra dans les Croisements Oubliés pour 120 Geo."
+        },
+        "heavy_blow": {
+            "name": "Coup Puissant",
+            "description": "Forgé à partir des clous de guerriers tombés.",
+            "location": "Après avoir rendu la Clé du Marchand à Sly, les joueurs peuvent acheter Coup Puissant dans sa boutique à Dirtmouth pour 350 Geo."
+        },
+        "quick_slash": {
+            "name": "Frappe Rapide",
+            "description": "Né de clous imparfaits et rejetés qui se sont fusionnés.",
+            "location": "Trouvé au Bord du Royaume. Derrière un mur cassable près du Colisée des Imbéciles."
+        },
+        "longnail": {
+            "name": "Longclou",
+            "description": "Augmente la portée du clou du porteur, lui permettant de frapper les ennemis de plus loin.",
+            "location": "Peut être acheté chez Salubra dans les Croisements Oubliés pour 300 Geo."
+        },
+        "mark_of_pride": {
+            "name": "Marque de Fierté",
+            "description": "Insigne de fierté accordé par la Tribu Mante à ses meilleurs guerriers. Augmente la portée du clou du porteur.",
+            "location": "Trouvé dans le Village Mante, Déchets Fongiques. Situé dans la salle au trésor déverrouillée après avoir vaincu les Seigneurs Mantes."
+        },
+        "fury_of_the_fallen": {
+            "name": "Fureur des Déchus",
+            "description": "Incarne la fureur et l'héroïsme de ceux qui sont tombés au combat.",
+            "location": "Trouvé au Passage du Roi. Accessible avec la Cape d'Aile de Phalène ou la Griffe Mante."
+        },
+        "thorns_of_agony": {
+            "name": "Épines d'Agonie",
+            "description": "Ressent la douleur du porteur et frappe le monde qui l'entoure.",
+            "location": "Trouvé dans le Chemin Vert. Situé dans un fourré d'épines sous le chemin vers la Station de la Reine."
+        },
+        "baldur_shell": {
+            "name": "Coquille Baldur",
+            "description": "Protège le porteur avec une coquille dure pendant qu'il concentre l'ÂME.",
+            "location": "Trouvé dans le Chemin Vert. Donné par l'Ancien Baldur après avoir utilisé le sort Esprit Vengeur pour le vaincre."
+        },
+        "flukenest": {
+            "name": "Nid de Fluke",
+            "description": "Amulette vivante née dans les entrailles d'un Flukemarm.",
+            "location": "Trouvé dans les Égouts Royaux. Vaincre le boss Flukemarm pour l'obtenir."
+        },
+        "defenders_crest": {
+            "name": "Blason du Défenseur",
+            "description": "Amulette unique offerte par le défenseur du Roi. Émet une odeur héroïque.",
+            "location": "Vaincre le Défenseur Fangeux dans les Égouts Royaux pour l'obtenir."
+        },
+        "glowing_womb": {
+            "name": "Utérus Lumineux",
+            "description": "Draine l'ÂME du porteur et l'utilise pour donner naissance à des larves.",
+            "location": "Situé dans les Croisements Oubliés. Nécessite Plongeon Désolé / Obscurité Descendante pour y accéder."
+        },
+        "quick_focus": {
+            "name": "Concentration Rapide",
+            "description": "Amulette permettant au porteur de concentrer l'ÂME plus rapidement, se soignant plus vite en combat.",
+            "location": "Peut être acheté chez Salubra dans les Croisements Oubliés pour 800 Geo."
+        },
+        "deep_focus": {
+            "name": "Concentration Profonde",
+            "description": "Formé naturellement dans un cristal sur une longue période. Absorbe l'ÂME de l'air environnant.",
+            "location": "Situé au Pic de Cristal. Après avoir acquis la capacité Cœur de Cristal, allez à droite depuis la grande salle avec le Sentinelle Coquille et les Rampants de Cristal."
+        },
+        "lifeblood_heart": {
+            "name": "Cœur de Vitalité",
+            "description": "Contient un noyau vivant qui filtre une précieuse vitalité. Au repos, le porteur gagne une couche de vitalité qui le protège d'une quantité modérée de dégâts.",
+            "location": "Salubra vend le Cœur de Vitalité dans sa boutique pour 250 Geo."
+        },
+        "lifeblood_core": {
+            "name": "Noyau de Vitalité",
+            "description": "Contient un noyau vivant qui saigne une précieuse vitalité. Au repos, le porteur gagne une couche de vitalité qui le protège d'une grande quantité de dégâts.",
+            "location": "Le Noyau de Vitalité se trouve dans l'Abîme. Dans cette zone, les joueurs trouveront une porte scellée sur le mur gauche de la chambre principale. Cette porte ne peut être ouverte que si le joueur possède 14 Masques de Vitalité ou plus, ce qui peut être réalisé en utilisant Cœur de Vitalité, la Bénédiction de Joni et en tuant les Graines Vitales issues des Cocons de Vitalité."
+        },
+        "jonis_blessing": {
+            "name": "Bénédiction de Joni",
+            "description": "Bénie par Joni, ancienne matriarche. Transforme les fluides vitaux en vitalité bleue.",
+            "location": "Trouvé dans les Falaises Hurlantes. À l'intérieur du Repos de Joni."
+        },
+        "hiveblood": {
+            "name": "Sang de Ruche",
+            "description": "Filtre une vitalité qui, lorsqu'il est blessé, régénère lentement la santé du porteur.",
+            "location": "Trouvé dans la Ruche. Dans une salle derrière le boss Chevalier de la Ruche."
+        },
+        "spore_shroom": {
+            "name": "Champignon à Spores",
+            "description": "Composé de matière fongique vivante. Émet un nuage de spores lors de la concentration d'ÂME.",
+            "location": "Trouvé dans les Déchets Fongiques. Situé dans une salle secrète au-dessus de la zone avec deux Ogres Shrumal."
+        },
+        "sharp_shadow": {
+            "name": "Ombre Tranchante",
+            "description": "Contient un sort interdit qui transforme les ombres en armes mortelles.",
+            "location": "Trouvé dans le Nid Profond. Nécessite la Cape d'Ombre pour y accéder."
+        },
+        "shape_of_unn": {
+            "name": "Forme d'Unn",
+            "description": "Révèle la forme d'Unn à l'intérieur du porteur. Lors de la concentration d'ÂME, le porteur prend une nouvelle forme.",
+            "location": "Trouvé dans le Chemin Vert. Donné par Unn dans le Lac d'Unn."
+        },
+        "nailmasters_glory": {
+            "name": "Gloire du Maître des Clous",
+            "description": "Contient la passion, la compétence et les regrets d'un Maître des Clous. Augmente la vitesse des Arts du Clou.",
+            "location": "Obtenu auprès de Sly à Dirtmouth après avoir appris les trois Arts du Clou."
+        },
+        "weaversong": {
+            "name": "Chant des Tisserands",
+            "description": "Amulette de soie contenant une chanson d'adieu, laissée par les Tisserands qui ont quitté Hallownest pour leur ancien foyer. Invoque des petits tisserands pour offrir compagnie et protection au porteur solitaire.",
+            "location": "Cette amulette se trouve dans le Nid Profond, au sud de l'entrée des Jardins de la Reine. Il y a une zone secrète après un Dévot Traqueur, menant au Repaire des Tisserands, longtemps abandonné par le clan des araignées. Les joueurs auront besoin du Cœur de Cristal pour naviguer dans le Repaire, où un mur cassable cache le Chant des Tisserands."
+        },
+        "dream_wielder": {
+            "name": "Manieur de Rêves",
+            "description": "Transforme les rêves en pouvoir. Permet au porteur de collecter plus d'ÂME en frappant les ennemis avec le Clou des Rêves.",
+            "location": "Récompense de la Voyante dans les Terres du Repos après avoir collecté 500 Essences."
+        },
+        "dreamshield": {
+            "name": "Bouclier de Rêve",
+            "description": "Amulette défensive autrefois utilisée par une tribu capable de façonner les rêves. Conjure un bouclier qui suit le porteur et tente de le protéger.",
+            "location": "Trouvé dans les Terres du Repos. Dans une tombe sous la salle de la Voyante."
+        },
+        "grimmchild": {
+            "name": "Enfant Grimm / Mélodie Insouciante",
+            "description": "**Enfant Grimm** : Invoque un familier qui tire des boules de feu. Évolue au fur et à mesure de la quête de la Troupe Grimm. **Mélodie Insouciante** : Remplace Enfant Grimm si le Rituel est banni.",
+            "location": "Obtenu lors de la quête de la Troupe Grimm à Dirtmouth. Amélioré en collectant des flammes. Mélodie Insouciante est obtenue si la troupe est bannie."
+        },
+        "void_heart": {
+            "name": "Âme du Roi / Cœur du Vide",
+            "description": "**Âme du Roi** : Amulette sacrée symbolisant l'union entre êtres supérieurs. Remplit progressivement la jauge d'ÂME. **Cœur du Vide** : Forme améliorée de l'Âme du Roi. Incarne le vide. Nécessaire pour la vraie fin.",
+            "location": "L'Âme du Roi se trouve en obtenant les deux moitiés (Jardins de la Reine et Palais Blanc). Le Cœur du Vide la remplace après un événement dans l'Abîme."
+        }
+    }
 }
