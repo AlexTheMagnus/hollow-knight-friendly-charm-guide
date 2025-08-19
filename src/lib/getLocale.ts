@@ -24,8 +24,25 @@ const locales: Record<string, typeof en> = {
     ru,
 };
 
+function getParamLang(): string | undefined {
+    if (typeof window === "undefined") return undefined;
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("lang")) {
+        return params.get("lang")!;
+    }
+
+    return undefined;
+}
+
 export function getLocale(): typeof en {
     if (typeof window === "undefined") return en;
+
+    const paramLang = getParamLang();
+    if (paramLang && locales[paramLang]) {
+        return locales[paramLang];
+    }
+
     const lang = window.navigator.language.split("-")[0];
     return locales[lang] || en;
 }
