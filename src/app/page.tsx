@@ -10,14 +10,17 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 
-import charms from "@/data/charms.json";
+import charmsData from "@/data/charms.json";
 
 type Charm = {
-    notches: number;
-    name: string;
     description: string;
     location: string;
+    name: string;
+    notches: number;
+    sprite: string;
 };
+
+const charms: Charm[] = charmsData;
 
 export default function HomePage() {
     const [isMobile, setIsMobile] = useState(false);
