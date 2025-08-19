@@ -1,43 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hollow Knight Friendly Charm Guide
 
-## Getting Started
+A multi-language guide for Hollow Knight charms, designed to help players easily find every charm and reach the coveted 112%.
 
-First, run the development server:
+![Hollow Knight Friendly Charm Guide](./assets/app-preview.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live App
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can try the app online here:  
+[https://hollow-knight-friendly-charm-guide.vercel.app/](https://hollow-knight-friendly-charm-guide.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   User-friendly interface: charms are arranged exactly as in the game inventory.
+-   Detailed charm info: name, where and how to get it, effect, notches cost.
+-   Multi-language support (see below for available languages).
 
-## Learn More
+## Multi-language support
 
-To learn more about Next.js, take a look at the following resources:
+The app launches on your browser language if supported. If not, the default language is English.
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-## Debug Multi-language
-
-To easily test the app in different languages, you can use the `lang` query parameter in the URL.
+A specific language can be forced by setting the `lang` query parameter in the URL.
 
 For example, to view the app in Spanish, open:
 
@@ -59,4 +41,29 @@ Supported languages:
 -   Russian – `ru`
 -   Spanish – `es`
 
-This allows you to debug translations without changing your browser settings.
+This allows you to check translations without changing your browser language.
+
+## For Devs ;)
+
+To run the development server, use one of the following commands:
+
+```bash
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Project Structure
+
+-   `/src/components` – React components for UI
+-   `/src/locales` – Translation files for each language
+-   `/src/data` – Static data (charms, etc.)
+-   `/src/lib` – Utility functions and hooks
+
+### Contributing
+
+Feel free to submit issues or pull requests to improve translations, add features, or fix bugs.
+
+### License
+
+This project is open source and available under the MIT License.
