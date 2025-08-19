@@ -48,41 +48,46 @@ export default function HomePage() {
                 Friendly Charm Guide
             </h2>
             <div className="grid grid-cols-10 gap-4 p-4">
-                {charms.map((charm, index) => (
-                    <Dialog key={index}>
-                        <DialogTrigger asChild>
-                            <div className="rounded-full charm-halo inline-block">
-                                <Image
-                                    src={`/charms/${charm.sprite}.png`}
-                                    alt={charm.name}
-                                    width={96}
-                                    height={96}
-                                    className="hover:scale-110 transition rounded-full"
-                                />
-                            </div>
-                        </DialogTrigger>
+                {charms.map(
+                    (
+                        { description, location, name, notches, sprite },
+                        index
+                    ) => (
+                        <Dialog key={index}>
+                            <DialogTrigger asChild>
+                                <div className="rounded-full charm-halo inline-block">
+                                    <Image
+                                        src={`/charms/${sprite}.png`}
+                                        alt={name}
+                                        width={96}
+                                        height={96}
+                                        className="hover:scale-110 transition rounded-full"
+                                    />
+                                </div>
+                            </DialogTrigger>
 
-                        <DialogContent className="bg-gray-900 text-white max-w-lg">
-                            <DialogHeader>
-                                <DialogTitle className="text-2xl">
-                                    {charm.name}
-                                </DialogTitle>
-                            </DialogHeader>
+                            <DialogContent className="bg-gray-900 text-white max-w-lg">
+                                <DialogHeader>
+                                    <DialogTitle className="text-2xl">
+                                        {name}
+                                    </DialogTitle>
+                                </DialogHeader>
 
-                            <div className="mt-4 space-y-3">
-                                <p className="text-yellow-400">
-                                    Notches: {charm.notches}
-                                </p>
-                                <p className="italic text-gray-300">
-                                    {charm.description}
-                                </p>
-                                <p className="text-sm text-gray-400">
-                                    {charm.location}
-                                </p>
-                            </div>
-                        </DialogContent>
-                    </Dialog>
-                ))}
+                                <div className="mt-4 space-y-3">
+                                    <p className="text-yellow-400">
+                                        Notches: {notches}
+                                    </p>
+                                    <p className="italic text-gray-300">
+                                        {description}
+                                    </p>
+                                    <p className="text-sm text-gray-400">
+                                        {location}
+                                    </p>
+                                </div>
+                            </DialogContent>
+                        </Dialog>
+                    )
+                )}
             </div>
         </div>
     );
