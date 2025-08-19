@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+
 import {
     Dialog,
     DialogContent,
@@ -9,18 +10,10 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
-
 import charmsData from "@/data/charms.json";
+import { charmsMapper } from "@/lib/charmMapper";
 
-type Charm = {
-    description: string;
-    location: string;
-    name: string;
-    notches: number;
-    sprite: string;
-};
-
-const charms: Charm[] = charmsData;
+const charms = charmsMapper(charmsData);
 
 export default function HomePage() {
     const [isMobile, setIsMobile] = useState(false);
