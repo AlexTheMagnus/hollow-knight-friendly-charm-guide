@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+
 import charmsData from "@/data/charms.json";
 import { charmsMapper } from "@/lib/charmMapper";
 import { useTranslation } from "@/lib/TranslationProvider";
