@@ -8,7 +8,7 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 import { Charm } from "@/lib/charmMapper";
-import { useTranslation } from "@/lib/TranslationProvider";
+import { useTranslation } from "../lib/TranslationProvider";
 
 interface CharmDialogProps {
     charm: Charm;
@@ -17,7 +17,7 @@ interface CharmDialogProps {
 export function CharmDialog({
     charm: { description, location, name, notches, sprite },
 }: CharmDialogProps) {
-    const texts = useTranslation();
+    const t = useTranslation();
 
     return (
         <Dialog>
@@ -25,7 +25,7 @@ export function CharmDialog({
                 <div className="rounded-full charm-halo inline-block">
                     <Image
                         src={`/charms/${sprite}.png`}
-                        alt={name}
+                        alt={t(name)}
                         width={96}
                         height={96}
                         className="hover:scale-110 transition rounded-full"
@@ -34,14 +34,14 @@ export function CharmDialog({
             </DialogTrigger>
             <DialogContent className="bg-gray-900 text-white max-w-lg">
                 <DialogHeader>
-                    <DialogTitle className="text-2xl">{name}</DialogTitle>
+                    <DialogTitle className="text-2xl">{t(name)}</DialogTitle>
                 </DialogHeader>
                 <div className="mt-4 space-y-3">
                     <p className="text-yellow-400">
-                        {texts.notches_label}: {notches}
+                        {t("notches_label")}: {notches}
                     </p>
-                    <p className="italic text-gray-300">{description}</p>
-                    <p className="text-sm text-gray-400">{location}</p>
+                    <p className="italic text-gray-300">{t(description)}</p>
+                    <p className="text-sm text-gray-400">{t(location)}</p>
                 </div>
             </DialogContent>
         </Dialog>
