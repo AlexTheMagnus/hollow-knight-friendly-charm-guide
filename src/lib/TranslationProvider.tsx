@@ -8,15 +8,15 @@ import {
     ReactNode,
 } from "react";
 
-import { getBrowserLang } from "@/lib/getBroserLang";
+import { getLocale } from "@/lib/getLocale";
 
-const TranslationContext = createContext(getBrowserLang());
+const TranslationContext = createContext(getLocale());
 
 export function TranslationProvider({ children }: { children: ReactNode }) {
-    const [texts, setTexts] = useState(getBrowserLang());
+    const [texts, setTexts] = useState(getLocale());
 
     useEffect(() => {
-        setTexts(getBrowserLang());
+        setTexts(getLocale());
     }, []);
 
     return (
