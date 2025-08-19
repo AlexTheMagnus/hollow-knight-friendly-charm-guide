@@ -2,7 +2,7 @@
 
 A multi-language guide for Hollow Knight charms, designed to help players easily find every charm and reach the coveted 112%.
 
-![Hollow Knight Friendly Charm Guide](./assets/app-preview.png)
+[![Hollow Knight Friendly Charm Guide](./assets/app-preview.png)](https://hollow-knight-friendly-charm-guide.vercel.app/)
 
 ## Live App
 
