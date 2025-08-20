@@ -28,7 +28,7 @@ export function CharmDialog({
                         alt={t(name)}
                         width={96}
                         height={96}
-                        className="hover:scale-110 transition rounded-full"
+                        className="hover:scale-110 transition"
                     />
                 </div>
             </DialogTrigger>

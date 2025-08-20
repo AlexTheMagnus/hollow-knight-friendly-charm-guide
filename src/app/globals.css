@@ -133,8 +133,8 @@
 }
 
 .charm-halo {
-    transition: box-shadow 0.2s;
+    transition: filter 0.2s;
 }
 .charm-halo:hover {
-    box-shadow: 0 0 16px 8px rgba(255,255,255,0.7);
+    filter: drop-shadow(0px 0px 10px #ffffff);
 }
