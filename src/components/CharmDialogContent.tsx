@@ -1,6 +1,7 @@
 import { DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Charm as CharmType } from "@/lib/charmMapper";
 import { useTranslation } from "../lib/TranslationProvider";
+import { Fragment } from "react";
 
 interface CharmDialogContentProps {
     description: CharmType["description"];
@@ -18,7 +19,7 @@ export function CharmDialogContent({
     const t = useTranslation();
 
     return (
-        <div className="text-white">
+        <Fragment>
             <DialogHeader>
                 <DialogTitle className="text-2xl">{t(name)}</DialogTitle>
             </DialogHeader>
@@ -29,6 +30,6 @@ export function CharmDialogContent({
                 <p className="italic text-gray-300">{t(description)}</p>
                 <p className="text-sm text-gray-400">{t(location)}</p>
             </div>
-        </div>
+        </Fragment>
     );
 }
