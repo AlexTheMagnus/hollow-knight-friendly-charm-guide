@@ -7,11 +7,12 @@ import {
     DialogTitle,
     DialogTrigger,
 } from "@/components/ui/dialog";
-import { Charm } from "@/lib/charmMapper";
+import { Charm as CharmType } from "@/lib/charmMapper";
 import { useTranslation } from "../lib/TranslationProvider";
+import { Charm } from "./Charm";
 
 interface CharmDialogProps {
-    charm: Charm;
+    charm: CharmType;
 }
 
 export function CharmDialog({
@@ -22,15 +23,7 @@ export function CharmDialog({
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <div className="rounded-full charm-halo inline-block">
-                    <Image
-                        src={`/charms/${sprite}.png`}
-                        alt={t(name)}
-                        width={96}
-                        height={96}
-                        className="hover:scale-110 transition"
-                    />
-                </div>
+                <Charm name={name} sprite={sprite} />
             </DialogTrigger>
             <DialogContent className="bg-gray-900 text-white max-w-lg">
                 <DialogHeader>
