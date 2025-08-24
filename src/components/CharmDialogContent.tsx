@@ -18,7 +18,7 @@ export function CharmDialogContent({
     const t = useTranslation();
 
     return (
-        <div className="bg-gray-900 text-white">
+        <div className="text-white">
             <DialogHeader>
                 <DialogTitle className="text-2xl">{t(name)}</DialogTitle>
             </DialogHeader>
