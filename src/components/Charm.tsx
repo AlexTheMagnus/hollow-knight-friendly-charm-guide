@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import { Charm as CharmType } from "@/lib/charmMapper";
 import { useTranslation } from "../lib/TranslationProvider";
 
