@@ -4,279 +4,344 @@
         "name": "charms.wayward_compass.name",
         "description": "charms.wayward_compass.description",
         "location": "charms.wayward_compass.location",
-        "sprite": "wayward-compass"
+        "sprite": "wayward-compass",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=44s"
     },
     {
         "notches": 1,
         "name": "charms.gathering_swarm.name",
         "description": "charms.gathering_swarm.description",
         "location": "charms.gathering_swarm.location",
-        "sprite": "gathering-swarm"
+        "sprite": "gathering-swarm",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
         "notches": 2,
         "name": "charms.stalwart_shell.name",
         "description": "charms.stalwart_shell.description",
         "location": "charms.stalwart_shell.location",
-        "sprite": "stalwart-shell"
+        "sprite": "stalwart-shell",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
         "notches": 2,
         "name": "charms.soul_catcher.name",
         "description": "charms.soul_catcher.description",
         "location": "charms.soul_catcher.location",
-        "sprite": "soul-catcher"
+        "sprite": "soul-catcher",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=644s"
     },
     {
         "notches": 3,
         "name": "charms.shaman_stone.name",
         "description": "charms.shaman_stone.description",
         "location": "charms.shaman_stone.location",
-        "sprite": "shaman-stone"
+        "sprite": "shaman-stone",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
         "notches": 4,
         "name": "charms.soul_eater.name",
         "description": "charms.soul_eater.description",
         "location": "charms.soul_eater.location",
-        "sprite": "soul-eater"
+        "sprite": "soul-eater",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=673s"
     },
     {
         "notches": 2,
         "name": "charms.dashmaster.name",
         "description": "charms.dashmaster.description",
         "location": "charms.dashmaster.location",
-        "sprite": "dashmaster"
+        "sprite": "dashmaster",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=708s"
     },
     {
         "notches": 1,
         "name": "charms.sprintmaster.name",
         "description": "charms.sprintmaster.description",
         "location": "charms.sprintmaster.location",
-        "sprite": "sprintmaster"
+        "sprite": "sprintmaster",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
         "notches": 1,
         "name": "charms.grubsong.name",
         "description": "charms.grubsong.description",
         "location": "charms.grubsong.location",
-        "sprite": "grubsong"
+        "sprite": "grubsong",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=357s"
     },
     {
         "notches": 1,
         "name": "charms.grubberflys_elegy.name",
         "description": "charms.grubberflys_elegy.description",
         "location": "charms.grubberflys_elegy.location",
-        "sprite": "grubberflys-elegy"
+        "sprite": "grubberflys-elegy",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=357s"
     },
     {
         "notches": 2,
         "name": "charms.unbreakable_heart.name",
         "description": "charms.unbreakable_heart.description",
         "location": "charms.unbreakable_heart.location",
-        "sprite": "unbreakable-heart"
+        "sprite": "unbreakable-heart",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
         "notches": 2,
         "name": "charms.unbreakable_greed.name",
         "description": "charms.unbreakable_greed.description",
         "location": "charms.unbreakable_greed.location",
-        "sprite": "unbreakable-greed"
+        "sprite": "unbreakable-greed",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
         "notches": 2,
         "name": "charms.unbreakable_strength.name",
         "description": "charms.unbreakable_strength.description",
         "location": "charms.unbreakable_strength.location",
-        "sprite": "unbreakable-strength"
+        "sprite": "unbreakable-strength",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
         "notches": 2,
         "name": "charms.spell_twister.name",
         "description": "charms.spell_twister.description",
         "location": "charms.spell_twister.location",
-        "sprite": "spell-twister"
+        "sprite": "spell-twister",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=919s"
     },
     {
         "notches": 2,
         "name": "charms.steady_body.name",
         "description": "charms.steady_body.description",
         "location": "charms.steady_body.location",
-        "sprite": "steady-body"
+        "sprite": "steady-body",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
         "notches": 2,
         "name": "charms.heavy_blow.name",
         "description": "charms.heavy_blow.description",
         "location": "charms.heavy_blow.location",
-        "sprite": "heavy-blow"
+        "sprite": "heavy-blow",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
         "notches": 2,
         "name": "charms.quick_slash.name",
         "description": "charms.quick_slash.description",
         "location": "charms.quick_slash.location",
-        "sprite": "quick-slash"
+        "sprite": "quick-slash",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1020s"
     },
     {
         "notches": 1,
         "name": "charms.longnail.name",
         "description": "charms.longnail.description",
         "location": "charms.longnail.location",
-        "sprite": "longnail"
+        "sprite": "longnail",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
         "notches": 2,
         "name": "charms.mark_of_pride.name",
         "description": "charms.mark_of_pride.description",
         "location": "charms.mark_of_pride.location",
-        "sprite": "mark-of-pride"
+        "sprite": "mark-of-pride",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1070s"
     },
     {
         "notches": 2,
         "name": "charms.fury_of_the_fallen.name",
         "description": "charms.fury_of_the_fallen.description",
         "location": "charms.fury_of_the_fallen.location",
-        "sprite": "fury-of-the-fallen"
+        "sprite": "fury-of-the-fallen",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=830s"
     },
     {
         "notches": 2,
         "name": "charms.thorns_of_agony.name",
         "description": "charms.thorns_of_agony.description",
         "location": "charms.thorns_of_agony.location",
-        "sprite": "thorns-of-agony"
+        "sprite": "thorns-of-agony",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=759s"
     },
     {
         "notches": 1,
         "name": "charms.baldur_shell.name",
         "description": "charms.baldur_shell.description",
         "location": "charms.baldur_shell.location",
-        "sprite": "baldur-shell"
+        "sprite": "baldur-shell",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1106s"
     },
     {
         "notches": 2,
         "name": "charms.flukenest.name",
         "description": "charms.flukenest.description",
         "location": "charms.flukenest.location",
-        "sprite": "flukenest"
+        "sprite": "flukenest",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1210s"
     },
     {
         "notches": 2,
         "name": "charms.defenders_crest.name",
         "description": "charms.defenders_crest.description",
         "location": "charms.defenders_crest.location",
-        "sprite": "defenders-crest"
+        "sprite": "defenders-crest",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1234s"
     },
     {
         "notches": 2,
         "name": "charms.glowing_womb.name",
         "description": "charms.glowing_womb.description",
         "location": "charms.glowing_womb.location",
-        "sprite": "glowing-womb"
+        "sprite": "glowing-womb",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1259s"
     },
     {
         "notches": 3,
         "name": "charms.quick_focus.name",
         "description": "charms.quick_focus.description",
         "location": "charms.quick_focus.location",
-        "sprite": "quick-focus"
+        "sprite": "quick-focus",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
         "notches": 2,
         "name": "charms.deep_focus.name",
         "description": "charms.deep_focus.description",
         "location": "charms.deep_focus.location",
-        "sprite": "deep-focus"
+        "sprite": "deep-focus",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1477s"
     },
     {
         "notches": 3,
         "name": "charms.lifeblood_heart.name",
         "description": "charms.lifeblood_heart.description",
         "location": "charms.lifeblood_heart.location",
-        "sprite": "lifeblood-heart"
+        "sprite": "lifeblood-heart",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
         "notches": 3,
         "name": "charms.lifeblood_core.name",
         "description": "charms.lifeblood_core.description",
         "location": "charms.lifeblood_core.location",
-        "sprite": "lifeblood-core"
+        "sprite": "lifeblood-core",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1513s"
     },
     {
         "notches": 1,
         "name": "charms.jonis_blessing.name",
         "description": "charms.jonis_blessing.description",
         "location": "charms.jonis_blessing.location",
-        "sprite": "jonis-blessing"
+        "sprite": "jonis-blessing",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1795s"
     },
     {
         "notches": 1,
         "name": "charms.hiveblood.name",
         "description": "charms.hiveblood.description",
         "location": "charms.hiveblood.location",
-        "sprite": "hiveblood"
+        "sprite": "hiveblood",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2055s"
     },
     {
         "notches": 2,
         "name": "charms.spore_shroom.name",
         "description": "charms.spore_shroom.description",
         "location": "charms.spore_shroom.location",
-        "sprite": "spore-shroom"
+        "sprite": "spore-shroom",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2093s"
     },
     {
         "notches": 3,
         "name": "charms.sharp_shadow.name",
         "description": "charms.sharp_shadow.description",
         "location": "charms.sharp_shadow.location",
-        "sprite": "sharp-shadow"
+        "sprite": "sharp-shadow",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2139s"
     },
     {
         "notches": 2,
         "name": "charms.shape_of_unn.name",
         "description": "charms.shape_of_unn.description",
         "location": "charms.shape_of_unn.location",
-        "sprite": "shape-of-unn"
+        "sprite": "shape-of-unn",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2230s"
     },
     {
         "notches": 3,
         "name": "charms.nailmasters_glory.name",
         "description": "charms.nailmasters_glory.description",
         "location": "charms.nailmasters_glory.location",
-        "sprite": "nailmasters-glory"
+        "sprite": "nailmasters-glory",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
         "notches": 2,
         "name": "charms.weaversong.name",
         "description": "charms.weaversong.description",
         "location": "charms.weaversong.location",
-        "sprite": "weaversong"
+        "sprite": "weaversong",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3117s"
     },
     {
         "notches": 2,
         "name": "charms.dream_wielder.name",
         "description": "charms.dream_wielder.description",
         "location": "charms.dream_wielder.location",
-        "sprite": "dream-wielder"
+        "sprite": "dream-wielder",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=430s"
     },
     {
         "notches": 3,
         "name": "charms.dreamshield.name",
         "description": "charms.dreamshield.description",
         "location": "charms.dreamshield.location",
-        "sprite": "dreamshield"
+        "sprite": "dreamshield",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3082s"
     },
     {
         "notches": 2,
         "name": "charms.grimmchild.name",
         "description": "charms.grimmchild.description",
         "location": "charms.grimmchild.location",
-        "sprite": "grimmchild-stage4"
+        "sprite": "grimmchild-stage4",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3221s",
+        "stages": [
+            {
+                "name": "charms.grimmchild.stages.carefree_melody.name",
+                "description": "",
+                "location": "",
+                "sprite": "carefree-melody",
+                "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3337s"
+            }
+        ]
     },
     {
         "notches": 1,
         "name": "charms.void_heart.name",
         "description": "charms.void_heart.description",
         "location": "charms.void_heart.location",
-        "sprite": "void-heart"
+        "sprite": "void-heart",
+        "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2660s",
+        "stages": [
+            {
+                "name": "charms.void_heart.stages.kingsoul_left.name",
+                "description": "",
+                "location": "",
+                "sprite": "kingsoul-left",
+                "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2316s"
+            },
+            {
+                "name": "charms.void_heart.stages.kingsoul_right.name",
+                "description": "",
+                "location": "",
+                "sprite": "kingsoul-right",
+                "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2584s"
+            }
+        ]
     }
 ]
