@@ -4,6 +4,7 @@ export type Charm = {
     name: string;
     notches: number;
     sprite: string;
+    video_url: string;
 };
 
 export function charmsMapper(data: unknown): Charm[] {
@@ -15,6 +16,7 @@ export function charmsMapper(data: unknown): Charm[] {
             typeof item.description === "string" &&
             typeof item.location === "string" &&
             typeof item.notches === "number" &&
-            typeof item.sprite === "string"
+            typeof item.sprite === "string" &&
+            typeof item.video_url === "string"
     );
 }

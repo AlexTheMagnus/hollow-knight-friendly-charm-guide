@@ -8,19 +8,21 @@ interface CharmDialogProps {
 }
 
 export function CharmDialog({
-    charm: { description, location, name, notches, sprite },
+    charm: { description, location, name, notches, sprite, video_url },
 }: CharmDialogProps) {
     return (
         <Dialog>
             <DialogTrigger asChild>
                 <Charm name={name} sprite={sprite} />
             </DialogTrigger>
-            <DialogContent className="bg-gray-900 text-white max-w-lg">
+            <DialogContent className="bg-gray-900 text-white p-12 w-[80%] h-[90%]">
                 <CharmDialogContent
                     description={description}
                     location={location}
                     name={name}
                     notches={notches}
+                    sprite={sprite}
+                    video_url={video_url}
                 />
             </DialogContent>
         </Dialog>
