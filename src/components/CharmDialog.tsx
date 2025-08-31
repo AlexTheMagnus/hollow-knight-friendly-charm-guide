@@ -15,7 +15,7 @@ export function CharmDialog({
             <DialogTrigger asChild>
                 <Charm name={name} sprite={sprite} />
             </DialogTrigger>
-            <DialogContent className="bg-gray-900 text-white p-12 w-[80%] h-[90%]">
+            <DialogContent className="bg-gray-900 text-white p-30 w-[80%] h-[90%]">
                 <CharmDialogContent
                     description={description}
                     location={location}

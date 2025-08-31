@@ -52,7 +52,7 @@ export function CharmDialogContent({
                 </DialogTitle>
             </DialogHeader>
 
-            <div className="flex gap-10 h-full">
+            <div className="flex gap-30 h-full">
                 <DialogColumn>
                     <div className="flex justify-center">
                         <Image
@@ -63,7 +63,7 @@ export function CharmDialogContent({
                             className="w-32 h-32"
                         />
                     </div>
-                    <p className="italic text-gray-300 text-lg leading-relaxed">
+                    <p className="italic text-gray-300 text-lg justify-center text-center leading-relaxed">
                         {t(description)}
                     </p>
                     <p className="text-yellow-400 text-xl flex justify-center font-semibold">
@@ -72,16 +72,17 @@ export function CharmDialogContent({
                 </DialogColumn>
 
                 <DialogColumn>
-                    <div className="aspect-video w-full flex-1">
+                    <div className="aspect-video w-full">
                         <iframe
                             src={embedUrl}
                             title={`${t(name)} - Hollow Knight Charm Guide`}
-                            className="w-full h-full rounded-xl"
+                            className="w-full h-full rounded-xl aspect-video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
+                            width="100%"
                         />
                     </div>
-                    <p className="text-gray-400 text-base leading-relaxed">
+                    <p className="text-gray-400 text-base leading-relaxed min-h-30">
                         {t(location)}
                     </p>
                 </DialogColumn>
