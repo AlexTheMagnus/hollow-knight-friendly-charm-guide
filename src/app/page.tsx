@@ -1,28 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
+import { CharmDialog } from "@/components/CharmDialog";
 import charmsData from "@/data/charms.json";
 import { charmsMapper } from "@/lib/charmMapper";
+import { useMobile } from "@/lib/MobileContext";
 import { useTranslation } from "@/lib/TranslationProvider";
-import { CharmDialog } from "@/components/CharmDialog";
 
 const charms = charmsMapper(charmsData);
 
 export default function HomePage() {
-    const [isMobile, setIsMobile] = useState(false);
+    const isMobile = useMobile();
     const t = useTranslation();
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerHeight > window.innerWidth);
-        };
-
-        handleResize();
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
 
     return (
         <div className="min-h-screen flex flex-col justify-center items-center">
