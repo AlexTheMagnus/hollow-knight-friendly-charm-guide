@@ -81,7 +81,11 @@ export function CharmDialogContent({
                     )}
                 </DialogColumn>
 
-                <DialogColumn>
+                <DialogColumn
+                    className={`min-w-[50%] ${
+                        isMobile ? "w-full" : "max-w-[70%]"
+                    }`}
+                >
                     <div className="aspect-video w-full">
                         <iframe
                             src={embedUrl}
