@@ -7,6 +7,7 @@ import {
     DialogTitle,
 } from "@/components/ui/dialog";
 import { Charm as CharmType } from "@/lib/charmMapper";
+import { useMobile } from "@/lib/MobileContext";
 import { useTranslation } from "../lib/TranslationProvider";
 
 interface CharmDialogContentProps {
@@ -42,6 +43,7 @@ export function CharmDialogContent({
     video_url,
 }: CharmDialogContentProps) {
     const t = useTranslation();
+    const isMobile = useMobile();
     const embedUrl = getYouTubeEmbedUrl(video_url);
 
     return (
@@ -52,7 +54,11 @@ export function CharmDialogContent({
                 </DialogTitle>
             </DialogHeader>
 
-            <div className="flex gap-30 h-full">
+            <div
+                className={`flex w-full ${
+                    isMobile ? "flex-col gap-10 items-center" : "h-full gap-30"
+                } `}
+            >
                 <DialogColumn>
                     <div className="flex justify-center">
                         <Image
@@ -63,12 +69,16 @@ export function CharmDialogContent({
                             className="w-32 h-32"
                         />
                     </div>
-                    <p className="italic text-gray-300 text-lg justify-center text-center leading-relaxed">
-                        {t(description)}
-                    </p>
-                    <p className="text-yellow-400 text-xl flex justify-center font-semibold">
-                        {t("notches_label")}: {notches}
-                    </p>
+                    {!isMobile && (
+                        <Fragment>
+                            <p className="italic text-gray-300 text-lg justify-center text-center leading-relaxed">
+                                {t(description)}
+                            </p>
+                            <p className="text-yellow-400 text-xl flex justify-center font-semibold">
+                                {t("notches_label")}: {notches}
+                            </p>
+                        </Fragment>
+                    )}
                 </DialogColumn>
 
                 <DialogColumn>
@@ -82,7 +92,7 @@ export function CharmDialogContent({
                             width="100%"
                         />
                     </div>
-                    <p className="text-gray-400 text-base leading-relaxed min-h-30">
+                    <p className="text-gray-400 text-base  min-h-30">
                         {t(location)}
                     </p>
                 </DialogColumn>
