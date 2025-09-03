@@ -43,7 +43,7 @@
         "sprintmaster": {
             "name": "Maestro de Sprints",
             "description": "Tiene la apariencia de un insecto extraño conocido solo como 'El Maestro de Sprints'.",
-            "location": "Después de encontrar la Llave del Tendero en Pico Cristal, se puede devolver a Sly y su inventario aumentará. El Maestro de Sprints se puede comprar a Sly por 400 Geo después de entregarle la llave."
+            "location": "Después de encontrar la Llave del Tendero en Cumbre de Cristal, se puede devolver a Sly y su inventario aumentará. El Maestro de Sprints se puede comprar a Sly por 400 Geo después de entregarle la llave."
         },
         "grubsong": {
             "name": "Canción de Larvas",
@@ -138,7 +138,7 @@
         "deep_focus": {
             "name": "Concentración Profunda",
             "description": "Formado naturalmente dentro de un cristal durante mucho tiempo. Absorbe ALMA del aire circundante.",
-            "location": "Ubicado en Pico Cristal. Tras adquirir la habilidad Corazón de Cristal, viaja a la derecha desde la gran sala con Centinela Cáscara y Rastreadores de Cristal."
+            "location": "Ubicado en Cumbre de Cristal. Tras adquirir la habilidad Corazón de Cristal, viaja a la derecha desde la gran sala con Centinela Cáscara y Rastreadores de Cristal."
         },
         "lifeblood_heart": {
             "name": "Corazón de Saviavida",
