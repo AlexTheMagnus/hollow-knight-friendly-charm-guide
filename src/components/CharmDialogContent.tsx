@@ -56,7 +56,7 @@ export function CharmDialogContent({
 
             <div
                 className={`flex w-full ${
-                    isMobile ? "flex-col gap-10 items-center" : "h-full gap-30"
+                    isMobile ? "flex-col gap-10 items-center" : "h-full gap-10"
                 } `}
             >
                 <DialogColumn>
