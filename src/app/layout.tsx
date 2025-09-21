@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Crimson_Text, Cinzel } from "next/font/google";
 
 import "./globals.css";
 import { MobileProvider } from "@/lib/MobileContext";
 import { TranslationProvider } from "@/lib/TranslationProvider";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
+const crimsonFont = Crimson_Text({
+    variable: "--font-crimson",
     subsets: ["latin"],
+    weight: ["400", "600", "700"],
 });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
+const cinzelFont = Cinzel({
+    variable: "--font-cinzel",
     subsets: ["latin"],
+    weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
@@ -28,7 +30,12 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+                className={`
+                    ${crimsonFont.variable}
+                    ${cinzelFont.variable}
+                    antialiased
+                    bg-black
+                    text-styles`}
             >
                 <TranslationProvider>
                     <MobileProvider>{children}</MobileProvider>

@@ -6,8 +6,8 @@
 @theme inline {
     --color-background: var(--background);
     --color-foreground: var(--foreground);
-    --font-sans: var(--font-geist-sans);
-    --font-mono: var(--font-geist-mono);
+    --font-sans: var(--font-crimson);
+    --font-mono: var(--font-cinzel);
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -119,8 +119,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Perpetua";
+    src: local("Perpetua"), local("Perpetua-Regular");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .font-trajan {
-    font-family: "Trajan Pro Regular", serif;
+    font-family: "Trajan Pro Regular", var(--font-cinzel), serif;
+}
+
+.font-perpetua {
+    font-family: "Perpetua", var(--font-crimson), "Times New Roman", serif;
+}
+
+.text-styles {
+    color: white;
+    font-family: "Perpetua", var(--font-crimson), "Times New Roman", serif;
 }
 
 @layer base {

@@ -49,7 +49,7 @@ export function CharmDialogContent({
     return (
         <Fragment>
             <DialogHeader>
-                <DialogTitle className="text-4xl font-bold">
+                <DialogTitle className="text-5xl font-bold font-trajan">
                     {t(name)}
                 </DialogTitle>
             </DialogHeader>
@@ -71,10 +71,10 @@ export function CharmDialogContent({
                     </div>
                     {!isMobile && (
                         <Fragment>
-                            <p className="italic text-lg justify-center text-center leading-relaxed">
+                            <p className="italic text-lg font-perpetua justify-center text-center leading-leading">
                                 {t(description)}
                             </p>
-                            <p className="text-gray-300 text-xl flex justify-center font-semibold">
+                            <p className="text-gray-300 text-2xl flex justify-center font-semibold font-perpetua tracking-wide">
                                 {t("notches_label")}: {notches}
                             </p>
                         </Fragment>
@@ -96,7 +96,9 @@ export function CharmDialogContent({
                             width="100%"
                         />
                     </div>
-                    <p className="text-base">{t(location)}</p>
+                    <p className="text-lg font-perpetua leading-relaxed tracking-wide">
+                        {t(location)}
+                    </p>
                 </DialogColumn>
             </div>
         </Fragment>
