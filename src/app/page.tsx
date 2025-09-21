@@ -15,7 +15,7 @@ export default function HomePage() {
     const t = useTranslation();
 
     return (
-        <div className="min-h-screen flex flex-col justify-center items-center">
+        <div className="h-screen flex flex-col justify-center items-center">
             {isMobile && (
                 <div className="text-center text-white bg-gray-800/80 rounded-lg px-4 py-2 mb-4">
                     {t("rotate_phone_message")}
