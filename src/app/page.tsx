@@ -30,7 +30,7 @@ export default function HomePage() {
                 priority
                 className="mb-4 mt-10"
             />
-            <h2 className="text-2xl font-bold mb-8 text-center text-white font-trajan">
+            <h2 className="text-2xl font-bold mb-8 text-center font-trajan">
                 {t("guide_title")}
             </h2>
             <div className="grid grid-cols-10 gap-4 p-4">

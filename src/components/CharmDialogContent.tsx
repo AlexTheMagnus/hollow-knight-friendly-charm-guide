@@ -71,10 +71,10 @@ export function CharmDialogContent({
                     </div>
                     {!isMobile && (
                         <Fragment>
-                            <p className="italic text-gray-300 text-lg justify-center text-center leading-relaxed">
+                            <p className="italic text-lg justify-center text-center leading-relaxed">
                                 {t(description)}
                             </p>
-                            <p className="text-yellow-400 text-xl flex justify-center font-semibold">
+                            <p className="text-gray-300 text-xl flex justify-center font-semibold">
                                 {t("notches_label")}: {notches}
                             </p>
                         </Fragment>
@@ -83,7 +83,7 @@ export function CharmDialogContent({
 
                 <DialogColumn
                     className={`min-w-[50%] ${
-                        isMobile ? "w-full" : "max-w-[70%]"
+                        isMobile ? "w-full" : "max-w-[60%]"
                     }`}
                 >
                     <div className="aspect-video w-full">
@@ -96,9 +96,7 @@ export function CharmDialogContent({
                             width="100%"
                         />
                     </div>
-                    <p className="text-gray-400 text-base  min-h-30">
-                        {t(location)}
-                    </p>
+                    <p className="text-base">{t(location)}</p>
                 </DialogColumn>
             </div>
         </Fragment>
