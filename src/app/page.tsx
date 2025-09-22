@@ -25,7 +25,7 @@ export default function HomePage() {
             <h2 className="text-2xl font-bold mb-8 text-center font-trajan">
                 {t("guide_title")}
             </h2>
-            <div className="grid grid-cols-10 gap-4 p-4">
+            <div className="grid grid-cols-10 gap-1 sm:gap-2 md:gap-3 lg:gap-4 p-4">
                 {charms.map((charm, index) => (
                     <CharmDialog key={index} charm={charm} />
                 ))}
