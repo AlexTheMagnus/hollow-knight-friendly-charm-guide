@@ -49,7 +49,7 @@ export function CharmDialogContent({
     return (
         <Fragment>
             <DialogHeader>
-                <DialogTitle className="text-5xl font-bold font-trajan">
+                <DialogTitle className="text-5xl font-bold font-trajan tracking-wide">
                     {t(name)}
                 </DialogTitle>
             </DialogHeader>
@@ -71,7 +71,7 @@ export function CharmDialogContent({
                     </div>
                     {!isMobile && (
                         <Fragment>
-                            <p className="italic text-lg font-perpetua justify-center text-center leading-leading">
+                            <p className="italic text-xl font-perpetua justify-center text-center leading-loose tracking-wide">
                                 {t(description)}
                             </p>
                             <p className="text-gray-300 text-2xl flex justify-center font-semibold font-perpetua tracking-wide">

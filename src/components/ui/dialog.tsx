@@ -58,12 +58,10 @@ const DialogContent = ({
                         dialogAnimation,
                         `data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 
                         fixed top-[50%] left-[50%] z-50
-                        flex flex-col
-                        w-full h-full
+                        w-full max-h-[95vh] min-h-[50vh]
                         translate-x-[-50%] translate-y-[-50%]
-                        duration-200 overflow-scroll
-                        bg-black/70
-                        backdrop-blur-sm
+                        duration-200 overflow-y-auto overflow-x-hidden
+                        
                         text-white`,
                         className
                     )}

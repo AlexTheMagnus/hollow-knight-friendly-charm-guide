@@ -18,7 +18,7 @@ export function CharmDialog({
             <DialogTrigger asChild>
                 <Charm name={name} sprite={sprite} />
             </DialogTrigger>
-            <DialogContent className={`${isMobile ? "p-10" : "p-30"}`}>
+            <DialogContent className={isMobile ? "p-10" : "p-30"}>
                 <CharmDialogContent
                     description={description}
                     location={location}
