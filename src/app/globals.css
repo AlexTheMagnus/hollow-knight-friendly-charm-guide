@@ -154,3 +154,11 @@
 .charm-halo:hover {
     filter: drop-shadow(0px 0px 10px #ffffff);
 }
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}

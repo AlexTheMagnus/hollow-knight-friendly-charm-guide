@@ -61,7 +61,7 @@ const DialogContent = ({
                         w-full max-h-[95vh] min-h-[50vh]
                         translate-x-[-50%] translate-y-[-50%]
                         duration-200 overflow-y-auto overflow-x-hidden
-                        
+                        scrollbar-hide
                         text-white`,
                         className
                     )}
