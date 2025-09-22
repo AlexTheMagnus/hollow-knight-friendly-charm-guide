@@ -49,7 +49,7 @@ export function CharmDialogContent({
     return (
         <Fragment>
             <DialogHeader>
-                <DialogTitle className="text-5xl font-bold font-trajan tracking-wide">
+                <DialogTitle className="text-4xl sm:text-5xl font-bold font-trajan tracking-wide">
                     {t(name)}
                 </DialogTitle>
             </DialogHeader>

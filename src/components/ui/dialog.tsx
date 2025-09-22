@@ -77,7 +77,7 @@ const DialogContent = ({
 const DialogHeader = (props: React.ComponentProps<"div">) => (
     <div
         data-slot="dialog-header"
-        className="flex justify-center text-center h-fit pb-4"
+        className={`flex justify-center text-center h-fit pb-10`}
         {...props}
     />
 );
