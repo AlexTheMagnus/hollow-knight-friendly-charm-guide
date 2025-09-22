@@ -1,8 +1,8 @@
+import { useMobile } from "@/lib/MobileContext";
 import { Charm } from "./Charm";
 import { CharmDialogContent } from "./CharmDialogContent";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Charm as CharmType } from "@/lib/charmMapper";
-import { useMobile } from "@/lib/MobileContext";
 
 interface CharmDialogProps {
     charm: CharmType;
@@ -18,7 +18,9 @@ export function CharmDialog({
             <DialogTrigger asChild>
                 <Charm name={name} sprite={sprite} />
             </DialogTrigger>
-            <DialogContent className={isMobile ? "p-10" : "p-30"}>
+            <DialogContent
+                className={`py-10 px-10 ${isMobile ? "" : "sm:px-20 xl:px-30"}`}
+            >
                 <CharmDialogContent
                     description={description}
                     location={location}

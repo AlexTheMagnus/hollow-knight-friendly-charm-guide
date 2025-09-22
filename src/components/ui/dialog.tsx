@@ -58,7 +58,7 @@ const DialogContent = ({
                         dialogAnimation,
                         `data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 
                         fixed top-[50%] left-[50%] z-50
-                        w-full max-h-[95vh] min-h-[50vh]
+                        w-full max-h-[100vh] min-h-[50vh]
                         translate-x-[-50%] translate-y-[-50%]
                         duration-200 overflow-y-auto overflow-x-hidden
                         scrollbar-hide
