@@ -13,7 +13,7 @@ export default function HomePage() {
     const t = useTranslation();
 
     return (
-        <div className="h-screen flex flex-col justify-center items-center">
+        <div className="min-h-screen flex flex-col justify-center items-center p-4">
             <Image
                 src="/title.png"
                 alt={t("app_title")}
@@ -22,10 +22,10 @@ export default function HomePage() {
                 priority
                 className="mb-4 mt-10"
             />
-            <h2 className="text-2xl font-bold mb-8 text-center font-trajan">
+            <h2 className="text-xl sm:text-2xl font-bold text-center font-trajan mb-8">
                 {t("guide_title")}
             </h2>
-            <div className="grid grid-cols-10 gap-1 sm:gap-2 md:gap-3 lg:gap-4 p-4">
+            <div className="grid grid-cols-10 gap-1 sm:gap-2 md:gap-3 lg:gap-4">
                 {charms.map((charm, index) => (
                     <CharmDialog key={index} charm={charm} />
                 ))}
