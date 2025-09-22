@@ -22,6 +22,28 @@ const DialogClose = (
     props: React.ComponentProps<typeof DialogPrimitive.Close>
 ) => <DialogPrimitive.Close data-slot="dialog-close" {...props} />;
 
+const dialogAnimation = `
+    data-[state=open]:animate-in data-[state=closed]:animate-out
+    data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0
+`;
+
+const DialogOverlay = ({
+    className,
+    ...props
+}: React.ComponentProps<typeof DialogPrimitive.Overlay>) => (
+    <DialogPrimitive.Overlay
+        data-slot="dialog-overlay"
+        className={mergeClasses(
+            dialogAnimation,
+            `fixed inset-0 z-50
+            bg-black/70
+            backdrop-blur-sm`,
+            className
+        )}
+        {...props}
+    />
+);
+
 const DialogContent = ({
     className,
     children,
@@ -29,13 +51,13 @@ const DialogContent = ({
 }: React.ComponentProps<typeof DialogPrimitive.Content>) => {
     return (
         <DialogPortal data-slot="dialog-portal">
-            <DialogPrimitive.Close className="w-full h-full">
+            <DialogOverlay />
+            <DialogPrimitive.Close>
                 <DialogPrimitive.Content
                     data-slot="dialog-content"
                     className={mergeClasses(
-                        `data-[state=open]:animate-in data-[state=closed]:animate-out 
-                        data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 
-                        data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 
+                        dialogAnimation,
+                        `data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 
                         fixed top-[50%] left-[50%] z-50
                         flex flex-col
                         w-full h-full
