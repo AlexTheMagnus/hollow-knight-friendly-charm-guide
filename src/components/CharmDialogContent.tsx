@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Image from "next/image";
 
 import {
@@ -9,6 +9,7 @@ import {
 import { Charm as CharmType } from "@/lib/charmMapper";
 import { useMobile } from "@/lib/MobileContext";
 import { useTranslation } from "../lib/TranslationProvider";
+import { Loader } from "./ui/Loader";
 
 interface CharmDialogContentProps {
     description: CharmType["description"];
@@ -45,6 +46,11 @@ export function CharmDialogContent({
     const t = useTranslation();
     const isMobile = useMobile();
     const embedUrl = getYouTubeEmbedUrl(video_url);
+    const [isLoading, setIsLoading] = useState(true);
+
+    const handleIframeLoad = () => {
+        setIsLoading(false);
+    };
 
     return (
         <Fragment>
@@ -88,14 +94,15 @@ export function CharmDialogContent({
                         isMobile ? "w-full" : "max-w-[60%]"
                     }`}
                 >
-                    <div className="aspect-video w-full">
+                    <div className="aspect-video w-full relative">
+                        {isLoading && <Loader />}
                         <iframe
                             src={embedUrl}
                             title={`${t(name)} - Hollow Knight Charm Guide`}
-                            className="w-full h-full rounded-xl aspect-video"
+                            className="video-styles"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
-                            width="100%"
+                            onLoad={handleIframeLoad}
                         />
                     </div>
                     <p className="text-lg font-perpetua leading-relaxed tracking-wide">

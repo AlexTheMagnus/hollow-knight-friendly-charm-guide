@@ -155,10 +155,30 @@
     filter: drop-shadow(0px 0px 10px #ffffff);
 }
 
+.video-styles {
+    @apply w-full h-full rounded-xl aspect-video;
+}
+
 .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
 .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+    display: none; /* Safari and Chrome */
+}
+
+@keyframes Pulsate {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-pulsate {
+    animation: Pulsate 4s linear infinite;
 }
