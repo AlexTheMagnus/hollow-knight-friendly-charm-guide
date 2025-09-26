@@ -10,6 +10,7 @@ import { Charm as CharmType } from "@/lib/charmMapper";
 import { useMobile } from "@/lib/MobileContext";
 import { useTranslation } from "../lib/TranslationProvider";
 import { Loader } from "./ui/Loader";
+import { NotchCost } from "./NotchCost";
 
 interface CharmDialogContentProps {
     description: CharmType["description"];
@@ -82,9 +83,7 @@ export function CharmDialogContent({
                             <p className="italic text-xl font-perpetua justify-center text-center leading-loose tracking-wide">
                                 {t(description)}
                             </p>
-                            <p className="text-gray-300 text-2xl flex justify-center font-semibold font-perpetua tracking-wide">
-                                {t("notches_label")}: {notches}
-                            </p>
+                            <NotchCost count={notches} />
                         </Fragment>
                     )}
                 </DialogColumn>
