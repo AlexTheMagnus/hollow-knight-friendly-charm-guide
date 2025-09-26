@@ -9,6 +9,10 @@ interface NotchCostProps {
 export const NotchCost = ({ count }: NotchCostProps) => {
     const t = useTranslation();
 
+    if (count <= 0) {
+        return null;
+    }
+
     return (
         <div className="flex justify-center items-center gap-2">
             <span className="text-gray-300 text-2xl font-semibold font-perpetua tracking-wide">
