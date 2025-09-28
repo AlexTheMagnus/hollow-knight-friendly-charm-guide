@@ -16,7 +16,7 @@ export default function HomePage() {
         <div className="min-h-screen flex flex-col justify-center items-center p-4">
             <Image
                 src="/title.png"
-                alt={t("app_title")}
+                alt="Hollow Knight Logo"
                 width={500}
                 height={190}
                 priority
