@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Zerbrechliches Herz / Unzerbrechliches Herz",
-            "description": "**Zerbrechliches Herz**: Erhöht die Gesundheit des Trägers. **Unzerbrechliches Herz**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "description": "<strong>Zerbrechliches Herz</strong>: Erhöht die Gesundheit des Trägers.<br> <strong>Unzerbrechliches Herz</strong>: Verbesserte Version, die beim Tod nicht zerbricht.",
             "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
         },
         "unbreakable_greed": {
             "name": "Zerbrechliche Gier / Unzerbrechliche Gier",
-            "description": "**Zerbrechliche Gier**: Der Träger erhält mehr Geo beim Besiegen von Gegnern. **Unzerbrechliche Gier**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "description": "<strong>Zerbrechliche Gier</strong>: Der Träger erhält mehr Geo beim Besiegen von Gegnern. <br> <strong>Unzerbrechliche Gier</strong>: Verbesserte Version, die beim Tod nicht zerbricht.",
             "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
         },
         "unbreakable_strength": {
             "name": "Zerbrechliche Stärke / Unzerbrechliche Stärke",
-            "description": "**Zerbrechliche Stärke**: Erhöht den vom Nagel des Trägers verursachten Schaden. **Unzerbrechliche Stärke**: Verbesserte Version, die beim Tod nicht zerbricht.",
+            "description": "<strong>Zerbrechliche Stärke</strong>: Erhöht den vom Nagel des Trägers verursachten Schaden.<br> <strong>Unzerbrechliche Stärke</strong>: Verbesserte Version, die beim Tod nicht zerbricht.",
             "location": "Bei Beinbeißer in den Pilzabfällen gekauft. Kann von Divine in Dirtmouth verbessert werden."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Grimmkind / Unbekümmerte Melodie",
-            "description": "**Grimmkind**: Beschwört einen Feuerball-schießenden Begleiter. Entwickelt sich im Verlauf der Grimm-Truppe-Quest. **Unbekümmerte Melodie**: Ersetzt Grimmkind, wenn das Ritual verbannt wird.",
+            "description": "<strong>Grimmkind</strong>: Beschwört einen Feuerball-schießenden Begleiter. Entwickelt sich im Verlauf der Grimm-Truppe-Quest.<br> <strong>Unbekümmerte Melodie</strong>: Ersetzt Grimmkind, wenn das Ritual verbannt wird.",
             "location": "Erhalten während der Grimm-Truppe-Quest in Dirtmouth. Durch das Sammeln von Flammen verbessert. Unbekümmerte Melodie wird erhalten, wenn die Truppe verbannt wird."
         },
         "void_heart": {
             "name": "Königsseele / Leerherz",
-            "description": "**Königsseele**: Heiliges Amulett, das die Vereinigung höherer Wesen symbolisiert. Füllt die SEELE-Anzeige allmählich auf. **Leerherz**: Verbesserte Form der Königsseele. Verkörpert die Leere. Erforderlich für das wahre Ende.",
+            "description": "<strong>Königsseele</strong>: Heiliges Amulett, das die Vereinigung höherer Wesen symbolisiert. Füllt die SEELE-Anzeige allmählich auf.<br> <strong>Leerherz</strong>: Verbesserte Form der Königsseele. Verkörpert die Leere. Erforderlich für das wahre Ende.",
             "location": "Die Königsseele wird durch das Sammeln beider Hälften (Königinngarten und Weißer Palast) gefunden. Das Leerherz ersetzt sie nach einem Ereignis im Abgrund."
         }
     }

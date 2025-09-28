@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Cœur Fragile / Cœur Incassable",
-            "description": "**Cœur Fragile** : Augmente la santé du porteur. **Cœur Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "description": "<strong>Cœur Fragile</strong> : Augmente la santé du porteur.<br> <strong>Cœur Incassable</strong> : Version améliorée qui ne se brise pas à la mort.",
             "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Avidité Fragile / Avidité Incassable",
-            "description": "**Avidité Fragile** : Permet au porteur de gagner plus de Geo en battant des ennemis. **Avidité Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "description": "<strong>Avidité Fragile</strong> : Permet au porteur de gagner plus de Geo en battant des ennemis.<br> <strong>Avidité Incassable</strong> : Version améliorée qui ne se brise pas à la mort.",
             "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Force Fragile / Force Incassable",
-            "description": "**Force Fragile** : Augmente les dégâts infligés par le clou du porteur. **Force Incassable** : Version améliorée qui ne se brise pas à la mort.",
+            "description": "<strong>Force Fragile</strong> : Augmente les dégâts infligés par le clou du porteur.<br> <strong>Force Incassable</strong> : Version améliorée qui ne se brise pas à la mort.",
             "location": "Acheté auprès de Mange-Jambes dans les Déchets Fongiques. Peut être amélioré par Divine à Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Enfant Grimm / Mélodie Insouciante",
-            "description": "**Enfant Grimm** : Invoque un familier qui tire des boules de feu. Évolue au fur et à mesure de la quête de la Troupe Grimm. **Mélodie Insouciante** : Remplace Enfant Grimm si le Rituel est banni.",
+            "description": "<strong>Enfant Grimm</strong> : Invoque un familier qui tire des boules de feu. Évolue au fur et à mesure de la quête de la Troupe Grimm.<br> <strong>Mélodie Insouciante</strong> : Remplace Enfant Grimm si le Rituel est banni.",
             "location": "Obtenu lors de la quête de la Troupe Grimm à Dirtmouth. Amélioré en collectant des flammes. Mélodie Insouciante est obtenue si la troupe est bannie."
         },
         "void_heart": {
             "name": "Âme du Roi / Cœur du Vide",
-            "description": "**Âme du Roi** : Amulette sacrée symbolisant l'union entre êtres supérieurs. Remplit progressivement la jauge d'ÂME. **Cœur du Vide** : Forme améliorée de l'Âme du Roi. Incarne le vide. Nécessaire pour la vraie fin.",
+            "description": "<strong>Âme du Roi</strong> : Amulette sacrée symbolisant l'union entre êtres supérieurs. Remplit progressivement la jauge d'ÂME.<br> <strong>Cœur du Vide</strong> : Forme améliorée de l'Âme du Roi. Incarne le vide. Nécessaire pour la vraie fin.",
             "location": "L'Âme du Roi se trouve en obtenant les deux moitiés (Jardins de la Reine et Palais Blanc). Le Cœur du Vide la remplace après un événement dans l'Abîme."
         }
     }

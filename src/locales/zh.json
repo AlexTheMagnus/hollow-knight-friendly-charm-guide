@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "脆弱之心 / 坚不可摧之心",
-            "description": "**脆弱之心**：提升持有者生命值。**坚不可摧之心**：升级版，死亡时不会破碎。",
+            "description": "<strong>脆弱之心</strong>：提升持有者生命值。<br> <strong>坚不可摧之心</strong>：升级版，死亡时不会破碎。",
             "location": "在菌类荒地的食腿者处购买，可在德特茅斯的迪瓦恩处升级。"
         },
         "unbreakable_greed": {
             "name": "脆弱贪婪 / 坚不可摧贪婪",
-            "description": "**脆弱贪婪**：击败敌人时获得更多Geo。**坚不可摧贪婪**：升级版，死亡时不会破碎。",
+            "description": "<strong>脆弱贪婪</strong>：击败敌人时获得更多Geo。<br> <strong>坚不可摧贪婪</strong>：升级版，死亡时不会破碎。",
             "location": "在菌类荒地的食腿者处购买，可在德特茅斯的迪瓦恩处升级。"
         },
         "unbreakable_strength": {
             "name": "脆弱力量 / 坚不可摧力量",
-            "description": "**脆弱力量**：提升钉子伤害。**坚不可摧力量**：升级版，死亡时不会破碎。",
+            "description": "<strong>脆弱力量</strong>：提升钉子伤害。<br> <strong>坚不可摧力量</strong>：升级版，死亡时不会破碎。",
             "location": "在菌类荒地的食腿者处购买，可在德特茅斯的迪瓦恩处升级。"
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "格林之子 / 无忧旋律",
-            "description": "**格林之子**：召唤发射火球的随从，随格林剧团任务进展进化。**无忧旋律**：驱逐仪式后替代格林之子。",
+            "description": "<strong>格林之子</strong>：召唤发射火球的随从，随格林剧团任务进展进化。<br> <strong>无忧旋律</strong>：驱逐仪式后替代格林之子。",
             "location": "在德特茅斯的格林剧团任务中获得，通过收集火焰升级。驱逐剧团后获得无忧旋律。"
         },
         "void_heart": {
             "name": "王魂 / 虚空之心",
-            "description": "**王魂**：象征高阶存在结合的神圣护符，逐渐恢复灵魂槽。**虚空之心**：王魂升级版，象征虚空。通关真结局必备。",
+            "description": "<strong>王魂</strong>：象征高阶存在结合的神圣护符，逐渐恢复灵魂槽。<br> <strong>虚空之心</strong>：王魂升级版，象征虚空。通关真结局必备。",
             "location": "王魂需收集两半（女王花园和白宫），虚空之心在深渊剧情事件后替代王魂。"
         }
     }

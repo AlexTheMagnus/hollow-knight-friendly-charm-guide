@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Cuore Fragile / Cuore Indistruttibile",
-            "description": "**Cuore Fragile**: Aumenta la salute del portatore. **Cuore Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "description": "<strong>Cuore Fragile</strong>: Aumenta la salute del portatore.<br> <strong>Cuore Indistruttibile</strong>: Versione migliorata che non si rompe alla morte.",
             "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Avidità Fragile / Avidità Indistruttibile",
-            "description": "**Avidità Fragile**: Fa guadagnare più Geo al portatore quando sconfigge i nemici. **Avidità Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "description": "<strong>Avidità Fragile</strong>: Fa guadagnare più Geo al portatore quando sconfigge i nemici.<br> <strong>Avidità Indistruttibile</strong>: Versione migliorata che non si rompe alla morte.",
             "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Forza Fragile / Forza Indistruttibile",
-            "description": "**Forza Fragile**: Aumenta il danno inflitto dall'artiglio del portatore. **Forza Indistruttibile**: Versione migliorata che non si rompe alla morte.",
+            "description": "<strong>Forza Fragile</strong>: Aumenta il danno inflitto dall'artiglio del portatore.<br> <strong>Forza Indistruttibile</strong>: Versione migliorata che non si rompe alla morte.",
             "location": "Acquistato da Mangia-Gambe nelle Distese Fungine. Può essere migliorato da Divina a Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Bambino Grimm / Melodia Spensierata",
-            "description": "**Bambino Grimm**: Evoca un familiare che spara palle di fuoco. Si evolve man mano che la missione della Compagnia Grimm progredisce. **Melodia Spensierata**: Sostituisce Bambino Grimm se il Rituale viene bandito.",
+            "description": "<strong>Bambino Grimm</strong>: Evoca un familiare che spara palle di fuoco. Si evolve man mano che la missione della Compagnia Grimm progredisce.<br> <strong>Melodia Spensierata</strong>: Sostituisce Bambino Grimm se il Rituale viene bandito.",
             "location": "Ottenuto durante la missione della Compagnia Grimm a Dirtmouth. Migliorato raccogliendo fiamme. Melodia Spensierata si ottiene se si bandisce la compagnia."
         },
         "void_heart": {
             "name": "Anima del Re / Cuore del Vuoto",
-            "description": "**Anima del Re**: Amuleto sacro che simboleggia l'unione tra esseri superiori. Riempi gradualmente il misuratore di ANIMA. **Cuore del Vuoto**: Forma migliorata dell'Anima del Re. Incorpora il vuoto. Necessario per il vero finale.",
+            "description": "<strong>Anima del Re</strong>: Amuleto sacro che simboleggia l'unione tra esseri superiori. Riempi gradualmente il misuratore di ANIMA.<br> <strong>Cuore del Vuoto</strong>: Forma migliorata dell'Anima del Re. Incorpora il vuoto. Necessario per il vero finale.",
             "location": "L'Anima del Re si trova ottenendo entrambe le metà (Giardini della Regina e Palazzo Bianco). Il Cuore del Vuoto la sostituisce dopo un evento nella storia nell'Abisso."
         }
     }

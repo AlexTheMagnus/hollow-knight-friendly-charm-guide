@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Coração Frágil / Coração Inquebrável",
-            "description": "**Coração Frágil**: Aumenta a vida do portador. **Coração Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "description": "<strong>Coração Frágil</strong>: Aumenta a vida do portador.<br> <strong>Coração Inquebrável</strong>: Versão aprimorada que não quebra ao morrer.",
             "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Ganância Frágil / Ganância Inquebrável",
-            "description": "**Ganância Frágil**: Faz o portador ganhar mais Geo ao derrotar inimigos. **Ganância Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "description": "<strong>Ganância Frágil</strong>: Faz o portador ganhar mais Geo ao derrotar inimigos.<br> <strong>Ganância Inquebrável</strong>: Versão aprimorada que não quebra ao morrer.",
             "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Força Frágil / Força Inquebrável",
-            "description": "**Força Frágil**: Aumenta o dano do prego do portador. **Força Inquebrável**: Versão aprimorada que não quebra ao morrer.",
+            "description": "<strong>Força Frágil</strong>: Aumenta o dano do prego do portador.<br> <strong>Força Inquebrável</strong>: Versão aprimorada que não quebra ao morrer.",
             "location": "Comprado de Devorador de Pernas nos Desperdícios Fúngicos. Pode ser aprimorado por Divina em Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Filhote Grimm / Melodia Despreocupada",
-            "description": "**Filhote Grimm**: Invoca um familiar que dispara bolas de fogo. Evolui conforme a missão da Tropa Grimm avança. **Melodia Despreocupada**: Substitui o Filhote Grimm se o Ritual for banido.",
+            "description": "<strong>Filhote Grimm</strong>: Invoca um familiar que dispara bolas de fogo. Evolui conforme a missão da Tropa Grimm avança.<br> <strong>Melodia Despreocupada</strong>: Substitui o Filhote Grimm se o Ritual for banido.",
             "location": "Obtido durante a missão da Tropa Grimm em Dirtmouth. Aprimorado coletando chamas. Melodia Despreocupada é obtida se banir a tropa."
         },
         "void_heart": {
             "name": "Alma do Rei / Coração do Vazio",
-            "description": "**Alma do Rei**: Amuleto sagrado que simboliza a união entre seres superiores. Recarrega gradualmente o medidor de ALMA. **Coração do Vazio**: Forma aprimorada da Alma do Rei. Encapsula o vazio. Necessário para o final verdadeiro.",
+            "description": "<strong>Alma do Rei</strong>: Amuleto sagrado que simboliza a união entre seres superiores. Recarrega gradualmente o medidor de ALMA.<br> <strong>Coração do Vazio</strong>: Forma aprimorada da Alma do Rei. Encapsula o vazio. Necessário para o final verdadeiro.",
             "location": "A Alma do Rei é obtida ao reunir ambas as metades (Jardins da Rainha e Palácio Branco). O Coração do Vazio a substitui após um evento na história no Abismo."
         }
     }

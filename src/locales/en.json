@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Fragile Heart / Unbreakable Heart",
-            "description": "**Fragile Heart**: Increases the bearer’s health. **Unbreakable Heart**: Upgraded version that does not break upon death.",
+            "description": "<strong>Fragile Heart</strong>: Increases the bearer’s health.<br> <strong>Unbreakable Heart</strong>: Upgraded version that does not break upon death.",
             "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Fragile Greed / Unbreakable Greed",
-            "description": "**Fragile Greed**: Causes the bearer to gain more Geo when defeating enemies. **Unbreakable Greed**: Upgraded version that does not break upon death.",
+            "description": "<strong>Fragile Greed</strong>: Causes the bearer to gain more Geo when defeating enemies.<br> <strong>Unbreakable Greed</strong>: Upgraded version that does not break upon death.",
             "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Fragile Strength / Unbreakable Strength",
-            "description": "**Fragile Strength**: Increases the damage dealt by the bearer’s nail. **Unbreakable Strength**: Upgraded version that does not break upon death.",
+            "description": "<strong>Fragile Strength</strong>: Increases the damage dealt by the bearer’s nail.<br> <strong>Unbreakable Strength</strong>: Upgraded version that does not break upon death.",
             "location": "Purchased from Leg Eater in Fungal Wastes. Can be upgraded by Divine in Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Grimmchild / Carefree Melody",
-            "description": "**Grimmchild**: Summons a fireball-shooting familiar. Evolves as the Grimm Troupe quest progresses. **Carefree Melody**: Replaces Grimmchild if the Ritual is banished.",
+            "description": "<strong>Grimmchild</strong>: Summons a fireball-shooting familiar. Evolves as the Grimm Troupe quest progresses.<br> <strong>Carefree Melody</strong>: Replaces Grimmchild if the Ritual is banished.",
             "location": "Obtained during The Grimm Troupe quest in Dirtmouth. Upgraded by collecting flames. Carefree Melody is obtained if banishing the troupe."
         },
         "void_heart": {
             "name": "Kingsoul / Void Heart",
-            "description": "**Kingsoul**: Holy charm symbolizing union between higher beings. Gradually refills SOUL meter. **Void Heart**: Upgraded form of Kingsoul. Embodies the void. Required for the true ending.",
+            "description": "<strong>Kingsoul</strong>: Holy charm symbolizing union between higher beings. Gradually refills SOUL meter.<br> <strong>Void Heart</strong>: Upgraded form of Kingsoul. Embodies the void. Required for the true ending.",
             "location": "Kingsoul is found by obtaining both halves (Queen’s Gardens and White Palace). Void Heart replaces it after a story event in the Abyss."
         }
     }

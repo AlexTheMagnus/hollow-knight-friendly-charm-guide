@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Corazón Frágil / Corazón Irrompible",
-            "description": "**Corazón Frágil**: Aumenta la salud del portador. **Corazón Irrompible**: Versión mejorada que no se rompe al morir.",
+            "description": "<strong>Corazón Frágil</strong>: Aumenta la salud del portador.<br> <strong>Corazón Irrompible</strong>: Versión mejorada que no se rompe al morir.",
             "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Codicia Frágil / Codicia Irrompible",
-            "description": "**Codicia Frágil**: Hace que el portador obtenga más Geo al derrotar enemigos. **Codicia Irrompible**: Versión mejorada que no se rompe al morir.",
+            "description": "<strong>Codicia Frágil</strong>: Hace que el portador obtenga más Geo al derrotar enemigos.<br> <strong>Codicia Irrompible</strong>: Versión mejorada que no se rompe al morir.",
             "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Fuerza Frágil / Fuerza Irrompible",
-            "description": "**Fuerza Frágil**: Aumenta el daño del aguijón del portador. **Fuerza Irrompible**: Versión mejorada que no se rompe al morir.",
+            "description": "<strong>Fuerza Frágil</strong>: Aumenta el daño del aguijón del portador.<br> <strong>Fuerza Irrompible</strong>: Versión mejorada que no se rompe al morir.",
             "location": "Se compra a Devorapiernas en los Desperdicios Fúngicos. Puede mejorarse con Divina en Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Niño de Grimm / Melodía Despreocupada",
-            "description": "**Niño de Grimm**: Invoca un familiar que dispara bolas de fuego. Evoluciona a medida que avanza la misión de la Tropa Grimm. **Melodía Despreocupada**: Reemplaza a Niño de Grimm si el Ritual es desterrado.",
+            "description": "<strong>Niño de Grimm</strong>: Invoca un familiar que dispara bolas de fuego. Evoluciona a medida que avanza la misión de la Tropa Grimm.<br> <strong>Melodía Despreocupada</strong>: Reemplaza a Niño de Grimm si el Ritual es desterrado.",
             "location": "Obtenido durante la misión de la Tropa Grimm en Dirtmouth. Se mejora recolectando llamas. Melodía Despreocupada se obtiene si se destierra la tropa."
         },
         "void_heart": {
             "name": "Alma del Monarca / Corazón del Vacío",
-            "description": "**Alma del Monarca**: Amuleto sagrado que simboliza la unión entre seres superiores. Rellena gradualmente el medidor de ALMA. **Corazón del Vacío**: Forma mejorada de Alma del Monarca. Encierra el vacío. Requerido para el final verdadero.",
+            "description": "<strong>Alma del Monarca</strong>: Amuleto sagrado que simboliza la unión entre seres superiores. Rellena gradualmente el medidor de ALMA.<br> <strong>Corazón del Vacío</strong>: Forma mejorada de Alma del Monarca. Encierra el vacío. Requerido para el final verdadero.",
             "location": "Alma del Monarca se obtiene reuniendo ambas mitades (Jardines de la Reina y Palacio Blanco). Corazón del Vacío la reemplaza tras un evento en el Abismo."
         }
     }

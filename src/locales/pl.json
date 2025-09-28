@@ -57,17 +57,17 @@
         },
         "unbreakable_heart": {
             "name": "Kruche Serce / Niezniszczalne Serce",
-            "description": "**Kruche Serce**: Zwiększa zdrowie noszącego. **Niezniszczalne Serce**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "description": "<strong>Kruche Serce</strong>: Zwiększa zdrowie noszącego.<br> <strong>Niezniszczalne Serce</strong>: Ulepszona wersja, która nie łamie się po śmierci.",
             "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
         },
         "unbreakable_greed": {
             "name": "Krucha Chciwość / Niezniszczalna Chciwość",
-            "description": "**Krucha Chciwość**: Pozwala zdobywać więcej Geo po pokonaniu wrogów. **Niezniszczalna Chciwość**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "description": "<strong>Krucha Chciwość</strong>: Pozwala zdobywać więcej Geo po pokonaniu wrogów.<br> <strong>Niezniszczalna Chciwość</strong>: Ulepszona wersja, która nie łamie się po śmierci.",
             "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
         },
         "unbreakable_strength": {
             "name": "Krucha Siła / Niezniszczalna Siła",
-            "description": "**Krucha Siła**: Zwiększa obrażenia zadawane przez pazur noszącego. **Niezniszczalna Siła**: Ulepszona wersja, która nie łamie się po śmierci.",
+            "description": "<strong>Krucha Siła</strong>: Zwiększa obrażenia zadawane przez pazur noszącego.<br> <strong>Niezniszczalna Siła</strong>: Ulepszona wersja, która nie łamie się po śmierci.",
             "location": "Kupione u Pożeracza Nóg w Grzybowych Odpadach. Może zostać ulepszone przez Divine w Dirtmouth."
         },
         "spell_twister": {
@@ -197,12 +197,12 @@
         },
         "grimmchild": {
             "name": "Dziecko Grimma / Beztroska Melodia",
-            "description": "**Dziecko Grimma**: Przywołuje towarzysza strzelającego kulami ognia. Ewoluuje wraz z postępem zadania Trupy Grimma. **Beztroska Melodia**: Zastępuje Dziecko Grimma, jeśli rytuał zostanie wygnany.",
+            "description": "<strong>Dziecko Grimma</strong>: Przywołuje towarzysza strzelającego kulami ognia. Ewoluuje wraz z postępem zadania Trupy Grimma.<br> <strong>Beztroska Melodia</strong>: Zastępuje Dziecko Grimma, jeśli rytuał zostanie wygnany.",
             "location": "Zdobyte podczas zadania Trupy Grimma w Dirtmouth. Ulepszane przez zbieranie płomieni. Beztroska Melodia zdobywana po wygnaniu trupy."
         },
         "void_heart": {
             "name": "Dusza Króla / Serce Pustki",
-            "description": "**Dusza Króla**: Święty amulet symbolizujący zjednoczenie wyższych istot. Stopniowo napełnia licznik DUSZY. **Serce Pustki**: Ulepszona forma Duszy Króla. Uosabia pustkę. Wymagane do prawdziwego zakończenia.",
+            "description": "<strong>Dusza Króla</strong>: Święty amulet symbolizujący zjednoczenie wyższych istot. Stopniowo napełnia licznik DUSZY.<br> <strong>Serce Pustki</strong>: Ulepszona forma Duszy Króla. Uosabia pustkę. Wymagane do prawdziwego zakończenia.",
             "location": "Dusza Króla jest zdobywana po uzyskaniu obu połówek (Ogrody Królowej i Biały Pałac). Serce Pustki zastępuje ją po wydarzeniu fabularnym w Otchłani."
         }
     }

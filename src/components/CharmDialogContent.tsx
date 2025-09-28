@@ -80,9 +80,12 @@ export function CharmDialogContent({
                     </div>
                     {!isMobile && (
                         <Fragment>
-                            <p className="italic text-xl font-perpetua justify-center text-center leading-loose tracking-wide">
-                                {t(description)}
-                            </p>
+                            <p
+                                className="italic text-xl font-perpetua justify-center text-center leading-loose tracking-wide"
+                                dangerouslySetInnerHTML={{
+                                    __html: t(description),
+                                }}
+                            ></p>
                             <NotchCost count={notches} />
                         </Fragment>
                     )}
