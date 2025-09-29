@@ -1,5 +1,6 @@
 [
     {
+        "id": "wayward_compass",
         "notches": 1,
         "name": "charms.wayward_compass.name",
         "description": "charms.wayward_compass.description",
@@ -8,6 +9,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=44s"
     },
     {
+        "id": "gathering_swarm",
         "notches": 1,
         "name": "charms.gathering_swarm.name",
         "description": "charms.gathering_swarm.description",
@@ -16,6 +18,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
+        "id": "stalwart_shell",
         "notches": 2,
         "name": "charms.stalwart_shell.name",
         "description": "charms.stalwart_shell.description",
@@ -24,6 +27,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
+        "id": "soul_catcher",
         "notches": 2,
         "name": "charms.soul_catcher.name",
         "description": "charms.soul_catcher.description",
@@ -32,6 +36,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=644s"
     },
     {
+        "id": "shaman_stone",
         "notches": 3,
         "name": "charms.shaman_stone.name",
         "description": "charms.shaman_stone.description",
@@ -40,6 +45,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
+        "id": "soul_eater",
         "notches": 4,
         "name": "charms.soul_eater.name",
         "description": "charms.soul_eater.description",
@@ -48,6 +54,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=673s"
     },
     {
+        "id": "dashmaster",
         "notches": 2,
         "name": "charms.dashmaster.name",
         "description": "charms.dashmaster.description",
@@ -56,6 +63,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=708s"
     },
     {
+        "id": "sprintmaster",
         "notches": 1,
         "name": "charms.sprintmaster.name",
         "description": "charms.sprintmaster.description",
@@ -64,6 +72,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
+        "id": "grubsong",
         "notches": 1,
         "name": "charms.grubsong.name",
         "description": "charms.grubsong.description",
@@ -72,6 +81,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=357s"
     },
     {
+        "id": "grubberflys_elegy",
         "notches": 3,
         "name": "charms.grubberflys_elegy.name",
         "description": "charms.grubberflys_elegy.description",
@@ -80,6 +90,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=357s"
     },
     {
+        "id": "unbreakable_heart",
         "notches": 2,
         "name": "charms.unbreakable_heart.name",
         "description": "charms.unbreakable_heart.description",
@@ -88,6 +99,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
+        "id": "unbreakable_greed",
         "notches": 2,
         "name": "charms.unbreakable_greed.name",
         "description": "charms.unbreakable_greed.description",
@@ -96,6 +108,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
+        "id": "unbreakable_strength",
         "notches": 3,
         "name": "charms.unbreakable_strength.name",
         "description": "charms.unbreakable_strength.description",
@@ -104,6 +117,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=529s"
     },
     {
+        "id": "spell_twister",
         "notches": 2,
         "name": "charms.spell_twister.name",
         "description": "charms.spell_twister.description",
@@ -112,6 +126,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=919s"
     },
     {
+        "id": "steady_body",
         "notches": 1,
         "name": "charms.steady_body.name",
         "description": "charms.steady_body.description",
@@ -120,6 +135,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
+        "id": "heavy_blow",
         "notches": 2,
         "name": "charms.heavy_blow.name",
         "description": "charms.heavy_blow.description",
@@ -128,6 +144,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
+        "id": "quick_slash",
         "notches": 3,
         "name": "charms.quick_slash.name",
         "description": "charms.quick_slash.description",
@@ -136,6 +153,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1020s"
     },
     {
+        "id": "longnail",
         "notches": 2,
         "name": "charms.longnail.name",
         "description": "charms.longnail.description",
@@ -144,6 +162,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
+        "id": "mark_of_pride",
         "notches": 3,
         "name": "charms.mark_of_pride.name",
         "description": "charms.mark_of_pride.description",
@@ -152,6 +171,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1070s"
     },
     {
+        "id": "fury_of_the_fallen",
         "notches": 2,
         "name": "charms.fury_of_the_fallen.name",
         "description": "charms.fury_of_the_fallen.description",
@@ -160,6 +180,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=830s"
     },
     {
+        "id": "thorns_of_agony",
         "notches": 1,
         "name": "charms.thorns_of_agony.name",
         "description": "charms.thorns_of_agony.description",
@@ -168,6 +189,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=759s"
     },
     {
+        "id": "baldur_shell",
         "notches": 2,
         "name": "charms.baldur_shell.name",
         "description": "charms.baldur_shell.description",
@@ -176,6 +198,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1106s"
     },
     {
+        "id": "flukenest",
         "notches": 3,
         "name": "charms.flukenest.name",
         "description": "charms.flukenest.description",
@@ -184,6 +207,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1210s"
     },
     {
+        "id": "defenders_crest",
         "notches": 1,
         "name": "charms.defenders_crest.name",
         "description": "charms.defenders_crest.description",
@@ -192,6 +216,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1234s"
     },
     {
+        "id": "glowing_womb",
         "notches": 2,
         "name": "charms.glowing_womb.name",
         "description": "charms.glowing_womb.description",
@@ -200,6 +225,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1259s"
     },
     {
+        "id": "quick_focus",
         "notches": 3,
         "name": "charms.quick_focus.name",
         "description": "charms.quick_focus.description",
@@ -208,6 +234,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
+        "id": "deep_focus",
         "notches": 4,
         "name": "charms.deep_focus.name",
         "description": "charms.deep_focus.description",
@@ -216,6 +243,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1477s"
     },
     {
+        "id": "lifeblood_heart",
         "notches": 2,
         "name": "charms.lifeblood_heart.name",
         "description": "charms.lifeblood_heart.description",
@@ -224,6 +252,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=487s"
     },
     {
+        "id": "lifeblood_core",
         "notches": 3,
         "name": "charms.lifeblood_core.name",
         "description": "charms.lifeblood_core.description",
@@ -232,6 +261,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1513s"
     },
     {
+        "id": "jonis_blessing",
         "notches": 4,
         "name": "charms.jonis_blessing.name",
         "description": "charms.jonis_blessing.description",
@@ -240,6 +270,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=1795s"
     },
     {
+        "id": "hiveblood",
         "notches": 4,
         "name": "charms.hiveblood.name",
         "description": "charms.hiveblood.description",
@@ -248,6 +279,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2055s"
     },
     {
+        "id": "spore_shroom",
         "notches": 1,
         "name": "charms.spore_shroom.name",
         "description": "charms.spore_shroom.description",
@@ -256,6 +288,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2093s"
     },
     {
+        "id": "sharp_shadow",
         "notches": 2,
         "name": "charms.sharp_shadow.name",
         "description": "charms.sharp_shadow.description",
@@ -264,6 +297,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2139s"
     },
     {
+        "id": "shape_of_unn",
         "notches": 2,
         "name": "charms.shape_of_unn.name",
         "description": "charms.shape_of_unn.description",
@@ -272,6 +306,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2230s"
     },
     {
+        "id": "nailmasters_glory",
         "notches": 1,
         "name": "charms.nailmasters_glory.name",
         "description": "charms.nailmasters_glory.description",
@@ -280,6 +315,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=127s"
     },
     {
+        "id": "weaversong",
         "notches": 2,
         "name": "charms.weaversong.name",
         "description": "charms.weaversong.description",
@@ -288,6 +324,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3117s"
     },
     {
+        "id": "dream_wielder",
         "notches": 1,
         "name": "charms.dream_wielder.name",
         "description": "charms.dream_wielder.description",
@@ -296,6 +333,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=430s"
     },
     {
+        "id": "dreamshield",
         "notches": 3,
         "name": "charms.dreamshield.name",
         "description": "charms.dreamshield.description",
@@ -304,6 +342,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3082s"
     },
     {
+        "id": "grimmchild",
         "notches": 2,
         "name": "charms.grimmchild.name",
         "description": "charms.grimmchild.description",
@@ -312,6 +351,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=3221s",
         "stages": [
             {
+                "id": "carefree_melody",
                 "notches": 3,
                 "name": "charms.grimmchild.stages.carefree_melody.name",
                 "description": "",
@@ -322,6 +362,7 @@
         ]
     },
     {
+        "id": "void_heart",
         "notches": 0,
         "name": "charms.void_heart.name",
         "description": "charms.void_heart.description",
@@ -330,6 +371,7 @@
         "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2660s",
         "stages": [
             {
+                "id": "kingsoul_left",
                 "name": "charms.void_heart.stages.kingsoul_left.name",
                 "description": "",
                 "location": "",
@@ -337,6 +379,7 @@
                 "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2316s"
             },
             {
+                "id": "kingsoul_right",
                 "name": "charms.void_heart.stages.kingsoul_right.name",
                 "description": "",
                 "location": "",
@@ -344,6 +387,7 @@
                 "video_url": "https://www.youtube.com/watch?v=uTNfrTTD5Io&t=2584s"
             },
             {
+                "id": "kingsoul_complete",
                 "notches": 5,
                 "name": "charms.void_heart.stages.kingsoul.name",
                 "description": "",

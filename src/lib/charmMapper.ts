@@ -1,4 +1,5 @@
 export type Charm = {
+    id: string;
     description: string;
     location: string;
     name: string;
@@ -12,6 +13,7 @@ export function charmsMapper(data: unknown): Charm[] {
     return data.filter(
         (item): item is Charm =>
             item &&
+            typeof item.id === "string" &&
             typeof item.name === "string" &&
             typeof item.description === "string" &&
             typeof item.location === "string" &&
