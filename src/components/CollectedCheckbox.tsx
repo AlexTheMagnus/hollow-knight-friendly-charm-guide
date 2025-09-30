@@ -4,7 +4,9 @@ import React, { useState } from "react";
 import * as Checkbox from "@radix-ui/react-checkbox";
 import { motion } from "framer-motion";
 import Image from "next/image";
+
 import { useObtainedCharms } from "@/lib/CharmsContext";
+import { useTranslation } from "@/lib/TranslationProvider";
 
 interface CollectedCheckboxProps {
     charmId: string;
@@ -14,6 +16,7 @@ export default function CollectedCheckbox({ charmId }: CollectedCheckboxProps) {
     const { isCharmObtained, toggleCharm } = useObtainedCharms();
     const checked = isCharmObtained(charmId);
     const [shouldAnimate, setShouldAnimate] = useState(false);
+    const t = useTranslation();
 
     const handleClick = (e: React.MouseEvent) => {
         e.stopPropagation();
@@ -83,7 +86,7 @@ export default function CollectedCheckbox({ charmId }: CollectedCheckboxProps) {
                 className="text-gray-300 font-mono text-lg select-none cursor-pointer 
                            transition-colors duration-200 group-hover:text-white"
             >
-                {"Obtained" /* TODO: Add this key to the translation system */}
+                {t("obtained_label")}
             </label>
         </div>
     );
