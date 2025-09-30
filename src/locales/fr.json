@@ -3,6 +3,7 @@
     "dialog_alt": "Image de l'amulette",
     "guide_title": "Guide convivial des amulettes",
     "notches_label": "Coût",
+    "obtained_label": "Obtenu",
     "charms": {
         "wayward_compass": {
             "name": "Boussole Vagabonde",

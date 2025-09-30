@@ -3,6 +3,7 @@
     "dialog_alt": "Charm image",
     "guide_title": "Friendly Charm Guide",
     "notches_label": "Cost",
+    "obtained_label": "Obtained",
     "charms": {
         "wayward_compass": {
             "name": "Wayward Compass",

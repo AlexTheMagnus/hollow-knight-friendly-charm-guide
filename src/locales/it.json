@@ -3,6 +3,7 @@
     "dialog_alt": "Immagine dell'amuleto",
     "guide_title": "Guida amichevole agli amuleti",
     "notches_label": "Costo",
+    "obtained_label": "Ottenuto",
     "charms": {
         "wayward_compass": {
             "name": "Bussola Errante",

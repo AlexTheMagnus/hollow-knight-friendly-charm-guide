@@ -3,6 +3,7 @@
     "dialog_alt": "チャーム画像",
     "guide_title": "親切なチャームガイド",
     "notches_label": "コスト",
+    "obtained_label": "取得済み",
     "charms": {
         "wayward_compass": {
             "name": "さまよえるコンパス",
