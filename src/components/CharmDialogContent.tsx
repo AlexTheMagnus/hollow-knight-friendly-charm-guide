@@ -11,8 +11,10 @@ import { useMobile } from "@/lib/MobileContext";
 import { useTranslation } from "../lib/TranslationProvider";
 import { Loader } from "./ui/Loader";
 import { NotchCost } from "./NotchCost";
+import CollectedCheckbox from "./CollectedCheckbox";
 
 interface CharmDialogContentProps {
+    id: CharmType["id"];
     description: CharmType["description"];
     location: CharmType["location"];
     name: CharmType["name"];
@@ -37,6 +39,7 @@ function getYouTubeEmbedUrl(url: string): string {
 }
 
 export function CharmDialogContent({
+    id,
     description,
     location,
     name,
@@ -69,6 +72,7 @@ export function CharmDialogContent({
                 } `}
             >
                 <DialogColumn>
+                    {!isMobile && <NotchCost count={notches} />}
                     <div className="flex justify-center">
                         <Image
                             src={`/charms/${sprite}.png`}
@@ -86,9 +90,9 @@ export function CharmDialogContent({
                                     __html: t(description),
                                 }}
                             ></p>
-                            <NotchCost count={notches} />
                         </Fragment>
                     )}
+                    <CollectedCheckbox charmId={id} />
                 </DialogColumn>
 
                 <DialogColumn

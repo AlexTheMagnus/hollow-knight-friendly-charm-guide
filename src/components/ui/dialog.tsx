@@ -51,7 +51,7 @@ const DialogContent = ({
     return (
         <DialogPortal data-slot="dialog-portal">
             <DialogOverlay />
-            <DialogPrimitive.Close>
+            <DialogPrimitive.Close asChild>
                 <DialogPrimitive.Content
                     data-slot="dialog-content"
                     className={mergeClasses(

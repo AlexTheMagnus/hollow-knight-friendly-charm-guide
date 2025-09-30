@@ -4,6 +4,7 @@ import { Crimson_Text, Cinzel } from "next/font/google";
 import "./globals.css";
 import { MobileProvider } from "@/lib/MobileContext";
 import { TranslationProvider } from "@/lib/TranslationProvider";
+import { ObtainedCharmsProvider } from "@/lib/CharmsContext";
 
 const crimsonFont = Crimson_Text({
     variable: "--font-crimson",
@@ -38,7 +39,11 @@ export default function RootLayout({
                     text-styles`}
             >
                 <TranslationProvider>
-                    <MobileProvider>{children}</MobileProvider>
+                    <MobileProvider>
+                        <ObtainedCharmsProvider>
+                            {children}
+                        </ObtainedCharmsProvider>
+                    </MobileProvider>
                 </TranslationProvider>
             </body>
         </html>

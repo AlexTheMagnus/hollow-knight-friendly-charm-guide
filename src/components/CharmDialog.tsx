@@ -9,7 +9,7 @@ interface CharmDialogProps {
 }
 
 export function CharmDialog({
-    charm: { description, location, name, notches, sprite, video_url },
+    charm: { id, description, location, name, notches, sprite, video_url },
 }: CharmDialogProps) {
     const isMobile = useMobile();
 
@@ -22,6 +22,7 @@ export function CharmDialog({
                 className={`py-10 px-10 ${isMobile ? "" : "sm:px-20 xl:px-30"}`}
             >
                 <CharmDialogContent
+                    id={id}
                     description={description}
                     location={location}
                     name={name}
