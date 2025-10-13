@@ -45,7 +45,7 @@ This allows you to check translations without changing your browser language.
 
 ## For Devs ;)
 
-To run the development server, use one of the following commands:
+To run the development server, use the following command:
 
 ```bash
 npm run dev
