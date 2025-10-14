@@ -67,3 +67,11 @@ Feel free to submit issues or pull requests to improve translations, add feature
 ### License
 
 This project is open source and available under the MIT License.
+
+## Disclaimer
+
+This is an unofficial fan project and is not affiliated with or endorsed by Team Cherry.  
+*Hollow Knight* and all related assets are the property of Team Cherry.  
+All assets used here are for non-commercial and fan purposes only.
+
+If you are a rights holder and have concerns, please contact me and I will address the issue.
