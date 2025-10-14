@@ -11,12 +11,13 @@ You can try the app online here:
 
 ## Features
 
--   User-friendly interface: charms are arranged exactly as in the game inventory.
--   Detailed charm info: name, where and how to get it, effect, notches cost.
--   Obtained charms tracking: mark charms as collected to track your progress.
--   Video tutorials: each charm includes a short video showing how to obtain it.
--   Multi-language support (see below for available languages).
--   Mobile support: responsive layout adapted for smaller screens.
+-   🧭 User-friendly interface: charms are arranged exactly as in the game inventory.
+-   📝 Detailed charm info: name, where and how to get it, effect, notches cost.
+-   ✅ Obtained charms tracking: mark charms as collected to track your progress.
+-   🎥 Video tutorials: each charm includes a short video showing how to obtain it.
+-   🌐 Multi-language support (see below for available languages).
+-   📱 Mobile support: responsive layout adapted for smaller screens.
+-   ✨ Polished UI: clean design with smooth and visually appealing animations.
 
 ## Multi-language support
 
