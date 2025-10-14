@@ -74,4 +74,6 @@ This is an unofficial fan project and is not affiliated with or endorsed by Team
 *Hollow Knight* and all related assets are the property of Team Cherry.  
 All assets used here are for non-commercial and fan purposes only.
 
+Embedded video content remains the intellectual property of its respective creators and is used in accordance with YouTube’s embedding functionality and terms of service. This project does not claim ownership of any such content.
+
 If you are a rights holder and have concerns, please contact me and I will address the issue.
