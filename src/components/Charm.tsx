@@ -15,7 +15,7 @@ export function Charm({ name, sprite, onClick, className = "" }: CharmProps) {
 
     return (
         <div
-            className={`rounded-full charm-halo inline-block ${className}`}
+            className={`rounded-full charm-halo inline-block cursor-pointer ${className}`}
             onClick={onClick}
         >
             <Image

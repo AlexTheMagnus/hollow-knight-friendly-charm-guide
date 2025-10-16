@@ -39,7 +39,7 @@ export default function CollectedCheckbox({ charmId }: CollectedCheckboxProps) {
                            border-2 border-gray-700 bg-black shadow-inner
                            transition-all duration-200
                            group-hover:border-white group-hover:shadow-[0_0_8px_rgba(255,255,255,0.7)]
-                           relative"
+                           relative cursor-pointer"
             >
                 {shouldAnimate && (
                     <motion.div
