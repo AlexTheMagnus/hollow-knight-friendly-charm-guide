@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Crimson_Text, Cinzel } from "next/font/google";
+import { Cinzel, Crimson_Text } from "next/font/google";
 
-import "./globals.css";
+import { FeatureFlagsIndicator } from "@/components/dev/FeatureFlagsIndicator";
+import { ObtainedCharmsProvider } from "@/lib/CharmsContext";
 import { MobileProvider } from "@/lib/MobileContext";
 import { TranslationProvider } from "@/lib/TranslationProvider";
-import { ObtainedCharmsProvider } from "@/lib/CharmsContext";
+import "./globals.css";
 
 const crimsonFont = Crimson_Text({
     variable: "--font-crimson",
@@ -28,6 +29,7 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    const isDevelopment = process.env.NODE_ENV === 'development';
     return (
         <html lang="en">
             <body
@@ -42,6 +44,7 @@ export default function RootLayout({
                     <MobileProvider>
                         <ObtainedCharmsProvider>
                             {children}
+                            {isDevelopment && <FeatureFlagsIndicator />}
                         </ObtainedCharmsProvider>
                     </MobileProvider>
                 </TranslationProvider>
