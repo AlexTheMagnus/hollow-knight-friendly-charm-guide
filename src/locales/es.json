@@ -4,6 +4,9 @@
     "guide_title": "Guía sencilla de amuletos",
     "notches_label": "Coste",
     "obtained_label": "Conseguido",
+    "settings": {
+        "about_this_project": "Sobre este proyecto"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Brújula Caprichosa",

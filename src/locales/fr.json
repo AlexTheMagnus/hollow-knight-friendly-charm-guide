@@ -4,6 +4,9 @@
     "guide_title": "Guide convivial des amulettes",
     "notches_label": "Coût",
     "obtained_label": "Obtenu",
+    "settings": {
+        "about_this_project": "À propos de ce projet"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Boussole Vagabonde",

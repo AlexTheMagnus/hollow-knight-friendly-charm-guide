@@ -4,6 +4,9 @@
     "guide_title": "Guida amichevole agli amuleti",
     "notches_label": "Costo",
     "obtained_label": "Ottenuto",
+    "settings": {
+        "about_this_project": "Informazioni sul progetto"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Bussola Errante",

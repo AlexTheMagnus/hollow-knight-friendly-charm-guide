@@ -4,6 +4,9 @@
     "guide_title": "友好的护符指南",
     "notches_label": "消耗",
     "obtained_label": "已获得",
+    "settings": {
+        "about_this_project": "关于本项目"
+    },
     "charms": {
         "wayward_compass": {
             "name": "迷途罗盘",

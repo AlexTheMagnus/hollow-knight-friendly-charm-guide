@@ -4,6 +4,9 @@
     "guide_title": "Freundlicher Amulett-Leitfaden",
     "notches_label": "Kosten",
     "obtained_label": "Erhalten",
+    "settings": {
+        "about_this_project": "Über dieses Projekt"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Irrkompass",

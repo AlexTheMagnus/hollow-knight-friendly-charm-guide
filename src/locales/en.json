@@ -4,6 +4,9 @@
     "guide_title": "Friendly Charm Guide",
     "notches_label": "Cost",
     "obtained_label": "Obtained",
+    "settings": {
+        "about_this_project": "About this project"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Wayward Compass",

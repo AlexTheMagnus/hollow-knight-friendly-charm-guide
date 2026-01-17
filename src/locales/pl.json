@@ -4,6 +4,9 @@
     "guide_title": "Przyjazny przewodnik po amuletach",
     "notches_label": "Koszt",
     "obtained_label": "Zdobyty",
+    "settings": {
+        "about_this_project": "O tym projekcie"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Zbłąkany Kompas",

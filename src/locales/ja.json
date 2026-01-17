@@ -4,6 +4,9 @@
     "guide_title": "親切なチャームガイド",
     "notches_label": "コスト",
     "obtained_label": "取得済み",
+    "settings": {
+        "about_this_project": "このプロジェクトについて"
+    },
     "charms": {
         "wayward_compass": {
             "name": "さまよえるコンパス",

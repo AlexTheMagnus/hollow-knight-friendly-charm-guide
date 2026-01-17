@@ -4,6 +4,9 @@
     "guide_title": "친절한 참 가이드",
     "notches_label": "비용",
     "obtained_label": "획득함",
+    "settings": {
+        "about_this_project": "이 프로젝트에 대하여"
+    },
     "charms": {
         "wayward_compass": {
             "name": "방황하는 나침반",

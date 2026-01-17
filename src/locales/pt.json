@@ -4,6 +4,9 @@
     "guide_title": "Guia amigável de amuletos",
     "notches_label": "Custo",
     "obtained_label": "Obtido",
+    "settings": {
+        "about_this_project": "Sobre este projeto"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Bússola Errante",

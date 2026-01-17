@@ -4,6 +4,9 @@
     "guide_title": "Дружелюбное руководство по амулетам",
     "notches_label": "Стоимость",
     "obtained_label": "Получен",
+    "settings": {
+        "about_this_project": "О проекте"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Блуждающий компас",
