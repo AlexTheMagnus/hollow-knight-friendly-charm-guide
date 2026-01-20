@@ -1,11 +1,13 @@
 export enum FeatureFlag {
-    LanguageSelector = 'languageSelector'
+    LanguageSelector = 'languageSelector',
+    SettingsMenu = 'settingsMenu'
 }
 
 export const PRODUCTION_FLAGS: FeatureFlag[] = [];
 
 export const DEVELOPMENT_FLAGS: FeatureFlag[] = [
     FeatureFlag.LanguageSelector,
+    FeatureFlag.SettingsMenu,
 ];
 
 export function getEnabledFeatureFlags(): FeatureFlag[] {

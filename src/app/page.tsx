@@ -13,11 +13,11 @@ const charms = charmsMapper(charmsData);
 
 export default function HomePage() {
     const t = useTranslation();
-    const showLanguageSelector = useFeatureFlag(FeatureFlag.LanguageSelector);
+    const showTopActions = useFeatureFlag(FeatureFlag.SettingsMenu);
 
     return (
         <>
-            {showLanguageSelector && <TopActions />}
+            {showTopActions && <TopActions />}
             <div className="min-h-screen flex flex-col justify-center items-center p-4">
                 <Image
                     src="/title.png"
