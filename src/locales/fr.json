@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "À propos de ce projet"
     },
+    "language_selector": {
+        "change_language": "Changer de langue",
+        "close": "Fermer"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Boussole Vagabonde",

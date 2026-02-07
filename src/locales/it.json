@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "Informazioni sul progetto"
     },
+    "language_selector": {
+        "change_language": "Cambia lingua",
+        "close": "Chiudi"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Bussola Errante",

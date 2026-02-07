@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "О проекте"
     },
+    "language_selector": {
+        "change_language": "Изменить язык",
+        "close": "Закрыть"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Блуждающий компас",

@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "Sobre este proyecto"
     },
+    "language_selector": {
+        "change_language": "Cambiar idioma",
+        "close": "Cerrar"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Brújula Caprichosa",

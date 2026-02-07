@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "O tym projekcie"
     },
+    "language_selector": {
+        "change_language": "Zmień język",
+        "close": "Zamknij"
+    },
     "charms": {
         "wayward_compass": {
             "name": "Zbłąkany Kompas",

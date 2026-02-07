@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "关于本项目"
     },
+    "language_selector": {
+        "change_language": "更改语言",
+        "close": "关闭"
+    },
     "charms": {
         "wayward_compass": {
             "name": "迷途罗盘",

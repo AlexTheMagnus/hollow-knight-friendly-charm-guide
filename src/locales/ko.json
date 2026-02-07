@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "이 프로젝트에 대하여"
     },
+    "language_selector": {
+        "change_language": "언어 변경",
+        "close": "닫기"
+    },
     "charms": {
         "wayward_compass": {
             "name": "방황하는 나침반",

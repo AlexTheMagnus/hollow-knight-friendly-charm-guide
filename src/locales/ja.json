@@ -7,6 +7,10 @@
     "settings": {
         "about_this_project": "このプロジェクトについて"
     },
+    "language_selector": {
+        "change_language": "言語を変更",
+        "close": "閉じる"
+    },
     "charms": {
         "wayward_compass": {
             "name": "さまよえるコンパス",
