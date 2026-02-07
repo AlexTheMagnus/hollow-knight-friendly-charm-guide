@@ -27,7 +27,7 @@ export function SettingsDialog({ children }: SettingsDialogProps) {
                 <div className="absolute top-4 right-4">
                     <button
                         onClick={() => setIsOpen(false)}
-                        className="rounded-full p-1 hover:bg-white/10 transition-colors"
+                        className="rounded-full p-1 hover:bg-white/10 transition-colors cursor-pointer"
                         aria-label={t("settings.close")}
                     >
                         <X className="w-5 h-5 text-white" />
