@@ -3,7 +3,6 @@
 import { useTranslation } from "@/lib/TranslationProvider";
 import { X } from "lucide-react";
 import { ReactNode, useState } from "react";
-import { LanguageSelector } from "./LanguageSelector";
 import { SettingsLink } from "./SettingsLink";
 import {
   Dialog,
@@ -41,11 +40,6 @@ export function SettingsDialog({ children }: SettingsDialogProps) {
                 </DialogHeader>
 
                 <div className="mt-6 space-y-6">
-                    <div className="space-y-4">
-                        <h3 className="text-xl font-trajan">{t("settings.language")}</h3>
-                        <LanguageSelector />
-                    </div>
-
                     <div className="space-y-4">
                         <SettingsLink
                             href="https://github.com/AlexTheMagnus/hollow-knight-friendly-charm-guide"
